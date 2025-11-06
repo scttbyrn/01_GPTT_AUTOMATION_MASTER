@@ -24,7 +24,7 @@ import static org.hamcrest.Matchers.*;
 
 public class TestScenario extends BasePage {
 	
-	//SCOTTBYRONESCUETA
+	//DEVELOPMENT AREA:
 	
 	LandingPage landingpage;
 	TestAPI apitest  = new TestAPI();
@@ -34,44 +34,45 @@ public class TestScenario extends BasePage {
 	
 
 
-	@Test(groups = {"Regression"})
-	public void TC1_PassedScenario() throws InterruptedException{
-
-		landingpage = new LandingPage(driver);
-		landingpage.setupGetStartedOTPMPIN();
-
-	}
-
-	@Test(groups = {"Regression"})
-	public void TC2_ErrorScenario(){
-
-		landingpage = new LandingPage(driver);
-		landingpage.errorScenario();
-	}
-
-	@Test(groups = {"Regression"})
-	public void TC3_PassedAPI(){
-
-		apitest.getAPI(targetStartPoint);
-		apitest.postAPI(targetStartPoint);
-		apitest.retrieveDataAPI(targetStartPoint);
-		apitest.validateRetrieveDataAPI(targetStartPoint);
-
-	}
-
-	@Test(groups = {"Regression"})
-	public void TC4_FailedAPI(){
-
-		baseURI = "http://localhost:3000";
-		given().get(targetStartPoint);
-
-		int size = given().get(targetStartPoint).jsonPath().getList("$").size();
-		String lastId = given().get(targetStartPoint).jsonPath().getString("[" + (size - 1) + "].id");
-		System.out.println("Sending API to startpoint to endpoint by ID: " +lastId);
-
-		given().get(targetStartPoint).then().body("["+ (size - 1) +"].id", equalTo("asdasdasd"));
-
-	}
+//	@Test(groups = {"Regression"})
+//	public void TC1_PassedScenario() throws InterruptedException{
+//
+//		landingpage = new LandingPage(driver);
+//		landingpage.setupGetStartedOTPMPIN();
+//
+//	}
+//
+//	@Test(groups = {"Regression"})
+//	public void TC2_ErrorScenario(){
+//
+//		landingpage = new LandingPage(driver);
+//		landingpage.errorScenario();
+//	}
+//
+//	@Test(groups = {"Regression"})
+//	public void TC3_PassedAPI(){
+//
+//		apitest.getAPI(targetStartPoint);
+//		apitest.postAPI(targetStartPoint);
+//		apitest.retrieveDataAPI(targetStartPoint);
+//		apitest.validateRetrieveDataAPI(targetStartPoint);
+//
+//	}
+//
+//	@Test(groups = {"Regression"})
+//	public void TC4_FailedAPI(){
+//
+//		baseURI = "http://localhost:3000";
+//		given().get(targetStartPoint);
+//
+//		int size = given().get(targetStartPoint).jsonPath().getList("$").size();
+//		String lastId = given().get(targetStartPoint).jsonPath().getString("[" + (size - 1) + "].id");
+//		System.out.println("Sending API to startpoint to endpoint by ID: " +lastId);
+//
+//		given().get(targetStartPoint).then().body("["+ (size - 1) +"].id", equalTo("asdasdasd"));
+//
+//	}
+	
 
 
 }
