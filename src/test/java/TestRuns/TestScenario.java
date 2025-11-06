@@ -24,7 +24,7 @@ import static org.hamcrest.Matchers.*;
 
 public class TestScenario extends BasePage {
 	
-	//SCOTTBYRON
+	//SCOTTBYRONESCUETA
 	
 	LandingPage landingpage;
 	TestAPI apitest  = new TestAPI();
