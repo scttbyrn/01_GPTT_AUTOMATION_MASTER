@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 105.2 s <<< FAILURE! -- in TestSuite
-TestRuns.TestScenario.TC2_ErrorScenario -- Time elapsed: 10.98 s <<< FAILURE!
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 81.75 s <<< FAILURE! -- in TestSuite
+TestRuns.TestScenario.TC2_ErrorScenario -- Time elapsed: 10.42 s <<< FAILURE!
 java.lang.AssertionError: Something went wrong! expected [QWERTYUIOP] but found [9274119438]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1590)
@@ -42,7 +42,7 @@ java.lang.AssertionError: Something went wrong! expected [QWERTYUIOP] but found 
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-TestRuns.TestScenario.TC3_PassedAPI -- Time elapsed: 3.248 s <<< FAILURE!
+TestRuns.TestScenario.TC3_PassedAPI -- Time elapsed: 2.675 s <<< FAILURE!
 java.net.ConnectException: Connection refused: connect
 	at java.base/sun.nio.ch.Net.connect0(Native Method)
 	at java.base/sun.nio.ch.Net.connect(Net.java:597)
@@ -185,7 +185,7 @@ java.net.ConnectException: Connection refused: connect
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-TestRuns.TestScenario.TC4_FailedAPI -- Time elapsed: 0.747 s <<< FAILURE!
+TestRuns.TestScenario.TC4_FailedAPI -- Time elapsed: 0.974 s <<< FAILURE!
 java.net.ConnectException: Connection refused: connect
 	at java.base/sun.nio.ch.Net.connect0(Native Method)
 	at java.base/sun.nio.ch.Net.connect(Net.java:597)
