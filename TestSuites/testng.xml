@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<!-- *************************************** Groups Setup ************************************************* -->
+	<groups>
+		<run>
+			<include name="Regression"></include>
+		</run>
+	</groups>
+
+	<listeners>
+		<listener class-name="TestComponents.Listeners"></listener>
+	</listeners>
+
+	<test name="TestScenarioExamples">
+		<classes>
+			<class name="TestRuns.TestScenario" />
+		</classes>
+	</test> <!--
+	TestScenarioExamples -->
+</suite> <!--
+Suite -->
