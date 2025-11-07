@@ -41,6 +41,7 @@ public class testingAPI {
             .when()
             .post("ups_network_service_stg/fetch_account")
             .then()
+            .statusCode(200)
             .log().all()  // Log response details (status, body, etc.)
             .extract().response();
 

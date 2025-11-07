@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-07T15:00:10 CST" name="Default suite" finished-at="2025-11-07T15:00:13 CST" duration-ms="2175">
+  <suite started-at="2025-11-07T17:13:50 CST" name="Default suite" finished-at="2025-11-07T17:13:52 CST" duration-ms="2340">
     <groups>
     </groups>
-    <test started-at="2025-11-07T15:00:10 CST" name="Default test" finished-at="2025-11-07T15:00:13 CST" duration-ms="2175">
+    <test started-at="2025-11-07T17:13:50 CST" name="Default test" finished-at="2025-11-07T17:13:52 CST" duration-ms="2340">
       <class name="TestRuns.testingAPI">
-        <test-method signature="apitestscenario()[pri:0, instance:TestRuns.testingAPI@62379589]" started-at="2025-11-07T15:00:10 CST" name="apitestscenario" finished-at="2025-11-07T15:00:13 CST" duration-ms="2135" status="PASS">
+        <test-method signature="apitestscenario()[pri:0, instance:TestRuns.testingAPI@62379589]" started-at="2025-11-07T17:13:50 CST" name="apitestscenario" finished-at="2025-11-07T17:13:52 CST" duration-ms="2304" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- apitestscenario -->
