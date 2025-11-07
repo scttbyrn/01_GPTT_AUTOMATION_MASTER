@@ -46,7 +46,7 @@ public class BasePage {
 		
 		options = new UiAutomator2Options();
 		options.setDeviceName("TestAppiumGPTT");
-		options.setApp(GPTTApp); //nativeApp
+		options.setApp(unifiedApp); //nativeApp
 		driver = new AndroidDriver(new URI("http://127.0.0.1:4723").toURL(), options);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		

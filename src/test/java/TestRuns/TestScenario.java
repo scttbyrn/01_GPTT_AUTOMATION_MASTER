@@ -24,7 +24,7 @@ import static org.hamcrest.Matchers.*;
 
 public class TestScenario extends BasePage {
 	
-	//DEVELOPMENT AREA:
+	//DEVELOPMENT AREAs:
 	
 	LandingPage landingpage;
 	TestAPI apitest  = new TestAPI();
@@ -34,13 +34,13 @@ public class TestScenario extends BasePage {
 	
 
 
-//	@Test(groups = {"Regression"})
-//	public void TC1_PassedScenario() throws InterruptedException{
-//
-//		landingpage = new LandingPage(driver);
-//		landingpage.setupGetStartedOTPMPIN();
-//
-//	}
+	@Test(groups = {"Regression"})
+	public void TC1_PassedScenario() throws InterruptedException{
+
+		landingpage = new LandingPage(driver);
+		landingpage.setupGetStartedOTPMPIN();
+
+	}
 //
 //	@Test(groups = {"Regression"})
 //	public void TC2_ErrorScenario(){
