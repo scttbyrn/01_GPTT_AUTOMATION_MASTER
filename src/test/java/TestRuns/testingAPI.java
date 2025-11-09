@@ -1,4 +1,4 @@
-package TestRuns;
+package testRuns;
 
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
@@ -11,7 +11,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
 import java.util.Map;
 
-public class testingAPI {
+public class TestingAPI {
 
     @Test
     public void apitestscenario() {

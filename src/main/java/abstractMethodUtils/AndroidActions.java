@@ -1,14 +1,15 @@
-package AbstractMethods;
+package abstractMethodUtils;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 
-public class Abstract {
+public class AndroidActions {
 
-	AndroidDriver driver;
-	public Abstract(AndroidDriver driver) {
+	AppiumDriver driver;
+	public AndroidActions(AppiumDriver driver) {
 
 		this.driver = driver;
 	}

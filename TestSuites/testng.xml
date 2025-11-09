@@ -9,12 +9,12 @@
 	</groups>
 
 	<listeners>
-		<listener class-name="TestComponents.Listeners"></listener>
+		<listener class-name="testComponents.Listeners"></listener>
 	</listeners>
 
 	<test name="TestScenarioExamples">
 		<classes>
-			<class name="TestRuns.TestScenario" />
+			<class name="testRuns.TestScenario" />
 		</classes>
 	</test> <!--
 	TestScenarioExamples -->

@@ -1,4 +1,4 @@
-package TestComponents;
+package testComponents;
 
 import java.io.IOException;
 
@@ -11,8 +11,9 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
-import Resources.ExtentReportsNG;
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
+import resources.ExtentReportsNG;
 
 
 
@@ -40,7 +41,7 @@ public class Listeners extends BasePage implements ITestListener{
 		test.fail(result.getThrowable());
 		
 		try {
-			driver = (AndroidDriver) result.getTestClass()
+			driver = (AppiumDriver) result.getTestClass()
 					.getRealClass()
 					.getField("driver")
 					.get(result.getInstance());

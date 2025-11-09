@@ -1,4 +1,4 @@
-package TestRuns;
+package testRuns;
 
 import java.io.File;
 import java.net.MalformedURLException;
@@ -8,11 +8,11 @@ import java.time.Duration;
 
 import org.testng.annotations.Test;
 
-import PageObjects.LandingPage;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
+import pageObjects.LandingPage;
 
 public class DoubleAPP {
 	

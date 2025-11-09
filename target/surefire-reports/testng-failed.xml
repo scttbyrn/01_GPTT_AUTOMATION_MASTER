@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
   <listeners>
-    <listener class-name="TestComponents.Listeners"/>
+    <listener class-name="testComponents.Listeners"/>
   </listeners>
   <test thread-count="5" name="TestScenarioExamples(failed)" verbose="0">
     <groups>
@@ -11,15 +11,13 @@
       </run>
     </groups>
     <classes>
-      <class name="TestRuns.TestScenario">
+      <class name="testRuns.TestScenario">
         <methods>
-          <include name="tearDown"/>
+          <include name="quitApp"/>
           <include name="TC2_ErrorScenario"/>
-          <include name="launchingPage"/>
-          <include name="TC3_PassedAPI"/>
-          <include name="TC4_FailedAPI"/>
+          <include name="initializePage"/>
         </methods>
-      </class> <!-- TestRuns.TestScenario -->
+      </class> <!-- testRuns.TestScenario -->
     </classes>
   </test> <!-- TestScenarioExamples(failed) -->
 </suite> <!-- Failed suite [Suite] -->

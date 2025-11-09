@@ -1,0 +1,8 @@
+# Created at 2025-11-09T11:49:15.309
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, screenshot {}]
+Capabilities {appium:app: C:\Users\scottbyron.escueta..., appium:appActivity: com.globalpinoytravel.app.M..., appium:appPackage: com.globalpinoytravel.app, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\scottbyron.escueta..., automationName: UIAutomator2, deviceName: TestAppiumGPTT, platformName: ANDROID}, appium:deviceApiLevel: 33, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2280, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 13, appium:statBarHeight: 83, appium:takesScreenshot: true, appium:viewportRect: {height: 2197, left: 0, top: 83, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+
