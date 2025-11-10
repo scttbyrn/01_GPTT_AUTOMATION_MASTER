@@ -52,7 +52,7 @@ public class BasePage {
 
 		//		/*Setup uiAutomator2*/
 		String unifiedApp = "C:\\Users\\scottbyron.escueta\\AppData\\Local\\Android\\Sdk\\platform-tools\\app-x86_64-debug.apk";
-		String GPTTApp = "C:\\Users\\scottbyron.escueta\\AppData\\Local\\Android\\Sdk\\platform-tools\\app-dev-release-20251023_1420.apk";
+		String GPTTApp = "C:\\Users\\scottbyron.escueta\\AppData\\Local\\Android\\Sdk\\platform-tools\\app-dev-release-20251106_1608.apk";
 		String appActivity  = "com.globalpinoytravel.app.MainActivity";
 		String appPackage = "com.globalpinoytravel.app";
 		//		

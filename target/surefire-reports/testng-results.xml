@@ -1,87 +1,351 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="0" total="5" passed="0" failed="5" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-09T16:04:51 CST" name="Suite" finished-at="2025-11-09T16:05:42 CST" duration-ms="51108">
+  <suite started-at="2025-11-10T19:17:19 CST" name="Surefire suite" finished-at="2025-11-10T19:18:15 CST" duration-ms="55332">
     <groups>
-      <group name="Regression">
-        <method signature="TestScenario.TC1_PassedScenario()[pri:0, instance:testRuns.TestScenario@2584b82d]" name="TC1_PassedScenario" class="testRuns.TestScenario"/>
-        <method signature="TestScenario.TC2_ErrorScenario()[pri:0, instance:testRuns.TestScenario@2584b82d]" name="TC2_ErrorScenario" class="testRuns.TestScenario"/>
-      </group> <!-- Regression -->
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberFeatures.TestNGTestRunner@f5ac9e4]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-11-09T16:04:51 CST" name="TestScenarioExamples" finished-at="2025-11-09T16:05:42 CST" duration-ms="51108">
-      <class name="testRuns.TestScenario">
-        <test-method is-config="true" signature="initializePage()[pri:0, instance:testRuns.TestScenario@2584b82d]" started-at="2025-11-09T16:04:51 CST" name="initializePage" finished-at="2025-11-09T16:05:02 CST" duration-ms="11082" status="PASS">
+    <test started-at="2025-11-10T19:17:19 CST" name="Surefire test" finished-at="2025-11-10T19:18:15 CST" duration-ms="55332">
+      <class name="cucumberFeatures.TestNGTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumberFeatures.TestNGTestRunner@f5ac9e4]" started-at="2025-11-10T19:17:19 CST" name="setUpClass" finished-at="2025-11-10T19:17:20 CST" duration-ms="390" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@692e028d]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initializePage -->
-        <test-method signature="TC1_PassedScenario()[pri:0, instance:testRuns.TestScenario@2584b82d]" started-at="2025-11-09T16:05:02 CST" name="TC1_PassedScenario" finished-at="2025-11-09T16:05:22 CST" duration-ms="20160" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC1_PassedScenario -->
-        <test-method is-config="true" signature="quitApp()[pri:0, instance:testRuns.TestScenario@2584b82d]" started-at="2025-11-09T16:05:22 CST" name="quitApp" finished-at="2025-11-09T16:05:23 CST" duration-ms="770" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitApp -->
-        <test-method is-config="true" signature="initializePage()[pri:0, instance:testRuns.TestScenario@2584b82d]" started-at="2025-11-09T16:05:23 CST" name="initializePage" finished-at="2025-11-09T16:05:30 CST" duration-ms="7535" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializePage -->
-        <test-method signature="TC2_ErrorScenario()[pri:0, instance:testRuns.TestScenario@2584b82d]" started-at="2025-11-09T16:05:30 CST" name="TC2_ErrorScenario" finished-at="2025-11-09T16:05:40 CST" duration-ms="9759" status="FAIL">
-          <exception class="java.lang.AssertionError">
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberFeatures.TestNGTestRunner@f5ac9e4]" started-at="2025-11-10T19:17:20 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-10T19:18:14 CST" duration-ms="54808" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Display Wallet Balance"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Cashin/Cashout via Unified Wallet to GPTT Wallet"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
             <message>
-              <![CDATA[Something went wrong! expected [QWERTYUIOP] but found [9274119438]]]>
+              <![CDATA[The step 'the wallet balance virtual_visa fund should be displayed prominently at the top of the screen' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("the wallet balance virtual_visa fund should be displayed prominently at the top of the screen")
+public void the_wallet_balance_virtual_visa_fund_should_be_displayed_prominently_at_the_top_of_the_screen() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Something went wrong! expected [QWERTYUIOP] but found [9274119438]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at pageObjects.LandingPage.errorScenario(LandingPage.java:83)
-at testRuns.TestScenario.TC2_ErrorScenario(TestScenario.java:60)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'the wallet balance virtual_visa fund should be displayed prominently at the top of the screen' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("the wallet balance virtual_visa fund should be displayed prominently at the top of the screen")
+public void the_wallet_balance_virtual_visa_fund_should_be_displayed_prominently_at_the_top_of_the_screen() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.the wallet balance virtual_visa fund should be displayed prominently at the top of the screen(file:///C:/Users/scottbyron.escueta/eclipse-workspace/GPTT_Automation/src/test/java/cucumberFeatures/CashinCashoutViaUnifiedWalletToGPTTWallet.feature:6)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC2_ErrorScenario -->
-        <test-method is-config="true" signature="quitApp()[pri:0, instance:testRuns.TestScenario@2584b82d]" started-at="2025-11-09T16:05:40 CST" name="quitApp" finished-at="2025-11-09T16:05:42 CST" duration-ms="1230" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberFeatures.TestNGTestRunner@f5ac9e4]" started-at="2025-11-10T19:18:14 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-10T19:18:14 CST" duration-ms="8" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Cash In Flow"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Cashin/Cashout via Unified Wallet to GPTT Wallet"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'the user selects the Cash In option' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("the user selects the Cash In option")
+public void the_user_selects_the_cash_in_option() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("they enter an amount and confirm")
+public void they_enter_an_amount_and_confirm() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the system should call the credit_fund endpoint to add the amount to the GPTT wallet")
+public void the_system_should_call_the_credit_fund_endpoint_to_add_the_amount_to_the_gptt_wallet() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("display a success confirmation with the updated balance")
+public void display_a_success_confirmation_with_the_updated_balance() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'the user selects the Cash In option' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("the user selects the Cash In option")
+public void the_user_selects_the_cash_in_option() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("they enter an amount and confirm")
+public void they_enter_an_amount_and_confirm() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the system should call the credit_fund endpoint to add the amount to the GPTT wallet")
+public void the_system_should_call_the_credit_fund_endpoint_to_add_the_amount_to_the_gptt_wallet() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("display a success confirmation with the updated balance")
+public void display_a_success_confirmation_with_the_updated_balance() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.the user selects the Cash In option(file:///C:/Users/scottbyron.escueta/eclipse-workspace/GPTT_Automation/src/test/java/cucumberFeatures/CashinCashoutViaUnifiedWalletToGPTTWallet.feature:9)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- quitApp -->
-      </class> <!-- testRuns.TestScenario -->
-    </test> <!-- TestScenarioExamples -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberFeatures.TestNGTestRunner@f5ac9e4]" started-at="2025-11-10T19:18:14 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-10T19:18:14 CST" duration-ms="5" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Cash Out Flow"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Cashin/Cashout via Unified Wallet to GPTT Wallet"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'the user selects the Cash Out option' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("the user selects the Cash Out option")
+public void the_user_selects_the_cash_out_option() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("they enter an amount and confirm")
+public void they_enter_an_amount_and_confirm() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the system should call the debit_fund endpoint to deduct the amount from the GPTT wallet")
+public void the_system_should_call_the_debit_fund_endpoint_to_deduct_the_amount_from_the_gptt_wallet() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("display a success confirmation with the updated balance")
+public void display_a_success_confirmation_with_the_updated_balance() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'the user selects the Cash Out option' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("the user selects the Cash Out option")
+public void the_user_selects_the_cash_out_option() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("they enter an amount and confirm")
+public void they_enter_an_amount_and_confirm() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the system should call the debit_fund endpoint to deduct the amount from the GPTT wallet")
+public void the_system_should_call_the_debit_fund_endpoint_to_deduct_the_amount_from_the_gptt_wallet() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("display a success confirmation with the updated balance")
+public void display_a_success_confirmation_with_the_updated_balance() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.the user selects the Cash Out option(file:///C:/Users/scottbyron.escueta/eclipse-workspace/GPTT_Automation/src/test/java/cucumberFeatures/CashinCashoutViaUnifiedWalletToGPTTWallet.feature:15)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberFeatures.TestNGTestRunner@f5ac9e4]" started-at="2025-11-10T19:18:14 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-10T19:18:14 CST" duration-ms="21" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Fee Display"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Cashin/Cashout via Unified Wallet to GPTT Wallet"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'the user is on either the Cash In or Cash Out screen' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("the user is on either the Cash In or Cash Out screen")
+public void the_user_is_on_either_the_cash_in_or_cash_out_screen() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the transaction details are displayed")
+public void the_transaction_details_are_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the fee should be shown as ₱{double} by default")
+public void the_fee_should_be_shown_as_₱_by_default(Double double1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'the user is on either the Cash In or Cash Out screen' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("the user is on either the Cash In or Cash Out screen")
+public void the_user_is_on_either_the_cash_in_or_cash_out_screen() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the transaction details are displayed")
+public void the_transaction_details_are_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the fee should be shown as ₱{double} by default")
+public void the_fee_should_be_shown_as_₱_by_default(Double double1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.the user is on either the Cash In or Cash Out screen(file:///C:/Users/scottbyron.escueta/eclipse-workspace/GPTT_Automation/src/test/java/cucumberFeatures/CashinCashoutViaUnifiedWalletToGPTTWallet.feature:21)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberFeatures.TestNGTestRunner@f5ac9e4]" started-at="2025-11-10T19:18:14 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-10T19:18:15 CST" duration-ms="18" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Error Handling"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Cashin/Cashout via Unified Wallet to GPTT Wallet"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'the API call fails or returns an error' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("the API call fails or returns an error")
+public void the_api_call_fails_or_returns_an_error() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user attempts to cash in or cash out")
+public void the_user_attempts_to_cash_in_or_cash_out() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("an error message should be displayed explaining the issue")
+public void an_error_message_should_be_displayed_explaining_the_issue() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the transaction should not proceed")
+public void the_transaction_should_not_proceed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'the API call fails or returns an error' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("the API call fails or returns an error")
+public void the_api_call_fails_or_returns_an_error() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user attempts to cash in or cash out")
+public void the_user_attempts_to_cash_in_or_cash_out() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("an error message should be displayed explaining the issue")
+public void an_error_message_should_be_displayed_explaining_the_issue() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the transaction should not proceed")
+public void the_transaction_should_not_proceed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.the API call fails or returns an error(file:///C:/Users/scottbyron.escueta/eclipse-workspace/GPTT_Automation/src/test/java/cucumberFeatures/CashinCashoutViaUnifiedWalletToGPTTWallet.feature:26)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumberFeatures.TestNGTestRunner@f5ac9e4]" started-at="2025-11-10T19:18:15 CST" name="tearDownClass" finished-at="2025-11-10T19:18:15 CST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberFeatures.TestNGTestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
 </testng-results>
