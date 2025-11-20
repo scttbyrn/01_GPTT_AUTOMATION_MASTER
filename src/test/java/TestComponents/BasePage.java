@@ -68,8 +68,8 @@ public class BasePage {
 //		 bstackOptions.put("userName", "scottbyronescuet_U6GLyK");
 //		 bstackOptions.put("accessKey", "Hxd9JCHWySzfyyKxwdSc");
 		 
-		 bstackOptions.put("userName", System.getenv("scottbyronescuet_U6GLyK"));
-		 bstackOptions.put("accessKey", System.getenv("Hxd9JCHWySzfyyKxwdSc"));
+		 bstackOptions.put("userName", System.getenv("BROWSERSTACK_USERNAME"));
+		 bstackOptions.put("accessKey", System.getenv("BROWSERSTACK_ACCESS_KEY"));
 		 bstackOptions.put("deviceName", "Samsung Galaxy S23");
 		 bstackOptions.put("osVersion", "13.0");
 		 bstackOptions.put("projectName", "GPTT App");
