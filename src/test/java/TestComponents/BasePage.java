@@ -42,7 +42,7 @@ public class BasePage {
 	public TestAPI testAPI;
 	public Activity activity;
 
-
+//aa
 	public AppiumDriver InitializeDriver() throws MalformedURLException, URISyntaxException, InterruptedException {
 
 		/*Setup automatically connect on appium server*/
