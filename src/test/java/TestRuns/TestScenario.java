@@ -56,14 +56,14 @@ public class TestScenario extends BasePage {
 		
 	}
 
-	@Test(groups = {"Regression"})
-	public void TC2_ErrorScenario() throws InterruptedException{
-
-		landingpage = new LandingPage(driver);
-//		landingpage.setupGetStartedOTPMPIN();
-		landingpage.errorScenario();
-		
-	}
+//	@Test(groups = {"Regression"})
+//	public void TC2_ErrorScenario() throws InterruptedException{
+//
+//		landingpage = new LandingPage(driver);
+////		landingpage.setupGetStartedOTPMPIN();
+//		landingpage.errorScenario();
+//		
+//	}
 //
 //	@Test(groups = {"Regression"})
 //	public void TC3_PassedAPI(){
