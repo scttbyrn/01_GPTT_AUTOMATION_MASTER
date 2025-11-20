@@ -75,6 +75,9 @@ public class BasePage {
 		 bstackOptions.put("projectName", "GPTT App");
 		 bstackOptions.put("buildName", "Build 1");
 		 bstackOptions.put("sessionName", "Sample Test");
+		 bstackOptions.put("platformName", "Android");
+		 bstackOptions.put("platformVersion", "13");
+
 
 		 // Important: attach to options
 		 options.setCapability("bstack:options", bstackOptions);
@@ -83,6 +86,7 @@ public class BasePage {
 		 options.setCapability("app", "bs://55d3ac99091167d054ac3c149c39c8f543b50d11");
 
 		 // W3C caps (top-level)
+		 options.setCapability("platformName", "Android");  // force override
 		 options.setPlatformName("Android");
 		 options.setAutomationName("UIAutomator2");
 
