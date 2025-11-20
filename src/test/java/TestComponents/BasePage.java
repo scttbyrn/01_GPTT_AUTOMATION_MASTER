@@ -65,8 +65,11 @@ public class BasePage {
 		
 		// BrowserStack options MUST be inside "bstack:options"
 		 Map<String, Object> bstackOptions = new HashMap<>();
-		 bstackOptions.put("userName", "scottbyronescuet_U6GLyK");
-		 bstackOptions.put("accessKey", "Hxd9JCHWySzfyyKxwdSc");
+//		 bstackOptions.put("userName", "scottbyronescuet_U6GLyK");
+//		 bstackOptions.put("accessKey", "Hxd9JCHWySzfyyKxwdSc");
+		 
+		 bstackOptions.put("userName", System.getenv("scottbyronescuet_U6GLyK"));
+		 bstackOptions.put("accessKey", System.getenv("Hxd9JCHWySzfyyKxwdSc"));
 		 bstackOptions.put("deviceName", "Samsung Galaxy S23");
 		 bstackOptions.put("osVersion", "13.0");
 		 bstackOptions.put("projectName", "GPTT App");

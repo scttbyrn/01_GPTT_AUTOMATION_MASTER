@@ -7,3 +7,15 @@
 11:58:44.880 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
 11:58:44.880 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
 11:58:44.882 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/GPTT_AutomationCloud2
+14:39:25.933 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+14:39:25.934 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+14:39:25.937 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/GPTT_AutomationCloud2
+14:39:25.938 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+14:39:25.938 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+14:39:25.940 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/GPTT_AutomationCloud2
+14:39:59.508 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+14:39:59.508 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+14:39:59.511 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/GPTT_AutomationCloud2
+14:39:59.512 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+14:39:59.513 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+14:39:59.515 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/GPTT_AutomationCloud2
