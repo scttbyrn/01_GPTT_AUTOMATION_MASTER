@@ -106,6 +106,9 @@ public class BasePage {
 		
 		System.out.println("Capabilities: "+options);
 		
+		System.out.println("BS USER = " + System.getenv("BROWSERSTACK_USERNAME"));
+		System.out.println("BS KEY = " + System.getenv("BROWSERSTACK_ACCESS_KEY"));
+		
 		driver = InitializeDriver();
 		landingPage = new LandingPage(driver);
 //		landingPage.setupGetStartedOTPMPIN();
