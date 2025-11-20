@@ -65,11 +65,11 @@ public class BasePage {
 		
 		// BrowserStack options MUST be inside "bstack:options"
 		 Map<String, Object> bstackOptions = new HashMap<>();
-		 bstackOptions.put("userName", "scottbyronescuet_U6GLyK");
-		 bstackOptions.put("accessKey", "Hxd9JCHWySzfyyKxwdSc");
+//		 bstackOptions.put("userName", "scottbyronescuet_U6GLyK");
+//		 bstackOptions.put("accessKey", "Hxd9JCHWySzfyyKxwdSc");
 		 
-//		 bstackOptions.put("userName", System.getenv("BROWSERSTACK_USERNAME"));
-//		 bstackOptions.put("accessKey", System.getenv("BROWSERSTACK_ACCESS_KEY"));
+		 bstackOptions.put("userName", System.getenv("BROWSERSTACK_USERNAME"));
+		 bstackOptions.put("accessKey", System.getenv("BROWSERSTACK_ACCESS_KEY"));
 		 bstackOptions.put("deviceName", "Samsung Galaxy S23");
 		 bstackOptions.put("osVersion", "13.0");
 		 bstackOptions.put("projectName", "GPTT App");
@@ -87,7 +87,6 @@ public class BasePage {
 
 		 // W3C caps (top-level)
 		 options.setCapability("platformName", "Android");  // force override
-		 options.setPlatformName("Android");
 		 options.setAutomationName("UIAutomator2");
 
 		 // Debug print (this will no longer be null)
