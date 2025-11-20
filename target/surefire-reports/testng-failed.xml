@@ -14,8 +14,8 @@
       <class name="testRuns.TestScenario">
         <methods>
           <include name="quitApp"/>
-          <include name="TC2_ErrorScenario"/>
           <include name="initializePage"/>
+          <include name="TC1_PassedScenario"/>
         </methods>
       </class> <!-- testRuns.TestScenario -->
     </classes>

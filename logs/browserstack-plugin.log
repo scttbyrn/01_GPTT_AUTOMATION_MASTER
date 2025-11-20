@@ -19,3 +19,21 @@
 14:39:59.512 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
 14:39:59.513 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
 14:39:59.515 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/GPTT_AutomationCloud2
+15:09:41.968 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+15:09:41.968 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:09:41.970 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/GPTT_AutomationCloud2
+15:09:41.972 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+15:09:41.972 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:09:41.975 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/GPTT_AutomationCloud2
+15:09:55.521 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+15:09:55.521 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:09:55.523 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/GPTT_AutomationCloud2
+15:09:55.524 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+15:09:55.524 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:09:55.526 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/GPTT_AutomationCloud2
+15:12:19.451 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+15:12:19.451 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:12:19.453 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/GPTT_AutomationCloud2
+15:12:19.454 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+15:12:19.454 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:12:19.456 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/GPTT_AutomationCloud2
