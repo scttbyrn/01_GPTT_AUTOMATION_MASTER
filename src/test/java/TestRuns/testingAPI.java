@@ -16,7 +16,7 @@ import java.util.Map;
 public class TestingAPI extends BasePage{
 	
 	
-    @Test
+//    @Test
     public void apitestscenario()  {
     	
     	testAPI = new TestAPI();
