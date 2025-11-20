@@ -61,7 +61,7 @@ public class BasePage {
 		String appActivity  = "com.globalpinoytravel.app.MainActivity";
 		String appPackage = "com.globalpinoytravel.app";
 		//		
-		 options = new UiAutomator2Options();
+		 this.options = new UiAutomator2Options();
 		
 		// BrowserStack options MUST be inside "bstack:options"
 		 Map<String, Object> bstackOptions = new HashMap<>();
@@ -83,7 +83,7 @@ public class BasePage {
 		 options.setCapability("app", "bs://55d3ac99091167d054ac3c149c39c8f543b50d11");
 
 		 // W3C caps (top-level)
-		 options.setPlatformName("android");
+		 options.setPlatformName("Android");
 		 options.setAutomationName("UIAutomator2");
 
 		 // Debug print (this will no longer be null)
