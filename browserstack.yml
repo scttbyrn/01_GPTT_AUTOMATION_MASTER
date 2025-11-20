@@ -1,0 +1,9 @@
+userName: scottbyronescuet_U6GLyK
+accessKey: Hxd9JCHWySzfyyKxwdSc
+buildName: TestSampleCloud
+projectName: GPTT Automation
+CUSTOM_TAG_1: Test1
+# Use CUSTOM_TAG_<N> and set more build tags as you need.
+framework: testng
+testObservability: true
+browserstackAutomation: false # Set to true for tests on BrowserStack products.

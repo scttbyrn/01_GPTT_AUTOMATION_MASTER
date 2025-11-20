@@ -7,6 +7,8 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.time.Duration;
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
@@ -37,18 +39,21 @@ public class BasePage {
 	public AppiumDriver driver;
 	public AppiumDriverLocalService service;
 	public LandingPage landingPage;
+	public TestAPI testAPI;
 	public Activity activity;
 
 
 	public AppiumDriver InitializeDriver() throws MalformedURLException, URISyntaxException, InterruptedException {
 
 		/*Setup automatically connect on appium server*/
-		service = new AppiumServiceBuilder()
-				.withAppiumJS(new File("C://Users//scottbyron.escueta//AppData//Roaming//npm//node_modules//appium//build//lib//main.js"))
-				.withIPAddress("127.0.0.1")
-				.usingPort(4723)
-				.build();
-		service.start();
+//		service = new AppiumServiceBuilder()
+//				.withAppiumJS(new File("C://Users//scottbyron.escueta//AppData//Roaming//npm//node_modules//appium//build//lib//main.js"))
+//				.withIPAddress("127.0.0.1")
+//				.usingPort(4723)
+//				.build();
+//		service.start();
+		
+		
 
 		//		/*Setup uiAutomator2*/
 		String unifiedApp = "C:\\Users\\scottbyron.escueta\\AppData\\Local\\Android\\Sdk\\platform-tools\\app-x86_64-debug.apk";
@@ -56,23 +61,48 @@ public class BasePage {
 		String appActivity  = "com.globalpinoytravel.app.MainActivity";
 		String appPackage = "com.globalpinoytravel.app";
 		//		
-		options = new UiAutomator2Options();
-		options.setDeviceName("TestAppiumGPTT");
-		options.setApp(GPTTApp);// use this line for fresh start of nativeApp
-//		options.setAppActivity(appActivity); //set the app activity
-//		options.setAppPackage(appPackage); //set the app package
-		driver = new AndroidDriver(new URI("http://127.0.0.1:4723").toURL(), options);
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		 options = new UiAutomator2Options();
+		
+		// BrowserStack options MUST be inside "bstack:options"
+		 Map<String, Object> bstackOptions = new HashMap<>();
+		 bstackOptions.put("userName", "scottbyronescuet_U6GLyK");
+		 bstackOptions.put("accessKey", "Hxd9JCHWySzfyyKxwdSc");
+		 bstackOptions.put("deviceName", "Samsung Galaxy S23");
+		 bstackOptions.put("osVersion", "13.0");
+		 bstackOptions.put("projectName", "GPTT App");
+		 bstackOptions.put("buildName", "Build 1");
+		 bstackOptions.put("sessionName", "Sample Test");
 
+		 // Important: attach to options
+		 options.setCapability("bstack:options", bstackOptions);
 
-		return driver;
+		 // Your app (must stay top-level)
+		 options.setCapability("app", "bs://55d3ac99091167d054ac3c149c39c8f543b50d11");
+
+		 // W3C caps (top-level)
+		 options.setPlatformName("android");
+		 options.setAutomationName("UIAutomator2");
+
+		 // Debug print (this will no longer be null)
+		 System.out.println("Capabilities: " + options.toJson());
+
+		 // Connect to BrowserStack hub
+		 driver = new AndroidDriver(
+		         new URI("https://hub.browserstack.com/wd/hub").toURL(),
+		         options
+		 );
+
+		 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		 return driver;
 
 	}
 
 
 	@BeforeMethod(alwaysRun=true)
 	public LandingPage initializePage() throws MalformedURLException, URISyntaxException, InterruptedException {
-
+		
+		System.out.println("Capabilities: "+options);
+		
 		driver = InitializeDriver();
 		landingPage = new LandingPage(driver);
 //		landingPage.setupGetStartedOTPMPIN();
@@ -88,7 +118,7 @@ public class BasePage {
 		if (driver != null) {
 			driver.quit();
 		}
-		service.stop();
+//		service.stop();
 
 	}
 	

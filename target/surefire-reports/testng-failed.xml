@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Surefire suite]" verbose="0">
-  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="testComponents.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="TestScenarioExamples(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="Regression"/>
+      </run>
+    </groups>
     <classes>
-      <class name="cucumberFeatures.TestNGTestRunner">
+      <class name="testRuns.TestScenario">
         <methods>
-          <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="0 1 2 3 4"/>
-          <include name="tearDownClass"/>
+          <include name="quitApp"/>
+          <include name="TC2_ErrorScenario"/>
+          <include name="initializePage"/>
         </methods>
-      </class> <!-- cucumberFeatures.TestNGTestRunner -->
+      </class> <!-- testRuns.TestScenario -->
     </classes>
-  </test> <!-- Surefire test(failed) -->
-</suite> <!-- Failed suite [Surefire suite] -->
+  </test> <!-- TestScenarioExamples(failed) -->
+</suite> <!-- Failed suite [Suite] -->

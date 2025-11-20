@@ -20,7 +20,9 @@ import io.appium.java_client.android.Activity;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
+import pageObjects.DashBoardPage;
 import pageObjects.LandingPage;
+import pageObjects.ProfilePage;
 import testComponents.BasePage;
 import testComponents.TestAPI;
 
@@ -33,6 +35,8 @@ public class TestScenario extends BasePage {
 	//DEVELOPMENT AREAs:
 	
 	LandingPage landingpage;
+	DashBoardPage dashboard;
+	ProfilePage profile;
 	TestAPI apitest  = new TestAPI();
 	
 	String gpttAPI = "/usr/v1/customer/user";
@@ -43,13 +47,13 @@ public class TestScenario extends BasePage {
 	public void TC1_PassedScenario() throws InterruptedException{
 
 		landingpage = new LandingPage(driver);
-		landingpage.setupGetStartedOTPMPIN();
-		
+		dashboard = landingpage.setupGetStartedOTPMPIN();
+		dashboard.tapBodyTransaction("Buy Load");
+				
 //		activity = new Activity ("com.unifiedv2", "com.unifiedv2.MainActivity");  
 //		((JavascriptExecutor)driver).executeScript("mobile: startActivity",ImmutableMap.of("intent", "com.unifiedv2/com.unifiedv2.MainActivity"));
 		
 		
-
 	}
 
 	@Test(groups = {"Regression"})
@@ -64,10 +68,10 @@ public class TestScenario extends BasePage {
 //	@Test(groups = {"Regression"})
 //	public void TC3_PassedAPI(){
 //
-//		apitest.getAPI(targetStartPoint);
-//		apitest.postAPI(targetStartPoint);
-//		apitest.retrieveDataAPI(targetStartPoint);
-//		apitest.validateRetrieveDataAPI(targetStartPoint);
+//		testAPI = new TestAPI();
+//        
+//    	testAPI.apiUnifiedPostGenerateToken();
+//    	testAPI.apiUnifiedPostFetchAccount();
 //
 //	}
 //

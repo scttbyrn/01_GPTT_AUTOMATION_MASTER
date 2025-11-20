@@ -1,0 +1,228 @@
+<html>
+<head>
+<title>TestNG:  TestScenarioExamples-2</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TestScenarioExamples-2</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Nov 20 11:59:55 CST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>124 seconds (124155 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>Regression </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testRuns.TestScenario.TC1_PassedScenario()'><b>TC1_PassedScenario</b><br>Test class: testRuns.TestScenario</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.38.0&apos;, revision: &apos;6b412e825c*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [34cca4e604f613f5b39f990ffd737ce2524ad093, findElement {using=xpath, value=//android.widget.Button[@content-desc=&quot;Log in with Mobile Number&quot;]}]
+Capabilities {appium:appActivity: com.globalpinoytravel.app.M..., appium:appPackage: com.globalpinoytravel.app, appium:automationName: uiautomator2, appium:bundleID: com.globalpinoytravel.app, appium:bundleId: com.globalpinoytravel.app, appium:chromedriverPorts: [[18144, 18154]], appium:databaseEnabled: false, appium:desired: {appActivity: com.globalpinoytravel.app.M..., appPackage: com.globalpinoytravel.app, automationName: uiautomator2, bstack:options: {buildIdentifier: #47, hostName: L2-SCOTT, localIdentifier: 20_Nov_1159_L2_SCOTT_p3OP}, bundleID: com.globalpinoytravel.app, bundleId: com.globalpinoytravel.app, chromedriverPorts: [[18144, 18154]], deviceName: Android, disableSuppressAccessibilityService: true, goog:chromeOptions: {}, nativeWebScreenshot: true, newCommandTimeout: 0, platformName: Android, skipServerInstallation: true, systemPort: 8204, udid: R3CT40QKV1K}, appium:deviceApiLevel: 31, appium:deviceManufacturer: samsung, appium:deviceModel: SM-S908B, appium:deviceName: R3CT40QKV1K, appium:deviceScreenDensity: 450, appium:deviceScreenSize: 1080x2316, appium:deviceUDID: R3CT40QKV1K, appium:disableSuppressAccessibilityService: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:nativeWebScreenshot: true, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 0, appium:optimalHubUrl: hub-apse.browserstack.com, appium:pixelRatio: 2.8125, appium:platformVersion: 12, appium:skipServerInstallation: true, appium:statBarHeight: 75, appium:systemPort: 8204, appium:takesScreenshot: true, appium:udid: R3CT40QKV1K, appium:viewportRect: {height: 2031, left: 0, top: 75, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, bstack:options: {buildIdentifier: #47, hostName: L2-SCOTT, localIdentifier: 20_Nov_1159_L2_SCOTT_p3OP}, goog:chromeOptions: {}, platformName: ANDROID}
+Session ID: 34cca4e604f613f5b39f990ffd737ce2524ad093
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at pageObjects.LandingPage.setupGetStartedOTPMPIN(LandingPage.java:42)
+	at testRuns.TestScenario.TC1_PassedScenario(TestScenario.java:50)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1975045549", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1975045549'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.38.0&apos;, revision: &apos;6b412e825c*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [34cca4e604f613f5b39f990ffd737ce2524ad093, findElement {using=xpath, value=//android.widget.Button[@content-desc=&quot;Log in with Mobile Number&quot;]}]
+Capabilities {appium:appActivity: com.globalpinoytravel.app.M..., appium:appPackage: com.globalpinoytravel.app, appium:automationName: uiautomator2, appium:bundleID: com.globalpinoytravel.app, appium:bundleId: com.globalpinoytravel.app, appium:chromedriverPorts: [[18144, 18154]], appium:databaseEnabled: false, appium:desired: {appActivity: com.globalpinoytravel.app.M..., appPackage: com.globalpinoytravel.app, automationName: uiautomator2, bstack:options: {buildIdentifier: #47, hostName: L2-SCOTT, localIdentifier: 20_Nov_1159_L2_SCOTT_p3OP}, bundleID: com.globalpinoytravel.app, bundleId: com.globalpinoytravel.app, chromedriverPorts: [[18144, 18154]], deviceName: Android, disableSuppressAccessibilityService: true, goog:chromeOptions: {}, nativeWebScreenshot: true, newCommandTimeout: 0, platformName: Android, skipServerInstallation: true, systemPort: 8204, udid: R3CT40QKV1K}, appium:deviceApiLevel: 31, appium:deviceManufacturer: samsung, appium:deviceModel: SM-S908B, appium:deviceName: R3CT40QKV1K, appium:deviceScreenDensity: 450, appium:deviceScreenSize: 1080x2316, appium:deviceUDID: R3CT40QKV1K, appium:disableSuppressAccessibilityService: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:nativeWebScreenshot: true, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 0, appium:optimalHubUrl: hub-apse.browserstack.com, appium:pixelRatio: 2.8125, appium:platformVersion: 12, appium:skipServerInstallation: true, appium:statBarHeight: 75, appium:systemPort: 8204, appium:takesScreenshot: true, appium:udid: R3CT40QKV1K, appium:viewportRect: {height: 2031, left: 0, top: 75, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, bstack:options: {buildIdentifier: #47, hostName: L2-SCOTT, localIdentifier: 20_Nov_1159_L2_SCOTT_p3OP}, goog:chromeOptions: {}, platformName: ANDROID}
+Session ID: 34cca4e604f613f5b39f990ffd737ce2524ad093
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at pageObjects.LandingPage.setupGetStartedOTPMPIN(LandingPage.java:42)
+	at testRuns.TestScenario.TC1_PassedScenario(TestScenario.java:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
+<td>16</td>
+<td>testRuns.TestScenario@465b38e6</td></tr>
+<tr>
+<td title='testRuns.TestScenario.TC2_ErrorScenario()'><b>TC2_ErrorScenario</b><br>Test class: testRuns.TestScenario</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.38.0&apos;, revision: &apos;6b412e825c*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [82ff40656685ede74446b4c8f6b1e404d298de0a, findElement {using=xpath, value=//android.widget.Button[@content-desc=&quot;Log in with Mobile Number&quot;]}]
+Capabilities {appium:appActivity: com.globalpinoytravel.app.M..., appium:appPackage: com.globalpinoytravel.app, appium:automationName: uiautomator2, appium:bundleID: com.globalpinoytravel.app, appium:bundleId: com.globalpinoytravel.app, appium:chromedriverPorts: [[18144, 18154]], appium:databaseEnabled: false, appium:desired: {appActivity: com.globalpinoytravel.app.M..., appPackage: com.globalpinoytravel.app, automationName: uiautomator2, bstack:options: {buildIdentifier: #47, hostName: L2-SCOTT, localIdentifier: 20_Nov_1159_L2_SCOTT_p3OP}, bundleID: com.globalpinoytravel.app, bundleId: com.globalpinoytravel.app, chromedriverPorts: [[18144, 18154]], deviceName: Android, disableSuppressAccessibilityService: true, goog:chromeOptions: {}, nativeWebScreenshot: true, newCommandTimeout: 0, platformName: Android, skipServerInstallation: true, systemPort: 8204, udid: R3CT304MJDR}, appium:deviceApiLevel: 31, appium:deviceManufacturer: samsung, appium:deviceModel: SM-S908B, appium:deviceName: R3CT304MJDR, appium:deviceScreenDensity: 450, appium:deviceScreenSize: 1080x2316, appium:deviceUDID: R3CT304MJDR, appium:disableSuppressAccessibilityService: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:nativeWebScreenshot: true, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 0, appium:optimalHubUrl: hub-apse.browserstack.com, appium:pixelRatio: 2.8125, appium:platformVersion: 12, appium:skipServerInstallation: true, appium:statBarHeight: 75, appium:systemPort: 8204, appium:takesScreenshot: true, appium:udid: R3CT304MJDR, appium:viewportRect: {height: 2031, left: 0, top: 75, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, bstack:options: {buildIdentifier: #47, hostName: L2-SCOTT, localIdentifier: 20_Nov_1159_L2_SCOTT_p3OP}, goog:chromeOptions: {}, platformName: ANDROID}
+Session ID: 82ff40656685ede74446b4c8f6b1e404d298de0a
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at pageObjects.LandingPage.errorScenario(LandingPage.java:84)
+	at testRuns.TestScenario.TC2_ErrorScenario(TestScenario.java:64)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace957165499", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace957165499'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.38.0&apos;, revision: &apos;6b412e825c*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [82ff40656685ede74446b4c8f6b1e404d298de0a, findElement {using=xpath, value=//android.widget.Button[@content-desc=&quot;Log in with Mobile Number&quot;]}]
+Capabilities {appium:appActivity: com.globalpinoytravel.app.M..., appium:appPackage: com.globalpinoytravel.app, appium:automationName: uiautomator2, appium:bundleID: com.globalpinoytravel.app, appium:bundleId: com.globalpinoytravel.app, appium:chromedriverPorts: [[18144, 18154]], appium:databaseEnabled: false, appium:desired: {appActivity: com.globalpinoytravel.app.M..., appPackage: com.globalpinoytravel.app, automationName: uiautomator2, bstack:options: {buildIdentifier: #47, hostName: L2-SCOTT, localIdentifier: 20_Nov_1159_L2_SCOTT_p3OP}, bundleID: com.globalpinoytravel.app, bundleId: com.globalpinoytravel.app, chromedriverPorts: [[18144, 18154]], deviceName: Android, disableSuppressAccessibilityService: true, goog:chromeOptions: {}, nativeWebScreenshot: true, newCommandTimeout: 0, platformName: Android, skipServerInstallation: true, systemPort: 8204, udid: R3CT304MJDR}, appium:deviceApiLevel: 31, appium:deviceManufacturer: samsung, appium:deviceModel: SM-S908B, appium:deviceName: R3CT304MJDR, appium:deviceScreenDensity: 450, appium:deviceScreenSize: 1080x2316, appium:deviceUDID: R3CT304MJDR, appium:disableSuppressAccessibilityService: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:nativeWebScreenshot: true, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 0, appium:optimalHubUrl: hub-apse.browserstack.com, appium:pixelRatio: 2.8125, appium:platformVersion: 12, appium:skipServerInstallation: true, appium:statBarHeight: 75, appium:systemPort: 8204, appium:takesScreenshot: true, appium:udid: R3CT304MJDR, appium:viewportRect: {height: 2031, left: 0, top: 75, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, bstack:options: {buildIdentifier: #47, hostName: L2-SCOTT, localIdentifier: 20_Nov_1159_L2_SCOTT_p3OP}, goog:chromeOptions: {}, platformName: ANDROID}
+Session ID: 82ff40656685ede74446b4c8f6b1e404d298de0a
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at pageObjects.LandingPage.errorScenario(LandingPage.java:84)
+	at testRuns.TestScenario.TC2_ErrorScenario(TestScenario.java:64)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
+<td>16</td>
+<td>testRuns.TestScenario@465b38e6</td></tr>
+</table><p>
+</body>
+</html>

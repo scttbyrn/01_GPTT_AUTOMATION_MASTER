@@ -1,0 +1,500 @@
+11:59:36.344 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+11:59:36.354 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.38.0
+11:59:36.355 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 10.0.0
+11:59:36.511 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\scottbyron.escueta\\eclipse-workspace\\GPTT_AutomationCloud2, localrepository=C\:\\Users\\scottbyron.escueta\\.m2\\repository}
+11:59:36.515 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework cucumber-testng
+11:59:36.523 [main] WARN  c.b.config.BrowserStackConfig - Framework Detected Mismatch, Framework Detected - cucumber-testng but Framework provided in browserstack.yml - testng
+11:59:36.741 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+11:59:36.744 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: b649603a-ef7c-4410-b5ca-ca9a0e3f8294
+11:59:36.744 [main] INFO  c.b.config.BrowserStackConfig - INFO
+11:59:36.753 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\scottbyron.escueta\.browserstack already exist
+11:59:36.756 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: C:\Users\scottbyron.escueta\.browserstack\cli\binary-win-x64.exe
+11:59:36.756 [main] DEBUG com.browserstack.v2.SdkCliUtils - Adding sdk_framework parameter: testng
+11:59:38.990 [main] INFO  com.browserstack.v2.SdkCliUtils - CLI update check successful. Status: 200
+11:59:38.991 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 1.12.7
+11:59:38.992 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: https://sdk-assets.browserstack.com/binary-win-x64-1.12.8.zip
+11:59:40.125 [main] ERROR com.browserstack.v2.SdkCliUtils - downloadLatestBinary: Failed to download binary, Exception: java.io.FileNotFoundException: C:\Users\scottbyron.escueta\.browserstack\cli\binary-win-x64.exe (The process cannot access the file because it is being used by another process)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:179)
+	at com.browserstack.v2.SdkCliUtils.extractZip(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.downloadLatestBinary(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+11:59:40.125 [main] DEBUG com.browserstack.v2.SdkCliUtils - Resolved binary path: C:\Users\scottbyron.escueta\.browserstack\cli
+11:59:40.134 [main] DEBUG com.browserstack.v2.SdkCLI - startMain: main-process starting
+11:59:40.135 [main] INFO  com.browserstack.v2.SdkCLI - spawning command='C:\Users\scottbyron.escueta\.browserstack\cli' 'sdk' 'tcp'
+11:59:44.371 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+11:59:46.084 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: wq7vmgqesgumgpexczjzfelhm1tvsbhddoht5mzh
+11:59:46.084 [main] INFO  c.b.config.BrowserStackConfig - INFO
+11:59:46.084 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+11:59:46.568 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed - java.lang.Exception: Could not get percy token
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+11:59:46.568 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+11:59:53.721 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+11:59:55.083 [initializePage@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testComponents\BasePage
+11:59:55.083 [initializePage@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testComponents\BasePage
+11:59:55.083 [initializePage@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testComponents\BasePage
+11:59:55.446 [initializePage@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+11:59:55.446 [initializePage@2] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+11:59:55.446 [initializePage@1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+11:59:55.461 [initializePage@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+11:59:55.466 [initializePage@2] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+11:59:55.476 [initializePage@1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+11:59:57.236 [initializePage@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: Error while performing execute command with error Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'L2-SCOTT', ip: '192.168.254.134'
+11:59:57.251 [TestScenarioExamples-0@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testRuns\TestScenario
+11:59:57.330 [TC1_PassedScenario@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testComponents\BasePage
+11:59:57.406 [TC1_PassedScenario@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testRuns\TestScenario
+11:59:57.478 [initializePage@1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: Error while performing execute command with error Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'L2-SCOTT', ip: '192.168.254.134'
+11:59:57.482 [TestScenarioExamples-1@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testRuns\TestScenario
+11:59:57.484 [quitApp@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testComponents\BasePage
+11:59:57.576 [quitApp@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testComponents\BasePage
+11:59:57.579 [TC1_PassedScenario@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testComponents\BasePage
+11:59:57.671 [initializePage@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testComponents\BasePage
+11:59:57.676 [TC1_PassedScenario@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testRuns\TestScenario
+11:59:57.766 [initializePage@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+11:59:57.774 [quitApp@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testComponents\BasePage
+11:59:57.783 [initializePage@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+11:59:57.848 [quitApp@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testComponents\BasePage
+11:59:57.917 [initializePage@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testComponents\BasePage
+11:59:57.987 [initializePage@1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+11:59:58.007 [initializePage@1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+11:59:59.714 [initializePage@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: Error while performing execute command with error Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'L2-SCOTT', ip: '192.168.254.134'
+11:59:59.723 [TestScenarioExamples-0@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testRuns\TestScenario
+11:59:59.785 [TC2_ErrorScenario@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testComponents\BasePage
+11:59:59.850 [TC2_ErrorScenario@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testRuns\TestScenario
+11:59:59.920 [quitApp@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testComponents\BasePage
+11:59:59.937 [initializePage@1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: Error while performing execute command with error Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'L2-SCOTT', ip: '192.168.254.134'
+11:59:59.945 [TestScenarioExamples-1@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testRuns\TestScenario
+12:00:00.013 [quitApp@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testComponents\BasePage
+12:00:00.038 [TC2_ErrorScenario@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testComponents\BasePage
+12:00:00.117 [TC2_ErrorScenario@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testRuns\TestScenario
+12:00:00.193 [quitApp@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testComponents\BasePage
+12:00:00.272 [quitApp@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testComponents\BasePage
+12:00:31.910 [TestScenarioExamples-2@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testRuns\TestScenario
+12:00:48.248 [TC1_PassedScenario@2] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: Error while performing execute command with error An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [34cca4e604f613f5b39f990ffd737ce2524ad093, findElement {using=xpath, value=//android.widget.Button[@content-desc="Log in with Mobile Number"]}]
+Capabilities {appium:appActivity: com.globalpinoytravel.app.M..., appium:appPackage: com.globalpinoytravel.app, appium:automationName: uiautomator2, appium:bundleID: com.globalpinoytravel.app, appium:bundleId: com.globalpinoytravel.app, appium:chromedriverPorts: [[18144, 18154]], appium:databaseEnabled: false, appium:desired: {appActivity: com.globalpinoytravel.app.M..., appPackage: com.globalpinoytravel.app, automationName: uiautomator2, bstack:options: {buildIdentifier: #47, hostName: L2-SCOTT, localIdentifier: 20_Nov_1159_L2_SCOTT_p3OP}, bundleID: com.globalpinoytravel.app, bundleId: com.globalpinoytravel.app, chromedriverPorts: [[18144, 18154]], deviceName: Android, disableSuppressAccessibilityService: true, goog:chromeOptions: {}, nativeWebScreenshot: true, newCommandTimeout: 0, platformName: Android, skipServerInstallation: true, systemPort: 8204, udid: R3CT40QKV1K}, appium:deviceApiLevel: 31, appium:deviceManufacturer: samsung, appium:deviceModel: SM-S908B, appium:deviceName: R3CT40QKV1K, appium:deviceScreenDensity: 450, appium:deviceScreenSize: 1080x2316, appium:deviceUDID: R3CT40QKV1K, appium:disableSuppressAccessibilityService: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:nativeWebScreenshot: true, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 0, appium:optimalHubUrl: hub-apse.browserstack.com, appium:pixelRatio: 2.8125, appium:platformVersion: 12, appium:skipServerInstallation: true, appium:statBarHeight: 75, appium:systemPort: 8204, appium:takesScreenshot: true, appium:udid: R3CT40QKV1K, appium:viewportRect: {height: 2031, left: 0, top: 75, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, bstack:options: {buildIdentifier: #47, hostName: L2-SCOTT, localIdentifier: 20_Nov_1159_L2_SCOTT_p3OP}, goog:chromeOptions: {}, platformName: ANDROID}
+Session ID: 34cca4e604f613f5b39f990ffd737ce2524ad093
+12:00:52.215 [TC1_PassedScenario@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testComponents\BasePage
+12:00:52.311 [TC1_PassedScenario@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testRuns\TestScenario
+12:00:52.584 [quitApp@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testComponents\BasePage
+12:00:56.596 [quitApp@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testComponents\BasePage
+12:00:56.763 [initializePage@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testComponents\BasePage
+12:00:56.912 [initializePage@2] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+12:00:56.946 [initializePage@2] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+12:01:34.781 [TestScenarioExamples-2@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testRuns\TestScenario
+12:01:50.835 [TC2_ErrorScenario@2] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: Error while performing execute command with error An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [82ff40656685ede74446b4c8f6b1e404d298de0a, findElement {using=xpath, value=//android.widget.Button[@content-desc="Log in with Mobile Number"]}]
+Capabilities {appium:appActivity: com.globalpinoytravel.app.M..., appium:appPackage: com.globalpinoytravel.app, appium:automationName: uiautomator2, appium:bundleID: com.globalpinoytravel.app, appium:bundleId: com.globalpinoytravel.app, appium:chromedriverPorts: [[18144, 18154]], appium:databaseEnabled: false, appium:desired: {appActivity: com.globalpinoytravel.app.M..., appPackage: com.globalpinoytravel.app, automationName: uiautomator2, bstack:options: {buildIdentifier: #47, hostName: L2-SCOTT, localIdentifier: 20_Nov_1159_L2_SCOTT_p3OP}, bundleID: com.globalpinoytravel.app, bundleId: com.globalpinoytravel.app, chromedriverPorts: [[18144, 18154]], deviceName: Android, disableSuppressAccessibilityService: true, goog:chromeOptions: {}, nativeWebScreenshot: true, newCommandTimeout: 0, platformName: Android, skipServerInstallation: true, systemPort: 8204, udid: R3CT304MJDR}, appium:deviceApiLevel: 31, appium:deviceManufacturer: samsung, appium:deviceModel: SM-S908B, appium:deviceName: R3CT304MJDR, appium:deviceScreenDensity: 450, appium:deviceScreenSize: 1080x2316, appium:deviceUDID: R3CT304MJDR, appium:disableSuppressAccessibilityService: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:nativeWebScreenshot: true, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 0, appium:optimalHubUrl: hub-apse.browserstack.com, appium:pixelRatio: 2.8125, appium:platformVersion: 12, appium:skipServerInstallation: true, appium:statBarHeight: 75, appium:systemPort: 8204, appium:takesScreenshot: true, appium:udid: R3CT304MJDR, appium:viewportRect: {height: 2031, left: 0, top: 75, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, bstack:options: {buildIdentifier: #47, hostName: L2-SCOTT, localIdentifier: 20_Nov_1159_L2_SCOTT_p3OP}, goog:chromeOptions: {}, platformName: ANDROID}
+Session ID: 82ff40656685ede74446b4c8f6b1e404d298de0a
+12:01:54.769 [TC2_ErrorScenario@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testComponents\BasePage
+12:01:54.895 [TC2_ErrorScenario@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testRuns\TestScenario
+12:01:55.208 [quitApp@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testComponents\BasePage
+12:01:58.993 [quitApp@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testComponents\BasePage
+12:02:00.465 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://automation.browserstack.com/builds/wq7vmgqesgumgpexczjzfelhm1tvsbhddoht5mzh to view build report, insights, and many more debugging information all at one place!
+
+12:02:00.465 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+12:02:00.472 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - [collectBuildData] Skipping build data collection: runSmartSelection is not enabled.
+12:02:00.472 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+12:02:03.632 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Browserstack yml path passed - C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2\browserstack.yml
+12:02:05.039 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - unable to delete debug log: java.nio.file.FileSystemException: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2\log\browserstack-javaagent.debug.log: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:109)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1191)
+	at com.browserstack.utils.UtilityMethods.a(Unknown Source)
+	at com.browserstack.utils.UtilityMethods.a(Unknown Source)
+	at com.browserstack.utils.UtilityMethods.sendLogs(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.run(Unknown Source)
+
+12:02:05.048 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Browserstack Gradle Config File does not exist.
+12:02:05.543 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - No automation framework instances found to quit for CLI flow
+12:02:05.566 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: b649603a-ef7c-4410-b5ca-ca9a0e3f8294, testhub id: wq7vmgqesgumgpexczjzfelhm1tvsbhddoht5mzh
+12:02:05.566 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+13:12:02.807 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+13:12:02.819 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.38.0
+13:12:02.819 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 10.0.0
+13:12:03.022 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\scottbyron.escueta\\eclipse-workspace\\GPTT_AutomationCloud2, localrepository=C\:\\Users\\scottbyron.escueta\\.m2\\repository}
+13:12:03.025 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework cucumber-testng
+13:12:03.029 [main] WARN  c.b.config.BrowserStackConfig - Framework Detected Mismatch, Framework Detected - cucumber-testng but Framework provided in browserstack.yml - testng
+13:12:03.339 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+13:12:03.342 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: fb7f3299-00c7-475a-bba5-75518c8bb895
+13:12:03.342 [main] INFO  c.b.config.BrowserStackConfig - INFO
+13:12:03.354 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\scottbyron.escueta\.browserstack already exist
+13:12:03.357 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: C:\Users\scottbyron.escueta\.browserstack\cli\binary-win-x64.exe
+13:12:03.358 [main] DEBUG com.browserstack.v2.SdkCliUtils - Adding sdk_framework parameter: testng
+13:12:04.521 [main] INFO  com.browserstack.v2.SdkCliUtils - CLI update check successful. Status: 200
+13:12:04.522 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 1.12.7
+13:12:04.522 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: https://sdk-assets.browserstack.com/binary-win-x64-1.12.8.zip
+13:12:06.050 [main] ERROR com.browserstack.v2.SdkCliUtils - downloadLatestBinary: Failed to download binary, Exception: java.io.FileNotFoundException: C:\Users\scottbyron.escueta\.browserstack\cli\binary-win-x64.exe (The process cannot access the file because it is being used by another process)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:179)
+	at com.browserstack.v2.SdkCliUtils.extractZip(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.downloadLatestBinary(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+13:12:06.050 [main] DEBUG com.browserstack.v2.SdkCliUtils - Resolved binary path: C:\Users\scottbyron.escueta\.browserstack\cli
+13:12:06.066 [main] DEBUG com.browserstack.v2.SdkCLI - startMain: main-process starting
+13:12:06.066 [main] INFO  com.browserstack.v2.SdkCLI - spawning command='C:\Users\scottbyron.escueta\.browserstack\cli' 'sdk' 'tcp'
+13:12:10.266 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+13:12:11.692 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: rrqrabdowujgew1k6wa2mjtoa4ehj4augpqqlabo
+13:12:11.692 [main] INFO  c.b.config.BrowserStackConfig - INFO
+13:12:11.692 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+13:12:12.147 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed - java.lang.Exception: Could not get percy token
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+13:12:12.147 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+13:12:19.138 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+13:12:20.595 [initializePage@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testComponents\BasePage
+13:12:21.000 [initializePage@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+13:12:21.026 [initializePage@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+13:12:57.973 [TestScenarioExamples-0@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testRuns\TestScenario
+13:13:23.113 [TC1_PassedScenario@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testComponents\BasePage
+13:13:23.206 [TC1_PassedScenario@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testRuns\TestScenario
+13:13:23.497 [quitApp@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testComponents\BasePage
+13:13:26.514 [quitApp@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testComponents\BasePage
+13:13:28.124 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://automation.browserstack.com/builds/rrqrabdowujgew1k6wa2mjtoa4ehj4augpqqlabo to view build report, insights, and many more debugging information all at one place!
+
+13:13:28.124 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+13:13:28.140 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - [collectBuildData] Skipping build data collection: runSmartSelection is not enabled.
+13:13:28.141 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+13:13:31.144 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Browserstack yml path passed - C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2\browserstack.yml
+13:13:32.590 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - unable to delete debug log: java.nio.file.FileSystemException: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2\log\browserstack-javaagent.debug.log: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:109)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1191)
+	at com.browserstack.utils.UtilityMethods.a(Unknown Source)
+	at com.browserstack.utils.UtilityMethods.a(Unknown Source)
+	at com.browserstack.utils.UtilityMethods.sendLogs(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.run(Unknown Source)
+
+13:13:32.605 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Browserstack Gradle Config File does not exist.
+13:13:33.769 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - No automation framework instances found to quit for CLI flow
+13:13:33.787 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: fb7f3299-00c7-475a-bba5-75518c8bb895, testhub id: rrqrabdowujgew1k6wa2mjtoa4ehj4augpqqlabo
+13:13:33.787 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+13:22:14.575 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+13:22:14.587 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.38.0
+13:22:14.588 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 10.0.0
+13:22:14.784 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\scottbyron.escueta\\eclipse-workspace\\GPTT_AutomationCloud2, localrepository=C\:\\Users\\scottbyron.escueta\\.m2\\repository}
+13:22:14.788 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework cucumber-testng
+13:22:14.791 [main] INFO  c.b.config.BrowserStackConfig - Setting value of browserstackAutomation as specified in your browserstack.yml to false
+13:22:14.792 [main] WARN  c.b.config.BrowserStackConfig - Framework Detected Mismatch, Framework Detected - cucumber-testng but Framework provided in browserstack.yml - testng
+13:22:14.792 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testReporting as specified in your browserstack.yml to true
+13:22:14.795 [main] INFO  c.b.config.BrowserStackConfig - Few SDK features were not activated as platforms object was not defined
+13:22:15.085 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 44a5288a-5233-47a5-a6ed-67886c3da80a
+13:22:15.085 [main] INFO  c.b.config.BrowserStackConfig - INFO
+13:22:15.097 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\scottbyron.escueta\.browserstack already exist
+13:22:15.101 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: C:\Users\scottbyron.escueta\.browserstack\cli\binary-win-x64.exe
+13:22:15.118 [main] DEBUG com.browserstack.v2.SdkCliUtils - Adding sdk_framework parameter: testng
+13:22:16.479 [main] INFO  com.browserstack.v2.SdkCliUtils - CLI update check successful. Status: 200
+13:22:16.480 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 1.12.7
+13:22:16.481 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: https://sdk-assets.browserstack.com/binary-win-x64-1.12.8.zip
+13:22:17.776 [main] ERROR com.browserstack.v2.SdkCliUtils - downloadLatestBinary: Failed to download binary, Exception: java.io.FileNotFoundException: C:\Users\scottbyron.escueta\.browserstack\cli\binary-win-x64.exe (The process cannot access the file because it is being used by another process)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:179)
+	at com.browserstack.v2.SdkCliUtils.extractZip(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.downloadLatestBinary(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+13:22:17.777 [main] DEBUG com.browserstack.v2.SdkCliUtils - Resolved binary path: C:\Users\scottbyron.escueta\.browserstack\cli
+13:22:17.797 [main] DEBUG com.browserstack.v2.SdkCLI - startMain: main-process starting
+13:22:17.798 [main] INFO  com.browserstack.v2.SdkCLI - spawning command='C:\Users\scottbyron.escueta\.browserstack\cli' 'sdk' 'tcp'
+13:22:18.328 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+13:22:19.801 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: q0khhpifbtbm7zomyxfturbaqm38ntc2velchopy
+13:22:19.802 [main] INFO  c.b.config.BrowserStackConfig - INFO
+13:22:19.802 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+13:22:20.242 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed - java.lang.Exception: Could not get percy token
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+13:22:21.480 [initializePage@null] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testComponents\BasePage
+13:22:43.402 [TestScenarioExamples@null] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testRuns\TestScenario
+13:23:10.382 [TC1_PassedScenario@null] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testComponents\BasePage
+13:23:10.485 [TC1_PassedScenario@null] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testRuns\TestScenario
+13:23:10.601 [quitApp@null] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testComponents\BasePage
+13:23:12.323 [quitApp@null] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testComponents\BasePage
+13:23:13.854 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://automation.browserstack.com/builds/q0khhpifbtbm7zomyxfturbaqm38ntc2velchopy to view build report, insights, and many more debugging information all at one place!
+
+13:23:13.855 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+13:23:13.868 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - [collectBuildData] Skipping build data collection: runSmartSelection is not enabled.
+13:23:13.868 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+13:23:14.270 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Browserstack yml path passed - C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2\browserstack.yml
+13:23:15.855 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - unable to delete debug log: java.nio.file.FileSystemException: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2\log\browserstack-javaagent.debug.log: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:109)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1191)
+	at com.browserstack.utils.UtilityMethods.a(Unknown Source)
+	at com.browserstack.utils.UtilityMethods.a(Unknown Source)
+	at com.browserstack.utils.UtilityMethods.sendLogs(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.run(Unknown Source)
+
+13:23:15.866 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Browserstack Gradle Config File does not exist.
+13:24:17.424 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+13:24:17.434 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.38.0
+13:24:17.435 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 10.0.0
+13:24:17.619 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\scottbyron.escueta\\eclipse-workspace\\GPTT_AutomationCloud2, localrepository=C\:\\Users\\scottbyron.escueta\\.m2\\repository}
+13:24:17.623 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework cucumber-testng
+13:24:17.628 [main] INFO  c.b.config.BrowserStackConfig - Setting value of browserstackAutomation as specified in your browserstack.yml to false
+13:24:17.628 [main] WARN  c.b.config.BrowserStackConfig - Framework Detected Mismatch, Framework Detected - cucumber-testng but Framework provided in browserstack.yml - testng
+13:24:17.629 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testReporting as specified in your browserstack.yml to true
+13:24:17.631 [main] INFO  c.b.config.BrowserStackConfig - Few SDK features were not activated as platforms object was not defined
+13:24:17.854 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: c61c5d82-ce63-4775-83fa-3f9ffc976dab
+13:24:17.854 [main] INFO  c.b.config.BrowserStackConfig - INFO
+13:24:17.866 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\scottbyron.escueta\.browserstack already exist
+13:24:17.868 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: C:\Users\scottbyron.escueta\.browserstack\cli\binary-win-x64.exe
+13:24:17.885 [main] DEBUG com.browserstack.v2.SdkCliUtils - Adding sdk_framework parameter: testng
+13:24:19.018 [main] INFO  com.browserstack.v2.SdkCliUtils - CLI update check successful. Status: 200
+13:24:19.019 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 1.12.7
+13:24:19.019 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: https://sdk-assets.browserstack.com/binary-win-x64-1.12.8.zip
+13:24:20.083 [main] ERROR com.browserstack.v2.SdkCliUtils - downloadLatestBinary: Failed to download binary, Exception: java.io.FileNotFoundException: C:\Users\scottbyron.escueta\.browserstack\cli\binary-win-x64.exe (The process cannot access the file because it is being used by another process)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:179)
+	at com.browserstack.v2.SdkCliUtils.extractZip(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.downloadLatestBinary(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+13:24:20.084 [main] DEBUG com.browserstack.v2.SdkCliUtils - Resolved binary path: C:\Users\scottbyron.escueta\.browserstack\cli
+13:24:20.093 [main] DEBUG com.browserstack.v2.SdkCLI - startMain: main-process starting
+13:24:20.093 [main] INFO  com.browserstack.v2.SdkCLI - spawning command='C:\Users\scottbyron.escueta\.browserstack\cli' 'sdk' 'tcp'
+13:24:20.638 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+13:24:22.029 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: 1zsixdimuqfxae47ux8yml0xoj8ryaaes74bt0qd
+13:24:22.029 [main] INFO  c.b.config.BrowserStackConfig - INFO
+13:24:22.029 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+13:24:22.465 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed - java.lang.Exception: Could not get percy token
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+13:24:23.356 [initializePage@null] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testComponents\BasePage
+13:24:48.619 [TestScenarioExamples@null] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testRuns\TestScenario
+13:25:13.869 [TC1_PassedScenario@null] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testComponents\BasePage
+13:25:14.011 [TC1_PassedScenario@null] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testRuns\TestScenario
+13:25:14.148 [quitApp@null] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testComponents\BasePage
+13:25:16.459 [quitApp@null] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testComponents\BasePage
+13:25:18.113 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://automation.browserstack.com/builds/1zsixdimuqfxae47ux8yml0xoj8ryaaes74bt0qd to view build report, insights, and many more debugging information all at one place!
+
+13:25:18.113 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+13:25:18.121 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - [collectBuildData] Skipping build data collection: runSmartSelection is not enabled.
+13:25:18.121 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+13:25:18.525 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Browserstack yml path passed - C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2\browserstack.yml
+13:25:20.202 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - unable to delete debug log: java.nio.file.FileSystemException: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2\log\browserstack-javaagent.debug.log: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:109)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1191)
+	at com.browserstack.utils.UtilityMethods.a(Unknown Source)
+	at com.browserstack.utils.UtilityMethods.a(Unknown Source)
+	at com.browserstack.utils.UtilityMethods.sendLogs(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.run(Unknown Source)
+
+13:25:20.213 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Browserstack Gradle Config File does not exist.
+13:26:28.703 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+13:26:28.711 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.38.0
+13:26:28.712 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 10.0.0
+13:26:28.880 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\scottbyron.escueta\\eclipse-workspace\\GPTT_AutomationCloud2, localrepository=C\:\\Users\\scottbyron.escueta\\.m2\\repository}
+13:26:28.884 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework cucumber-testng
+13:26:28.887 [main] INFO  c.b.config.BrowserStackConfig - Setting value of browserstackAutomation as specified in your browserstack.yml to false
+13:26:28.887 [main] WARN  c.b.config.BrowserStackConfig - Framework Detected Mismatch, Framework Detected - cucumber-testng but Framework provided in browserstack.yml - testng
+13:26:28.887 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testReporting as specified in your browserstack.yml to true
+13:26:28.889 [main] INFO  c.b.config.BrowserStackConfig - Few SDK features were not activated as platforms object was not defined
+13:26:29.100 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: e4046ac5-a699-431e-b891-4bafde079065
+13:26:29.101 [main] INFO  c.b.config.BrowserStackConfig - INFO
+13:26:29.110 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\scottbyron.escueta\.browserstack already exist
+13:26:29.112 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: C:\Users\scottbyron.escueta\.browserstack\cli\binary-win-x64.exe
+13:26:29.127 [main] DEBUG com.browserstack.v2.SdkCliUtils - Adding sdk_framework parameter: testng
+13:26:30.251 [main] INFO  com.browserstack.v2.SdkCliUtils - CLI update check successful. Status: 200
+13:26:30.252 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 1.12.7
+13:26:30.252 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: https://sdk-assets.browserstack.com/binary-win-x64-1.12.8.zip
+13:26:31.391 [main] ERROR com.browserstack.v2.SdkCliUtils - downloadLatestBinary: Failed to download binary, Exception: java.io.FileNotFoundException: C:\Users\scottbyron.escueta\.browserstack\cli\binary-win-x64.exe (The process cannot access the file because it is being used by another process)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:179)
+	at com.browserstack.v2.SdkCliUtils.extractZip(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.downloadLatestBinary(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+13:26:31.391 [main] DEBUG com.browserstack.v2.SdkCliUtils - Resolved binary path: C:\Users\scottbyron.escueta\.browserstack\cli
+13:26:31.402 [main] DEBUG com.browserstack.v2.SdkCLI - startMain: main-process starting
+13:26:31.403 [main] INFO  com.browserstack.v2.SdkCLI - spawning command='C:\Users\scottbyron.escueta\.browserstack\cli' 'sdk' 'tcp'
+13:26:31.897 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+13:26:33.261 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: vuwuzv9fxulmp3fl3cul3jcdztjqlbsqwfkyucdz
+13:26:33.261 [main] INFO  c.b.config.BrowserStackConfig - INFO
+13:26:33.262 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+13:26:34.522 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed - java.lang.Exception: Could not get percy token
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+13:26:35.429 [initializePage@null] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testComponents\BasePage
+13:26:57.983 [TestScenarioExamples@null] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testRuns\TestScenario
+13:27:22.766 [TC1_PassedScenario@null] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testComponents\BasePage
+13:27:22.846 [TC1_PassedScenario@null] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testRuns\TestScenario
+13:27:22.940 [quitApp@null] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testComponents\BasePage
+13:27:24.475 [quitApp@null] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testComponents\BasePage
+13:27:24.562 [initializePage@null] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testComponents\BasePage
+13:27:45.523 [TestScenarioExamples@null] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testRuns\TestScenario
+13:28:00.359 [TC2_ErrorScenario@null] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testComponents\BasePage
+13:28:00.445 [TC2_ErrorScenario@null] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testRuns\TestScenario
+13:28:00.535 [quitApp@null] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testComponents\BasePage
+13:28:02.245 [quitApp@null] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2, TestClass :: testComponents\BasePage
+13:28:03.767 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://automation.browserstack.com/builds/vuwuzv9fxulmp3fl3cul3jcdztjqlbsqwfkyucdz to view build report, insights, and many more debugging information all at one place!
+
+13:28:03.767 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+13:28:03.778 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - [collectBuildData] Skipping build data collection: runSmartSelection is not enabled.
+13:28:03.778 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+13:28:04.202 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Browserstack yml path passed - C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2\browserstack.yml
+13:28:05.777 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - unable to delete debug log: java.nio.file.FileSystemException: C:\Users\scottbyron.escueta\eclipse-workspace\GPTT_AutomationCloud2\log\browserstack-javaagent.debug.log: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:109)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1191)
+	at com.browserstack.utils.UtilityMethods.a(Unknown Source)
+	at com.browserstack.utils.UtilityMethods.a(Unknown Source)
+	at com.browserstack.utils.UtilityMethods.sendLogs(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.run(Unknown Source)
+
+13:28:05.787 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Browserstack Gradle Config File does not exist.

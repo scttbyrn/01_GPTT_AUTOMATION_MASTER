@@ -20,6 +20,8 @@ import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 public class LandingPage extends AndroidActions {
 	
 	AppiumDriver driver;
+	DashBoardPage dashboard;
+	ProfilePage profile;
 	
 	public LandingPage(AppiumDriver driver) {
 		super(driver);
@@ -31,7 +33,7 @@ public class LandingPage extends AndroidActions {
 //	private WebElement nameField;
 	
 	
-	public void setupGetStartedOTPMPIN() throws InterruptedException {
+	public DashBoardPage setupGetStartedOTPMPIN() throws InterruptedException {
 		
 		driver.findElement(By.xpath("//android.widget.Button[@content-desc='Get Started']")).click();
 		driver.findElement(By.xpath("//android.widget.Button[@content-desc='Skip']")).click();
@@ -65,6 +67,11 @@ public class LandingPage extends AndroidActions {
 		driver.findElement(By.xpath("//android.view.View[@content-desc = '8']")).click();
 		driver.findElement(By.xpath("//android.view.View[@content-desc = '0']")).click();
 		
+		
+		
+		dashboard = new DashBoardPage(driver);
+		 return dashboard;
+		
 	}
 	
 	public void errorScenario() {
@@ -90,8 +97,6 @@ public class LandingPage extends AndroidActions {
 		Activity activity = new Activity ("com.globalpinoytravel.app", "com.globalpinoytravel.app.MainActivity");  
 		((JavascriptExecutor)driver).executeScript("mobile: startActivity",ImmutableMap.of("intent", "com.globalpinoytravel.app/com.globalpinoytravel.app.MainActivity"));
 	}
-	
-
 	
 
 	
