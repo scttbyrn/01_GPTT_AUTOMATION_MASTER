@@ -32,7 +32,7 @@ import static org.hamcrest.Matchers.*;
 
 public class TestScenario extends BasePage {
 	
-	//DEVELOPMENT AREAs:
+	//DEVELOPMENT AREAss:
 	
 	LandingPage landingpage;
 	DashBoardPage dashboard;
