@@ -1,0 +1,6 @@
+# Created at 2025-12-09T17:24:13.742
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[[1;34mINFO[0;39m] SDK run started with id: 198b253d-fb66-49e1-9a21-21674087ee47'.
+
+# Created at 2025-12-09T17:24:46.766
+Surefire is going to kill self fork JVM. The exit has elapsed 30 seconds after System.exit(0).
+

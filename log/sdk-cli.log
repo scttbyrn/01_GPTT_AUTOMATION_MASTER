@@ -1,0 +1,2502 @@
+2025-12-09T09:21:36.519Z CLI info [main]     Server listening on port: 5400
+2025-12-09T09:21:37.051Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","buildName":"TestSampleCloud","projectName":"GPTT Automation","CUSTOM_TAG_1":"Test1","framework":"testng","testObservability":true,"browserstackAutomation":false}
+2025-12-09T09:21:37.086Z CLI info [testhub:module]  [scotty_NHkc4f]   [2620109f-9edc-44bd-a459-d6f5a9cc3a69]  Starting testhub from 20752:0
+2025-12-09T09:21:37.088Z CLI info  [scotty_NHkc4f]   [2620109f-9edc-44bd-a459-d6f5a9cc3a69]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2025-12-09T09:21:38.760Z CLI info [testhub:module]  [scotty_NHkc4f]   [2620109f-9edc-44bd-a459-d6f5a9cc3a69]  startBuild: response=xogldcwam9kpfv2s7mkluifb82ttzdjprynrsow2
+2025-12-09T09:21:38.762Z CLI info  [scotty_NHkc4f]  [xogldcwam9kpfv2s7mkluifb82ttzdjprynrsow2]  [2620109f-9edc-44bd-a459-d6f5a9cc3a69]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-12-09T09:21:40.701Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [xogldcwam9kpfv2s7mkluifb82ttzdjprynrsow2]  [2620109f-9edc-44bd-a459-d6f5a9cc3a69]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_METHOD',
+    framework: 'TestNG',
+    uuid: 'fa93f02d-ac75-40d5-a583-fd773953e9e8',
+    name: 'initializePage',
+    result: 'pending',
+    test_run_id: 'd0121a0e-80bc-43b0-8b4a-6b3bcb1cb896',
+    body: { lang: 'java', code: null },
+    scope: 'Suite.testRuns.TestScenario',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Suite', 'testRuns.TestScenario' ],
+    file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    started_at: '2025-12-09T09:21:40.681Z'
+  },
+  logs: []
+} to 20752:0
+2025-12-09T09:21:40.731Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [xogldcwam9kpfv2s7mkluifb82ttzdjprynrsow2]  [2620109f-9edc-44bd-a459-d6f5a9cc3a69]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.11.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-12-09T09:21:40.716Z',
+      uuid: 'fa93f02d-ac75-40d5-a583-fd773953e9e8',
+      kind: 'TEST_LOG',
+      message: '"Capabilities: null"',
+      level: 'INFO',
+      test_run_uuid: 'fa93f02d-ac75-40d5-a583-fd773953e9e8'
+    }
+  ]
+} to 20752:0
+2025-12-09T09:21:40.750Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [xogldcwam9kpfv2s7mkluifb82ttzdjprynrsow2]  [2620109f-9edc-44bd-a459-d6f5a9cc3a69]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.11.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-12-09T09:21:40.746Z',
+      uuid: 'fa93f02d-ac75-40d5-a583-fd773953e9e8',
+      kind: 'TEST_LOG',
+      message: '"BS USER = null"',
+      level: 'INFO',
+      test_run_uuid: 'fa93f02d-ac75-40d5-a583-fd773953e9e8'
+    }
+  ]
+} to 20752:0
+2025-12-09T09:21:40.765Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [xogldcwam9kpfv2s7mkluifb82ttzdjprynrsow2]  [2620109f-9edc-44bd-a459-d6f5a9cc3a69]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.11.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-12-09T09:21:40.763Z',
+      uuid: 'fa93f02d-ac75-40d5-a583-fd773953e9e8',
+      kind: 'TEST_LOG',
+      message: '"BS KEY = null"',
+      level: 'INFO',
+      test_run_uuid: 'fa93f02d-ac75-40d5-a583-fd773953e9e8'
+    }
+  ]
+} to 20752:0
+2025-12-09T09:21:40.767Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [xogldcwam9kpfv2s7mkluifb82ttzdjprynrsow2]  [2620109f-9edc-44bd-a459-d6f5a9cc3a69]  Processing batch event [
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_METHOD',
+      framework: 'TestNG',
+      uuid: 'fa93f02d-ac75-40d5-a583-fd773953e9e8',
+      name: 'initializePage',
+      result: 'pending',
+      test_run_id: 'd0121a0e-80bc-43b0-8b4a-6b3bcb1cb896',
+      body: [Object],
+      scope: 'Suite.testRuns.TestScenario',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      started_at: '2025-12-09T09:21:40.681Z'
+    },
+    logs: []
+  },
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object] ] }
+] to 20752:0
+2025-12-09T09:21:40.767Z CLI info  [scotty_NHkc4f]  [xogldcwam9kpfv2s7mkluifb82ttzdjprynrsow2]  [2620109f-9edc-44bd-a459-d6f5a9cc3a69]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-12-09T09:21:40.826Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [xogldcwam9kpfv2s7mkluifb82ttzdjprynrsow2]  [2620109f-9edc-44bd-a459-d6f5a9cc3a69]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.11.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-12-09T09:21:40.822Z',
+      uuid: 'fa93f02d-ac75-40d5-a583-fd773953e9e8',
+      kind: 'TEST_LOG',
+      message: '"Capabilities: {platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=bs://b15c84f2805b4714db67643284c7861d2e73ed78, bstack:options={buildName=Build 1, osVersion=13.0, accessKey=[REDACTED], sessionName=Sample Test, platformVersion=13, userName=[REDACTED], projectName=GPTT App, platformName=Android, deviceName=Samsung Galaxy S23}}"',
+      level: 'INFO',
+      test_run_uuid: 'fa93f02d-ac75-40d5-a583-fd773953e9e8'
+    }
+  ]
+} to 20752:0
+2025-12-09T09:21:41.110Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [xogldcwam9kpfv2s7mkluifb82ttzdjprynrsow2]  [2620109f-9edc-44bd-a459-d6f5a9cc3a69]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_METHOD',
+    framework: 'TestNG',
+    uuid: 'fa93f02d-ac75-40d5-a583-fd773953e9e8',
+    name: 'initializePage',
+    result: 'failed',
+    test_run_id: 'd0121a0e-80bc-43b0-8b4a-6b3bcb1cb896',
+    body: { lang: 'java', code: null },
+    scope: 'Suite.testRuns.TestScenario',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Suite', 'testRuns.TestScenario' ],
+    file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    started_at: '2025-12-09T09:21:40.681Z',
+    finished_at: '2025-12-09T09:21:41.100Z'
+  },
+  logs: []
+} to 20752:0
+2025-12-09T09:21:41.258Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [xogldcwam9kpfv2s7mkluifb82ttzdjprynrsow2]  [2620109f-9edc-44bd-a459-d6f5a9cc3a69]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: 'f2f3d7bd-2c66-4eda-a3b5-bab6e97905c5',
+    name: 'TC1_PassedScenario',
+    body: {
+      lang: 'java',
+      code: 'public void testRuns.TestScenario.TC1_PassedScenario() throws java.lang.InterruptedException'
+    },
+    identifier: 'TC1_PassedScenario',
+    scope: 'Suite.testRuns.TestScenario',
+    scopes: [ 'Suite', 'testRuns.TestScenario' ],
+    file_name: 'src\\test\\java\\testRuns\\TestScenario.java',
+    vc_filepath: 'src\\test\\java\\testRuns\\TestScenario.java',
+    location: 'src\\test\\java\\testRuns\\TestScenario.java',
+    meta: {},
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-12-09T09:21:41.216Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [ 'Regression' ],
+    customRerunParam: { rerun_name: 'TestScenarioExamples' },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 20752:0
+2025-12-09T09:21:42.202Z CLI warn [TEST REPORTING AND ANALYTICS:java:testng]  [scotty_NHkc4f]  [xogldcwam9kpfv2s7mkluifb82ttzdjprynrsow2]  [2620109f-9edc-44bd-a459-d6f5a9cc3a69]  TestRunFinished: event={"test_hook_last_started":"BEFORE_METHOD","test_failure_type":"UnhandledError","test_rerun_name":"TestScenarioExamples","test_result_at":"2025-12-09T17:21:41.276781100","test_scope":"Suite.testRuns.TestScenario","test_framework_name":"TestNG","test_tags":["Regression"],"test_started_at":"2025-12-09T17:21:41.216385100","platform_index":0,"test_failure":[{"backtrace":["org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. ","Host info: host: 'L2-SCOTT', ip: '172.168.1.66'","Build info: version: '4.39.0', revision: '126f156aee'","System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'","Driver info: io.appium.java_client.android.AndroidDriver","Command: [null, newSession {capabilities=[null]}]","Capabilities {}\r","\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)\r","\tat io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)\r","\tat org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:178)\r","\tat io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98)\r","\tat io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:109)\r","\tat io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:108)\r","\tat testComponents.BasePage.InitializeDriver(BasePage.java:95)\r","\tat testComponents.BasePage.initializePage(BasePage.java:113)\r","\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\r","\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\r","\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)\r","\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)\r","\tat org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)\r","\tat org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)\r","\tat org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)\r","\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)\r","\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)\r","\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)\r","\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)\r","\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)\r","\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)\r","\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)\r","\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)\r","\tat org.testng.TestRunner.privateRun(TestRunner.java:741)\r","\tat org.testng.TestRunner.run(TestRunner.java:616)\r","\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:421)\r","\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)\r","\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)\r","\tat org.testng.SuiteRunner.run(SuiteRunner.java:312)\r","\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r","\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\r","\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)\r","\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1208)\r","\tat org.testng.TestNG.runSuites(TestNG.java:1112)\r","\tat org.testng.TestNG.run(TestNG.java:1079)\r","\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)\r","\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)\r","\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)\r","\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)\r","\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\r","\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)\r","\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)\r","Caused by: java.lang.NullPointerException\r","\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\r","\tat java.base/java.util.Collections$2.tryAdvance(Collections.java:5073)\r","\tat java.base/java.util.Collections$2.forEachRemaining(Collections.java:5081)\r","\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)\r","\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\r","\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)\r","\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r","\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)\r","\tat org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:89)\r","\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:60)\r","\tat io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)\r","\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)\r","\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)\r","\t... 41 more\r"]}],"test_framework_version":"7.11.0","test_logs":[],"test_scopes":["Suite","testRuns.TestScenario"],"test_code":"public void testRuns.TestScenario.TC1_PassedScenario() throws java.lang.InterruptedException","test_id":"TestScenarioExamples@null","test_uuid":"f2f3d7bd-2c66-4eda-a3b5-bab6e97905c5","test_ended_at":"2025-12-09T17:21:41.278780500","automate_session_name":"TestScenarioExamplesnull","test_hook_last_finished":"BEFORE_METHOD","test_session_name":"testRuns.TestScenario-TC1_PassedScenario","accumulated_error_messages":[],"test_hook_state":"sdk:hook:e5b33ca6","custom_metadata":{},"test_failure_reason":"org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. \nHost info: host: 'L2-SCOTT', ip: '172.168.1.66'\nBuild info: version: '4.39.0', revision: '126f156aee'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'\nDriver info: io.appium.java_client.android.AndroidDriver\nCommand: [null, newSession {capabilities=[null]}]\nCapabilities {}","test_location":"src\\test\\java\\testRuns\\TestScenario.java","test_hooks_started":{"BEFORE_METHOD":[]},"test_file_path":"src\\test\\java\\testRuns\\TestScenario.java","test_result":"skipped","test_hooks_finished":{"BEFORE_METHOD":[{"hook_name":"initializePage","hook_result":"failed","test_file_path":"GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java","event_started_at":"2025-12-09T17:21:40.681015500","hook_id":"fa93f02d-ac75-40d5-a583-fd773953e9e8","hook_logs":[],"logs":[],"key":"BEFORE_METHOD","custom_metadata":{},"event_ended_at":"2025-12-09T17:21:41.100238700","test_location":"GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java"}]},"hook_id":"fa93f02d-ac75-40d5-a583-fd773953e9e8","test_meta":{},"isBrowserstackAutomationSession":false,"test_name":"TC1_PassedScenario","accumulated_session_status":null,"logs":[]}
+2025-12-09T09:21:42.205Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [xogldcwam9kpfv2s7mkluifb82ttzdjprynrsow2]  [2620109f-9edc-44bd-a459-d6f5a9cc3a69]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: 'f2f3d7bd-2c66-4eda-a3b5-bab6e97905c5',
+    name: 'TC1_PassedScenario',
+    body: {
+      lang: 'java',
+      code: 'public void testRuns.TestScenario.TC1_PassedScenario() throws java.lang.InterruptedException'
+    },
+    identifier: 'TC1_PassedScenario',
+    scope: 'Suite.testRuns.TestScenario',
+    scopes: [ 'Suite', 'testRuns.TestScenario' ],
+    file_name: 'src\\test\\java\\testRuns\\TestScenario.java',
+    vc_filepath: 'src\\test\\java\\testRuns\\TestScenario.java',
+    location: 'src\\test\\java\\testRuns\\TestScenario.java',
+    meta: {},
+    result: 'skipped',
+    duration_in_ms: 62,
+    started_at: '2025-12-09T09:21:41.216Z',
+    finished_at: '2025-12-09T09:21:41.278Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: 'org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. \n' +
+      "Host info: host: 'L2-SCOTT', ip: '172.168.1.66'\n" +
+      "Build info: version: '4.39.0', revision: '126f156aee'\n" +
+      "System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'\n" +
+      'Driver info: io.appium.java_client.android.AndroidDriver\n' +
+      'Command: [null, newSession {capabilities=[null]}]\n' +
+      'Capabilities {}',
+    retry_of: null,
+    custom_metadata: {},
+    tags: [ 'Regression' ],
+    customRerunParam: { rerun_name: 'TestScenarioExamples' },
+    hooks: [ 'fa93f02d-ac75-40d5-a583-fd773953e9e8' ],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 20752:0
+2025-12-09T09:21:42.334Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [xogldcwam9kpfv2s7mkluifb82ttzdjprynrsow2]  [2620109f-9edc-44bd-a459-d6f5a9cc3a69]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_METHOD',
+    framework: 'TestNG',
+    uuid: '5fbd379a-c4a5-4f5e-bf6e-5a6cc1779d5c',
+    name: 'quitApp',
+    result: 'pending',
+    test_run_id: 'f2f3d7bd-2c66-4eda-a3b5-bab6e97905c5',
+    body: { lang: 'java', code: null },
+    scope: 'Suite.testRuns.TestScenario',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Suite', 'testRuns.TestScenario' ],
+    file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    started_at: '2025-12-09T09:21:42.329Z'
+  },
+  logs: []
+} to 20752:0
+2025-12-09T09:21:42.443Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [xogldcwam9kpfv2s7mkluifb82ttzdjprynrsow2]  [2620109f-9edc-44bd-a459-d6f5a9cc3a69]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_METHOD',
+    framework: 'TestNG',
+    uuid: '5fbd379a-c4a5-4f5e-bf6e-5a6cc1779d5c',
+    name: 'quitApp',
+    result: 'passed',
+    test_run_id: 'f2f3d7bd-2c66-4eda-a3b5-bab6e97905c5',
+    body: { lang: 'java', code: null },
+    scope: 'Suite.testRuns.TestScenario',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Suite', 'testRuns.TestScenario' ],
+    file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    started_at: '2025-12-09T09:21:42.329Z',
+    finished_at: '2025-12-09T09:21:42.434Z'
+  },
+  logs: []
+} to 20752:0
+2025-12-09T09:21:42.555Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [xogldcwam9kpfv2s7mkluifb82ttzdjprynrsow2]  [2620109f-9edc-44bd-a459-d6f5a9cc3a69]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_METHOD',
+    framework: 'TestNG',
+    uuid: 'b722a928-2462-45c7-b521-d7616f940eb6',
+    name: 'initializePage',
+    result: 'pending',
+    test_run_id: '20138712-63fa-43b0-8abf-9e442cba607d',
+    body: { lang: 'java', code: null },
+    scope: 'Suite.testRuns.TestingAPI',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Suite', 'testRuns.TestingAPI' ],
+    file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestingAPI.java',
+    vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestingAPI.java',
+    location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestingAPI.java',
+    started_at: '2025-12-09T09:21:42.551Z'
+  },
+  logs: []
+} to 20752:0
+2025-12-09T09:21:42.568Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [xogldcwam9kpfv2s7mkluifb82ttzdjprynrsow2]  [2620109f-9edc-44bd-a459-d6f5a9cc3a69]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.11.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-12-09T09:21:42.566Z',
+      uuid: 'b722a928-2462-45c7-b521-d7616f940eb6',
+      kind: 'TEST_LOG',
+      message: '"Capabilities: null"',
+      level: 'INFO',
+      test_run_uuid: 'b722a928-2462-45c7-b521-d7616f940eb6'
+    }
+  ]
+} to 20752:0
+2025-12-09T09:21:42.581Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [xogldcwam9kpfv2s7mkluifb82ttzdjprynrsow2]  [2620109f-9edc-44bd-a459-d6f5a9cc3a69]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.11.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-12-09T09:21:42.579Z',
+      uuid: 'b722a928-2462-45c7-b521-d7616f940eb6',
+      kind: 'TEST_LOG',
+      message: '"BS USER = null"',
+      level: 'INFO',
+      test_run_uuid: 'b722a928-2462-45c7-b521-d7616f940eb6'
+    }
+  ]
+} to 20752:0
+2025-12-09T09:21:42.599Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [xogldcwam9kpfv2s7mkluifb82ttzdjprynrsow2]  [2620109f-9edc-44bd-a459-d6f5a9cc3a69]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.11.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-12-09T09:21:42.596Z',
+      uuid: 'b722a928-2462-45c7-b521-d7616f940eb6',
+      kind: 'TEST_LOG',
+      message: '"BS KEY = null"',
+      level: 'INFO',
+      test_run_uuid: 'b722a928-2462-45c7-b521-d7616f940eb6'
+    }
+  ]
+} to 20752:0
+2025-12-09T09:21:42.613Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [xogldcwam9kpfv2s7mkluifb82ttzdjprynrsow2]  [2620109f-9edc-44bd-a459-d6f5a9cc3a69]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.11.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-12-09T09:21:42.610Z',
+      uuid: 'b722a928-2462-45c7-b521-d7616f940eb6',
+      kind: 'TEST_LOG',
+      message: '"Capabilities: {platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=bs://b15c84f2805b4714db67643284c7861d2e73ed78, bstack:options={buildName=Build 1, osVersion=13.0, accessKey=[REDACTED], sessionName=Sample Test, platformVersion=13, userName=[REDACTED], projectName=GPTT App, platformName=Android, deviceName=Samsung Galaxy S23}}"',
+      level: 'INFO',
+      test_run_uuid: 'b722a928-2462-45c7-b521-d7616f940eb6'
+    }
+  ]
+} to 20752:0
+2025-12-09T09:21:42.755Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [xogldcwam9kpfv2s7mkluifb82ttzdjprynrsow2]  [2620109f-9edc-44bd-a459-d6f5a9cc3a69]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_METHOD',
+    framework: 'TestNG',
+    uuid: 'b722a928-2462-45c7-b521-d7616f940eb6',
+    name: 'initializePage',
+    result: 'failed',
+    test_run_id: '20138712-63fa-43b0-8abf-9e442cba607d',
+    body: { lang: 'java', code: null },
+    scope: 'Suite.testRuns.TestingAPI',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Suite', 'testRuns.TestingAPI' ],
+    file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestingAPI.java',
+    vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestingAPI.java',
+    location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestingAPI.java',
+    started_at: '2025-12-09T09:21:42.551Z',
+    finished_at: '2025-12-09T09:21:42.750Z'
+  },
+  logs: []
+} to 20752:0
+2025-12-09T09:21:42.772Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [xogldcwam9kpfv2s7mkluifb82ttzdjprynrsow2]  [2620109f-9edc-44bd-a459-d6f5a9cc3a69]  Processing batch event [
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_METHOD',
+      framework: 'TestNG',
+      uuid: 'fa93f02d-ac75-40d5-a583-fd773953e9e8',
+      name: 'initializePage',
+      result: 'failed',
+      test_run_id: 'd0121a0e-80bc-43b0-8b4a-6b3bcb1cb896',
+      body: [Object],
+      scope: 'Suite.testRuns.TestScenario',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      started_at: '2025-12-09T09:21:40.681Z',
+      finished_at: '2025-12-09T09:21:41.100Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: 'f2f3d7bd-2c66-4eda-a3b5-bab6e97905c5',
+      name: 'TC1_PassedScenario',
+      body: [Object],
+      identifier: 'TC1_PassedScenario',
+      scope: 'Suite.testRuns.TestScenario',
+      scopes: [Array],
+      file_name: 'src\\test\\java\\testRuns\\TestScenario.java',
+      vc_filepath: 'src\\test\\java\\testRuns\\TestScenario.java',
+      location: 'src\\test\\java\\testRuns\\TestScenario.java',
+      meta: {},
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-12-09T09:21:41.216Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [Array],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: 'f2f3d7bd-2c66-4eda-a3b5-bab6e97905c5',
+      name: 'TC1_PassedScenario',
+      body: [Object],
+      identifier: 'TC1_PassedScenario',
+      scope: 'Suite.testRuns.TestScenario',
+      scopes: [Array],
+      file_name: 'src\\test\\java\\testRuns\\TestScenario.java',
+      vc_filepath: 'src\\test\\java\\testRuns\\TestScenario.java',
+      location: 'src\\test\\java\\testRuns\\TestScenario.java',
+      meta: {},
+      result: 'skipped',
+      duration_in_ms: 62,
+      started_at: '2025-12-09T09:21:41.216Z',
+      finished_at: '2025-12-09T09:21:41.278Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: 'org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. \n' +
+        "Host info: host: 'L2-SCOTT', ip: '172.168.1.66'\n" +
+        "Build info: version: '4.39.0', revision: '126f156aee'\n" +
+        "System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'\n" +
+        'Driver info: io.appium.java_client.android.AndroidDriver\n' +
+        'Command: [null, newSession {capabilities=[null]}]\n' +
+        'Capabilities {}',
+      retry_of: null,
+      custom_metadata: {},
+      tags: [Array],
+      customRerunParam: [Object],
+      hooks: [Array],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_METHOD',
+      framework: 'TestNG',
+      uuid: '5fbd379a-c4a5-4f5e-bf6e-5a6cc1779d5c',
+      name: 'quitApp',
+      result: 'pending',
+      test_run_id: 'f2f3d7bd-2c66-4eda-a3b5-bab6e97905c5',
+      body: [Object],
+      scope: 'Suite.testRuns.TestScenario',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      started_at: '2025-12-09T09:21:42.329Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_METHOD',
+      framework: 'TestNG',
+      uuid: '5fbd379a-c4a5-4f5e-bf6e-5a6cc1779d5c',
+      name: 'quitApp',
+      result: 'passed',
+      test_run_id: 'f2f3d7bd-2c66-4eda-a3b5-bab6e97905c5',
+      body: [Object],
+      scope: 'Suite.testRuns.TestScenario',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      started_at: '2025-12-09T09:21:42.329Z',
+      finished_at: '2025-12-09T09:21:42.434Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_METHOD',
+      framework: 'TestNG',
+      uuid: 'b722a928-2462-45c7-b521-d7616f940eb6',
+      name: 'initializePage',
+      result: 'pending',
+      test_run_id: '20138712-63fa-43b0-8abf-9e442cba607d',
+      body: [Object],
+      scope: 'Suite.testRuns.TestingAPI',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestingAPI.java',
+      vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestingAPI.java',
+      location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestingAPI.java',
+      started_at: '2025-12-09T09:21:42.551Z'
+    },
+    logs: []
+  },
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_METHOD',
+      framework: 'TestNG',
+      uuid: 'b722a928-2462-45c7-b521-d7616f940eb6',
+      name: 'initializePage',
+      result: 'failed',
+      test_run_id: '20138712-63fa-43b0-8abf-9e442cba607d',
+      body: [Object],
+      scope: 'Suite.testRuns.TestingAPI',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestingAPI.java',
+      vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestingAPI.java',
+      location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestingAPI.java',
+      started_at: '2025-12-09T09:21:42.551Z',
+      finished_at: '2025-12-09T09:21:42.750Z'
+    },
+    logs: []
+  }
+] to 20752:0
+2025-12-09T09:21:42.774Z CLI info  [scotty_NHkc4f]  [xogldcwam9kpfv2s7mkluifb82ttzdjprynrsow2]  [2620109f-9edc-44bd-a459-d6f5a9cc3a69]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-12-09T09:21:42.874Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [xogldcwam9kpfv2s7mkluifb82ttzdjprynrsow2]  [2620109f-9edc-44bd-a459-d6f5a9cc3a69]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: '03be33e7-df5b-41ec-9c98-4e035cb46231',
+    name: 'apitestscenario',
+    body: {
+      lang: 'java',
+      code: 'public void testRuns.TestingAPI.apitestscenario()'
+    },
+    identifier: 'apitestscenario',
+    scope: 'Suite.testRuns.TestingAPI',
+    scopes: [ 'Suite', 'testRuns.TestingAPI' ],
+    file_name: 'src\\test\\java\\testRuns\\TestingAPI.java',
+    vc_filepath: 'src\\test\\java\\testRuns\\TestingAPI.java',
+    location: 'src\\test\\java\\testRuns\\TestingAPI.java',
+    meta: {},
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-12-09T09:21:42.858Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [ 'Regression' ],
+    customRerunParam: { rerun_name: 'TestScenarioExamples' },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 20752:0
+2025-12-09T09:21:43.943Z CLI warn [TEST REPORTING AND ANALYTICS:java:testng]  [scotty_NHkc4f]  [xogldcwam9kpfv2s7mkluifb82ttzdjprynrsow2]  [2620109f-9edc-44bd-a459-d6f5a9cc3a69]  TestRunFinished: event={"test_hook_last_started":"BEFORE_METHOD","test_failure_type":"UnhandledError","test_rerun_name":"TestScenarioExamples","test_result_at":"2025-12-09T17:21:42.887069","test_scope":"Suite.testRuns.TestingAPI","test_framework_name":"TestNG","test_tags":["Regression"],"test_started_at":"2025-12-09T17:21:42.858967500","platform_index":0,"test_failure":[{"backtrace":["org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. ","Host info: host: 'L2-SCOTT', ip: '172.168.1.66'","Build info: version: '4.39.0', revision: '126f156aee'","System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'","Driver info: io.appium.java_client.android.AndroidDriver","Command: [null, newSession {capabilities=[null]}]","Capabilities {}\r","\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)\r","\tat io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)\r","\tat org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:178)\r","\tat io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98)\r","\tat io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:109)\r","\tat io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:108)\r","\tat testComponents.BasePage.InitializeDriver(BasePage.java:95)\r","\tat testComponents.BasePage.initializePage(BasePage.java:113)\r","\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\r","\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\r","\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)\r","\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)\r","\tat org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)\r","\tat org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)\r","\tat org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)\r","\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)\r","\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)\r","\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)\r","\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)\r","\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)\r","\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)\r","\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)\r","\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)\r","\tat org.testng.TestRunner.privateRun(TestRunner.java:741)\r","\tat org.testng.TestRunner.run(TestRunner.java:616)\r","\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:421)\r","\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)\r","\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)\r","\tat org.testng.SuiteRunner.run(SuiteRunner.java:312)\r","\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r","\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\r","\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)\r","\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1208)\r","\tat org.testng.TestNG.runSuites(TestNG.java:1112)\r","\tat org.testng.TestNG.run(TestNG.java:1079)\r","\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)\r","\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)\r","\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)\r","\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)\r","\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\r","\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)\r","\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)\r","Caused by: java.lang.NullPointerException\r","\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\r","\tat java.base/java.util.Collections$2.tryAdvance(Collections.java:5073)\r","\tat java.base/java.util.Collections$2.forEachRemaining(Collections.java:5081)\r","\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)\r","\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\r","\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)\r","\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r","\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)\r","\tat org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:89)\r","\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:60)\r","\tat io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)\r","\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)\r","\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)\r","\t... 41 more\r"]}],"test_framework_version":"7.11.0","test_logs":[],"test_scopes":["Suite","testRuns.TestingAPI"],"test_code":"public void testRuns.TestingAPI.apitestscenario()","test_id":"TestScenarioExamples@null","test_uuid":"03be33e7-df5b-41ec-9c98-4e035cb46231","test_ended_at":"2025-12-09T17:21:42.887069","automate_session_name":"TestScenarioExamplesnull","test_hook_last_finished":"BEFORE_METHOD","test_session_name":"testRuns.TestingAPI-apitestscenario","accumulated_error_messages":[],"test_hook_state":"sdk:hook:1f1ad9b3","custom_metadata":{},"test_failure_reason":"org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. \nHost info: host: 'L2-SCOTT', ip: '172.168.1.66'\nBuild info: version: '4.39.0', revision: '126f156aee'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'\nDriver info: io.appium.java_client.android.AndroidDriver\nCommand: [null, newSession {capabilities=[null]}]\nCapabilities {}","test_location":"src\\test\\java\\testRuns\\TestingAPI.java","test_hooks_started":{"BEFORE_METHOD":[]},"test_file_path":"src\\test\\java\\testRuns\\TestingAPI.java","test_result":"skipped","test_hooks_finished":{"BEFORE_METHOD":[{"hook_name":"initializePage","hook_result":"failed","test_file_path":"GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestingAPI.java","event_started_at":"2025-12-09T17:21:42.551009500","hook_id":"b722a928-2462-45c7-b521-d7616f940eb6","hook_logs":[],"logs":[],"key":"BEFORE_METHOD","custom_metadata":{},"event_ended_at":"2025-12-09T17:21:42.750142500","test_location":"GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestingAPI.java"}]},"hook_id":"b722a928-2462-45c7-b521-d7616f940eb6","test_meta":{},"isBrowserstackAutomationSession":false,"test_name":"apitestscenario","accumulated_session_status":null,"logs":[]}
+2025-12-09T09:21:43.945Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [xogldcwam9kpfv2s7mkluifb82ttzdjprynrsow2]  [2620109f-9edc-44bd-a459-d6f5a9cc3a69]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: '03be33e7-df5b-41ec-9c98-4e035cb46231',
+    name: 'apitestscenario',
+    body: {
+      lang: 'java',
+      code: 'public void testRuns.TestingAPI.apitestscenario()'
+    },
+    identifier: 'apitestscenario',
+    scope: 'Suite.testRuns.TestingAPI',
+    scopes: [ 'Suite', 'testRuns.TestingAPI' ],
+    file_name: 'src\\test\\java\\testRuns\\TestingAPI.java',
+    vc_filepath: 'src\\test\\java\\testRuns\\TestingAPI.java',
+    location: 'src\\test\\java\\testRuns\\TestingAPI.java',
+    meta: {},
+    result: 'skipped',
+    duration_in_ms: 29,
+    started_at: '2025-12-09T09:21:42.858Z',
+    finished_at: '2025-12-09T09:21:42.887Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: 'org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. \n' +
+      "Host info: host: 'L2-SCOTT', ip: '172.168.1.66'\n" +
+      "Build info: version: '4.39.0', revision: '126f156aee'\n" +
+      "System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'\n" +
+      'Driver info: io.appium.java_client.android.AndroidDriver\n' +
+      'Command: [null, newSession {capabilities=[null]}]\n' +
+      'Capabilities {}',
+    retry_of: null,
+    custom_metadata: {},
+    tags: [ 'Regression' ],
+    customRerunParam: { rerun_name: 'TestScenarioExamples' },
+    hooks: [ 'b722a928-2462-45c7-b521-d7616f940eb6' ],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 20752:0
+2025-12-09T09:21:44.047Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [xogldcwam9kpfv2s7mkluifb82ttzdjprynrsow2]  [2620109f-9edc-44bd-a459-d6f5a9cc3a69]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_METHOD',
+    framework: 'TestNG',
+    uuid: '299b3edd-ff3f-45a5-8538-eb639fb3ffdf',
+    name: 'quitApp',
+    result: 'pending',
+    test_run_id: '03be33e7-df5b-41ec-9c98-4e035cb46231',
+    body: { lang: 'java', code: null },
+    scope: 'Suite.testRuns.TestingAPI',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Suite', 'testRuns.TestingAPI' ],
+    file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestingAPI.java',
+    vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestingAPI.java',
+    location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestingAPI.java',
+    started_at: '2025-12-09T09:21:44.044Z'
+  },
+  logs: []
+} to 20752:0
+2025-12-09T09:21:44.133Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [xogldcwam9kpfv2s7mkluifb82ttzdjprynrsow2]  [2620109f-9edc-44bd-a459-d6f5a9cc3a69]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_METHOD',
+    framework: 'TestNG',
+    uuid: '299b3edd-ff3f-45a5-8538-eb639fb3ffdf',
+    name: 'quitApp',
+    result: 'passed',
+    test_run_id: '03be33e7-df5b-41ec-9c98-4e035cb46231',
+    body: { lang: 'java', code: null },
+    scope: 'Suite.testRuns.TestingAPI',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Suite', 'testRuns.TestingAPI' ],
+    file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestingAPI.java',
+    vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestingAPI.java',
+    location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestingAPI.java',
+    started_at: '2025-12-09T09:21:44.044Z',
+    finished_at: '2025-12-09T09:21:44.129Z'
+  },
+  logs: []
+} to 20752:0
+2025-12-09T09:21:44.776Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [xogldcwam9kpfv2s7mkluifb82ttzdjprynrsow2]  [2620109f-9edc-44bd-a459-d6f5a9cc3a69]  Processing batch event [
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: '03be33e7-df5b-41ec-9c98-4e035cb46231',
+      name: 'apitestscenario',
+      body: [Object],
+      identifier: 'apitestscenario',
+      scope: 'Suite.testRuns.TestingAPI',
+      scopes: [Array],
+      file_name: 'src\\test\\java\\testRuns\\TestingAPI.java',
+      vc_filepath: 'src\\test\\java\\testRuns\\TestingAPI.java',
+      location: 'src\\test\\java\\testRuns\\TestingAPI.java',
+      meta: {},
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-12-09T09:21:42.858Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [Array],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: '03be33e7-df5b-41ec-9c98-4e035cb46231',
+      name: 'apitestscenario',
+      body: [Object],
+      identifier: 'apitestscenario',
+      scope: 'Suite.testRuns.TestingAPI',
+      scopes: [Array],
+      file_name: 'src\\test\\java\\testRuns\\TestingAPI.java',
+      vc_filepath: 'src\\test\\java\\testRuns\\TestingAPI.java',
+      location: 'src\\test\\java\\testRuns\\TestingAPI.java',
+      meta: {},
+      result: 'skipped',
+      duration_in_ms: 29,
+      started_at: '2025-12-09T09:21:42.858Z',
+      finished_at: '2025-12-09T09:21:42.887Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: 'org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. \n' +
+        "Host info: host: 'L2-SCOTT', ip: '172.168.1.66'\n" +
+        "Build info: version: '4.39.0', revision: '126f156aee'\n" +
+        "System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'\n" +
+        'Driver info: io.appium.java_client.android.AndroidDriver\n' +
+        'Command: [null, newSession {capabilities=[null]}]\n' +
+        'Capabilities {}',
+      retry_of: null,
+      custom_metadata: {},
+      tags: [Array],
+      customRerunParam: [Object],
+      hooks: [Array],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_METHOD',
+      framework: 'TestNG',
+      uuid: '299b3edd-ff3f-45a5-8538-eb639fb3ffdf',
+      name: 'quitApp',
+      result: 'pending',
+      test_run_id: '03be33e7-df5b-41ec-9c98-4e035cb46231',
+      body: [Object],
+      scope: 'Suite.testRuns.TestingAPI',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestingAPI.java',
+      vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestingAPI.java',
+      location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestingAPI.java',
+      started_at: '2025-12-09T09:21:44.044Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_METHOD',
+      framework: 'TestNG',
+      uuid: '299b3edd-ff3f-45a5-8538-eb639fb3ffdf',
+      name: 'quitApp',
+      result: 'passed',
+      test_run_id: '03be33e7-df5b-41ec-9c98-4e035cb46231',
+      body: [Object],
+      scope: 'Suite.testRuns.TestingAPI',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestingAPI.java',
+      vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestingAPI.java',
+      location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestingAPI.java',
+      started_at: '2025-12-09T09:21:44.044Z',
+      finished_at: '2025-12-09T09:21:44.129Z'
+    },
+    logs: []
+  }
+] to 20752:0
+2025-12-09T09:21:44.778Z CLI info  [scotty_NHkc4f]  [xogldcwam9kpfv2s7mkluifb82ttzdjprynrsow2]  [2620109f-9edc-44bd-a459-d6f5a9cc3a69]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-12-09T09:21:45.984Z CLI info  [scotty_NHkc4f]  [xogldcwam9kpfv2s7mkluifb82ttzdjprynrsow2]  [2620109f-9edc-44bd-a459-d6f5a9cc3a69]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-12-09T09:21:46.873Z CLI info [testhub:module]  [scotty_NHkc4f]  [xogldcwam9kpfv2s7mkluifb82ttzdjprynrsow2]  [2620109f-9edc-44bd-a459-d6f5a9cc3a69]  stopBuild: xogldcwam9kpfv2s7mkluifb82ttzdjprynrsow2 request={"finished_at":"2025-12-09T09:21:45.123Z","finished_metadata":[],"custom_metadata":{}} response={"data":""}
+2025-12-09T09:21:46.875Z CLI info  [scotty_NHkc4f]  [xogldcwam9kpfv2s7mkluifb82ttzdjprynrsow2]  [2620109f-9edc-44bd-a459-d6f5a9cc3a69]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-12-09T09:21:46.878Z CLI info [TEST REPORTING AND ANALYTICS:module]  [scotty_NHkc4f]  [xogldcwam9kpfv2s7mkluifb82ttzdjprynrsow2]  [2620109f-9edc-44bd-a459-d6f5a9cc3a69]  Visit https://automation.browserstack.com/builds/xogldcwam9kpfv2s7mkluifb82ttzdjprynrsow2 to view build report, insights, and many more debugging information all at one place!
+2025-12-09T09:21:47.293Z CLI info  [scotty_NHkc4f]  [xogldcwam9kpfv2s7mkluifb82ttzdjprynrsow2]  [2620109f-9edc-44bd-a459-d6f5a9cc3a69]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2025-12-09T09:21:47.748Z CLI info  [scotty_NHkc4f]  [xogldcwam9kpfv2s7mkluifb82ttzdjprynrsow2]  [2620109f-9edc-44bd-a459-d6f5a9cc3a69]  [PRODUCTION] Making POST request to https://eds.browserstack.com
+2025-12-09T09:23:18.618Z CLI info [main]     Server listening on port: 5400
+2025-12-09T09:23:19.031Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","buildName":"TestSampleCloud","projectName":"GPTT Automation","CUSTOM_TAG_1":"Test1","framework":"testng","testObservability":true,"browserstackAutomation":false}
+2025-12-09T09:23:19.070Z CLI info [testhub:module]  [scotty_NHkc4f]   [af36d7ea-98fc-4ca3-a396-30624352960a]  Starting testhub from 16104:0
+2025-12-09T09:23:19.072Z CLI info  [scotty_NHkc4f]   [af36d7ea-98fc-4ca3-a396-30624352960a]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2025-12-09T09:23:20.433Z CLI info [testhub:module]  [scotty_NHkc4f]   [af36d7ea-98fc-4ca3-a396-30624352960a]  startBuild: response=nutsygi9a8wghc015n3wdxtcpf1xq8xjscfp5nvp
+2025-12-09T09:23:20.434Z CLI info  [scotty_NHkc4f]  [nutsygi9a8wghc015n3wdxtcpf1xq8xjscfp5nvp]  [af36d7ea-98fc-4ca3-a396-30624352960a]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-12-09T09:23:22.126Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [nutsygi9a8wghc015n3wdxtcpf1xq8xjscfp5nvp]  [af36d7ea-98fc-4ca3-a396-30624352960a]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_METHOD',
+    framework: 'TestNG',
+    uuid: 'dcd59fbd-4e68-4930-a15e-2c9e8b8074b7',
+    name: 'initializePage',
+    result: 'pending',
+    test_run_id: '362d76af-1e0c-43b8-bad9-4caff37f7176',
+    body: { lang: 'java', code: null },
+    scope: 'Suite.testRuns.TestScenario',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Suite', 'testRuns.TestScenario' ],
+    file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    started_at: '2025-12-09T09:23:22.109Z'
+  },
+  logs: []
+} to 16104:0
+2025-12-09T09:23:22.150Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [nutsygi9a8wghc015n3wdxtcpf1xq8xjscfp5nvp]  [af36d7ea-98fc-4ca3-a396-30624352960a]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.11.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-12-09T09:23:22.140Z',
+      uuid: 'dcd59fbd-4e68-4930-a15e-2c9e8b8074b7',
+      kind: 'TEST_LOG',
+      message: '"Capabilities: null"',
+      level: 'INFO',
+      test_run_uuid: 'dcd59fbd-4e68-4930-a15e-2c9e8b8074b7'
+    }
+  ]
+} to 16104:0
+2025-12-09T09:23:22.164Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [nutsygi9a8wghc015n3wdxtcpf1xq8xjscfp5nvp]  [af36d7ea-98fc-4ca3-a396-30624352960a]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.11.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-12-09T09:23:22.162Z',
+      uuid: 'dcd59fbd-4e68-4930-a15e-2c9e8b8074b7',
+      kind: 'TEST_LOG',
+      message: '"BS USER = null"',
+      level: 'INFO',
+      test_run_uuid: 'dcd59fbd-4e68-4930-a15e-2c9e8b8074b7'
+    }
+  ]
+} to 16104:0
+2025-12-09T09:23:22.180Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [nutsygi9a8wghc015n3wdxtcpf1xq8xjscfp5nvp]  [af36d7ea-98fc-4ca3-a396-30624352960a]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.11.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-12-09T09:23:22.178Z',
+      uuid: 'dcd59fbd-4e68-4930-a15e-2c9e8b8074b7',
+      kind: 'TEST_LOG',
+      message: '"BS KEY = null"',
+      level: 'INFO',
+      test_run_uuid: 'dcd59fbd-4e68-4930-a15e-2c9e8b8074b7'
+    }
+  ]
+} to 16104:0
+2025-12-09T09:23:22.222Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [nutsygi9a8wghc015n3wdxtcpf1xq8xjscfp5nvp]  [af36d7ea-98fc-4ca3-a396-30624352960a]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.11.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-12-09T09:23:22.218Z',
+      uuid: 'dcd59fbd-4e68-4930-a15e-2c9e8b8074b7',
+      kind: 'TEST_LOG',
+      message: '"Capabilities: {platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=bs://b15c84f2805b4714db67643284c7861d2e73ed78, bstack:options={buildName=Build 1, osVersion=13.0, accessKey=[REDACTED], sessionName=Sample Test, platformVersion=13.0, userName=[REDACTED], projectName=GPTT App, platformName=Android, deviceName=Samsung Galaxy S23}}"',
+      level: 'INFO',
+      test_run_uuid: 'dcd59fbd-4e68-4930-a15e-2c9e8b8074b7'
+    }
+  ]
+} to 16104:0
+2025-12-09T09:23:22.436Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [nutsygi9a8wghc015n3wdxtcpf1xq8xjscfp5nvp]  [af36d7ea-98fc-4ca3-a396-30624352960a]  Processing batch event [
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_METHOD',
+      framework: 'TestNG',
+      uuid: 'dcd59fbd-4e68-4930-a15e-2c9e8b8074b7',
+      name: 'initializePage',
+      result: 'pending',
+      test_run_id: '362d76af-1e0c-43b8-bad9-4caff37f7176',
+      body: [Object],
+      scope: 'Suite.testRuns.TestScenario',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      started_at: '2025-12-09T09:23:22.109Z'
+    },
+    logs: []
+  },
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object] ] }
+] to 16104:0
+2025-12-09T09:23:22.437Z CLI info  [scotty_NHkc4f]  [nutsygi9a8wghc015n3wdxtcpf1xq8xjscfp5nvp]  [af36d7ea-98fc-4ca3-a396-30624352960a]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-12-09T09:23:22.449Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [nutsygi9a8wghc015n3wdxtcpf1xq8xjscfp5nvp]  [af36d7ea-98fc-4ca3-a396-30624352960a]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_METHOD',
+    framework: 'TestNG',
+    uuid: 'dcd59fbd-4e68-4930-a15e-2c9e8b8074b7',
+    name: 'initializePage',
+    result: 'failed',
+    test_run_id: '362d76af-1e0c-43b8-bad9-4caff37f7176',
+    body: { lang: 'java', code: null },
+    scope: 'Suite.testRuns.TestScenario',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Suite', 'testRuns.TestScenario' ],
+    file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    started_at: '2025-12-09T09:23:22.109Z',
+    finished_at: '2025-12-09T09:23:22.444Z'
+  },
+  logs: []
+} to 16104:0
+2025-12-09T09:23:22.570Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [nutsygi9a8wghc015n3wdxtcpf1xq8xjscfp5nvp]  [af36d7ea-98fc-4ca3-a396-30624352960a]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: '944af483-3a77-4751-9aa2-ffe682fb69fb',
+    name: 'TC1_PassedScenario',
+    body: {
+      lang: 'java',
+      code: 'public void testRuns.TestScenario.TC1_PassedScenario() throws java.lang.InterruptedException'
+    },
+    identifier: 'TC1_PassedScenario',
+    scope: 'Suite.testRuns.TestScenario',
+    scopes: [ 'Suite', 'testRuns.TestScenario' ],
+    file_name: 'src\\test\\java\\testRuns\\TestScenario.java',
+    vc_filepath: 'src\\test\\java\\testRuns\\TestScenario.java',
+    location: 'src\\test\\java\\testRuns\\TestScenario.java',
+    meta: {},
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-12-09T09:23:22.532Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [ 'Regression' ],
+    customRerunParam: { rerun_name: 'TestScenarioExamples' },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 16104:0
+2025-12-09T09:23:23.693Z CLI warn [TEST REPORTING AND ANALYTICS:java:testng]  [scotty_NHkc4f]  [nutsygi9a8wghc015n3wdxtcpf1xq8xjscfp5nvp]  [af36d7ea-98fc-4ca3-a396-30624352960a]  TestRunFinished: event={"test_hook_last_started":"BEFORE_METHOD","test_failure_type":"UnhandledError","test_rerun_name":"TestScenarioExamples","test_result_at":"2025-12-09T17:23:22.587008","test_scope":"Suite.testRuns.TestScenario","test_framework_name":"TestNG","test_tags":["Regression"],"test_started_at":"2025-12-09T17:23:22.532429200","platform_index":0,"test_failure":[{"backtrace":["org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. ","Host info: host: 'L2-SCOTT', ip: '172.168.1.66'","Build info: version: '4.39.0', revision: '126f156aee'","System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'","Driver info: io.appium.java_client.android.AndroidDriver","Command: [null, newSession {capabilities=[null]}]","Capabilities {}\r","\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)\r","\tat io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)\r","\tat org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:178)\r","\tat io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98)\r","\tat io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:109)\r","\tat io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:108)\r","\tat testComponents.BasePage.InitializeDriver(BasePage.java:96)\r","\tat testComponents.BasePage.initializePage(BasePage.java:113)\r","\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\r","\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\r","\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)\r","\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)\r","\tat org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)\r","\tat org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)\r","\tat org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)\r","\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)\r","\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)\r","\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)\r","\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)\r","\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)\r","\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)\r","\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)\r","\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)\r","\tat org.testng.TestRunner.privateRun(TestRunner.java:741)\r","\tat org.testng.TestRunner.run(TestRunner.java:616)\r","\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:421)\r","\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)\r","\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)\r","\tat org.testng.SuiteRunner.run(SuiteRunner.java:312)\r","\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r","\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\r","\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)\r","\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1208)\r","\tat org.testng.TestNG.runSuites(TestNG.java:1112)\r","\tat org.testng.TestNG.run(TestNG.java:1079)\r","\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)\r","\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)\r","\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)\r","\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)\r","\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\r","\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)\r","\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)\r","Caused by: java.lang.NullPointerException\r","\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\r","\tat java.base/java.util.Collections$2.tryAdvance(Collections.java:5073)\r","\tat java.base/java.util.Collections$2.forEachRemaining(Collections.java:5081)\r","\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)\r","\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\r","\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)\r","\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r","\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)\r","\tat org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:89)\r","\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:60)\r","\tat io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)\r","\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)\r","\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)\r","\t... 41 more\r"]}],"test_framework_version":"7.11.0","test_logs":[],"test_scopes":["Suite","testRuns.TestScenario"],"test_code":"public void testRuns.TestScenario.TC1_PassedScenario() throws java.lang.InterruptedException","test_id":"TestScenarioExamples@null","test_uuid":"944af483-3a77-4751-9aa2-ffe682fb69fb","test_ended_at":"2025-12-09T17:23:22.588007900","automate_session_name":"TestScenarioExamplesnull","test_hook_last_finished":"BEFORE_METHOD","test_session_name":"testRuns.TestScenario-TC1_PassedScenario","accumulated_error_messages":[],"test_hook_state":"sdk:hook:2e2240b3","custom_metadata":{},"test_failure_reason":"org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. \nHost info: host: 'L2-SCOTT', ip: '172.168.1.66'\nBuild info: version: '4.39.0', revision: '126f156aee'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'\nDriver info: io.appium.java_client.android.AndroidDriver\nCommand: [null, newSession {capabilities=[null]}]\nCapabilities {}","test_location":"src\\test\\java\\testRuns\\TestScenario.java","test_hooks_started":{"BEFORE_METHOD":[]},"test_file_path":"src\\test\\java\\testRuns\\TestScenario.java","test_result":"skipped","test_hooks_finished":{"BEFORE_METHOD":[{"hook_name":"initializePage","hook_result":"failed","test_file_path":"GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java","event_started_at":"2025-12-09T17:23:22.109675","hook_id":"dcd59fbd-4e68-4930-a15e-2c9e8b8074b7","hook_logs":[],"logs":[],"key":"BEFORE_METHOD","custom_metadata":{},"event_ended_at":"2025-12-09T17:23:22.444012900","test_location":"GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java"}]},"hook_id":"dcd59fbd-4e68-4930-a15e-2c9e8b8074b7","test_meta":{},"isBrowserstackAutomationSession":false,"test_name":"TC1_PassedScenario","accumulated_session_status":null,"logs":[]}
+2025-12-09T09:23:23.695Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [nutsygi9a8wghc015n3wdxtcpf1xq8xjscfp5nvp]  [af36d7ea-98fc-4ca3-a396-30624352960a]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: '944af483-3a77-4751-9aa2-ffe682fb69fb',
+    name: 'TC1_PassedScenario',
+    body: {
+      lang: 'java',
+      code: 'public void testRuns.TestScenario.TC1_PassedScenario() throws java.lang.InterruptedException'
+    },
+    identifier: 'TC1_PassedScenario',
+    scope: 'Suite.testRuns.TestScenario',
+    scopes: [ 'Suite', 'testRuns.TestScenario' ],
+    file_name: 'src\\test\\java\\testRuns\\TestScenario.java',
+    vc_filepath: 'src\\test\\java\\testRuns\\TestScenario.java',
+    location: 'src\\test\\java\\testRuns\\TestScenario.java',
+    meta: {},
+    result: 'skipped',
+    duration_in_ms: 56,
+    started_at: '2025-12-09T09:23:22.532Z',
+    finished_at: '2025-12-09T09:23:22.588Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: 'org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. \n' +
+      "Host info: host: 'L2-SCOTT', ip: '172.168.1.66'\n" +
+      "Build info: version: '4.39.0', revision: '126f156aee'\n" +
+      "System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'\n" +
+      'Driver info: io.appium.java_client.android.AndroidDriver\n' +
+      'Command: [null, newSession {capabilities=[null]}]\n' +
+      'Capabilities {}',
+    retry_of: null,
+    custom_metadata: {},
+    tags: [ 'Regression' ],
+    customRerunParam: { rerun_name: 'TestScenarioExamples' },
+    hooks: [ 'dcd59fbd-4e68-4930-a15e-2c9e8b8074b7' ],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 16104:0
+2025-12-09T09:23:23.775Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [nutsygi9a8wghc015n3wdxtcpf1xq8xjscfp5nvp]  [af36d7ea-98fc-4ca3-a396-30624352960a]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_METHOD',
+    framework: 'TestNG',
+    uuid: 'b94df886-1195-4c74-bf8c-fab2e416bbc2',
+    name: 'quitApp',
+    result: 'pending',
+    test_run_id: '944af483-3a77-4751-9aa2-ffe682fb69fb',
+    body: { lang: 'java', code: null },
+    scope: 'Suite.testRuns.TestScenario',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Suite', 'testRuns.TestScenario' ],
+    file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    started_at: '2025-12-09T09:23:23.771Z'
+  },
+  logs: []
+} to 16104:0
+2025-12-09T09:23:23.847Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [nutsygi9a8wghc015n3wdxtcpf1xq8xjscfp5nvp]  [af36d7ea-98fc-4ca3-a396-30624352960a]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_METHOD',
+    framework: 'TestNG',
+    uuid: 'b94df886-1195-4c74-bf8c-fab2e416bbc2',
+    name: 'quitApp',
+    result: 'passed',
+    test_run_id: '944af483-3a77-4751-9aa2-ffe682fb69fb',
+    body: { lang: 'java', code: null },
+    scope: 'Suite.testRuns.TestScenario',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Suite', 'testRuns.TestScenario' ],
+    file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    started_at: '2025-12-09T09:23:23.771Z',
+    finished_at: '2025-12-09T09:23:23.842Z'
+  },
+  logs: []
+} to 16104:0
+2025-12-09T09:23:24.447Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [nutsygi9a8wghc015n3wdxtcpf1xq8xjscfp5nvp]  [af36d7ea-98fc-4ca3-a396-30624352960a]  Processing batch event [
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_METHOD',
+      framework: 'TestNG',
+      uuid: 'dcd59fbd-4e68-4930-a15e-2c9e8b8074b7',
+      name: 'initializePage',
+      result: 'failed',
+      test_run_id: '362d76af-1e0c-43b8-bad9-4caff37f7176',
+      body: [Object],
+      scope: 'Suite.testRuns.TestScenario',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      started_at: '2025-12-09T09:23:22.109Z',
+      finished_at: '2025-12-09T09:23:22.444Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: '944af483-3a77-4751-9aa2-ffe682fb69fb',
+      name: 'TC1_PassedScenario',
+      body: [Object],
+      identifier: 'TC1_PassedScenario',
+      scope: 'Suite.testRuns.TestScenario',
+      scopes: [Array],
+      file_name: 'src\\test\\java\\testRuns\\TestScenario.java',
+      vc_filepath: 'src\\test\\java\\testRuns\\TestScenario.java',
+      location: 'src\\test\\java\\testRuns\\TestScenario.java',
+      meta: {},
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-12-09T09:23:22.532Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [Array],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: '944af483-3a77-4751-9aa2-ffe682fb69fb',
+      name: 'TC1_PassedScenario',
+      body: [Object],
+      identifier: 'TC1_PassedScenario',
+      scope: 'Suite.testRuns.TestScenario',
+      scopes: [Array],
+      file_name: 'src\\test\\java\\testRuns\\TestScenario.java',
+      vc_filepath: 'src\\test\\java\\testRuns\\TestScenario.java',
+      location: 'src\\test\\java\\testRuns\\TestScenario.java',
+      meta: {},
+      result: 'skipped',
+      duration_in_ms: 56,
+      started_at: '2025-12-09T09:23:22.532Z',
+      finished_at: '2025-12-09T09:23:22.588Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: 'org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. \n' +
+        "Host info: host: 'L2-SCOTT', ip: '172.168.1.66'\n" +
+        "Build info: version: '4.39.0', revision: '126f156aee'\n" +
+        "System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'\n" +
+        'Driver info: io.appium.java_client.android.AndroidDriver\n' +
+        'Command: [null, newSession {capabilities=[null]}]\n' +
+        'Capabilities {}',
+      retry_of: null,
+      custom_metadata: {},
+      tags: [Array],
+      customRerunParam: [Object],
+      hooks: [Array],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_METHOD',
+      framework: 'TestNG',
+      uuid: 'b94df886-1195-4c74-bf8c-fab2e416bbc2',
+      name: 'quitApp',
+      result: 'pending',
+      test_run_id: '944af483-3a77-4751-9aa2-ffe682fb69fb',
+      body: [Object],
+      scope: 'Suite.testRuns.TestScenario',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      started_at: '2025-12-09T09:23:23.771Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_METHOD',
+      framework: 'TestNG',
+      uuid: 'b94df886-1195-4c74-bf8c-fab2e416bbc2',
+      name: 'quitApp',
+      result: 'passed',
+      test_run_id: '944af483-3a77-4751-9aa2-ffe682fb69fb',
+      body: [Object],
+      scope: 'Suite.testRuns.TestScenario',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      started_at: '2025-12-09T09:23:23.771Z',
+      finished_at: '2025-12-09T09:23:23.842Z'
+    },
+    logs: []
+  }
+] to 16104:0
+2025-12-09T09:23:34.328Z CLI info  [scotty_NHkc4f]  [nutsygi9a8wghc015n3wdxtcpf1xq8xjscfp5nvp]  [af36d7ea-98fc-4ca3-a396-30624352960a]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-12-09T09:23:35.416Z CLI info  [scotty_NHkc4f]  [nutsygi9a8wghc015n3wdxtcpf1xq8xjscfp5nvp]  [af36d7ea-98fc-4ca3-a396-30624352960a]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-12-09T09:23:36.340Z CLI info [testhub:module]  [scotty_NHkc4f]  [nutsygi9a8wghc015n3wdxtcpf1xq8xjscfp5nvp]  [af36d7ea-98fc-4ca3-a396-30624352960a]  stopBuild: nutsygi9a8wghc015n3wdxtcpf1xq8xjscfp5nvp request={"finished_at":"2025-12-09T09:23:24.666Z","finished_metadata":[],"custom_metadata":{}} response={"data":""}
+2025-12-09T09:23:36.343Z CLI info  [scotty_NHkc4f]  [nutsygi9a8wghc015n3wdxtcpf1xq8xjscfp5nvp]  [af36d7ea-98fc-4ca3-a396-30624352960a]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-12-09T09:23:36.345Z CLI info [TEST REPORTING AND ANALYTICS:module]  [scotty_NHkc4f]  [nutsygi9a8wghc015n3wdxtcpf1xq8xjscfp5nvp]  [af36d7ea-98fc-4ca3-a396-30624352960a]  Visit https://automation.browserstack.com/builds/nutsygi9a8wghc015n3wdxtcpf1xq8xjscfp5nvp to view build report, insights, and many more debugging information all at one place!
+2025-12-09T09:23:37.566Z CLI info  [scotty_NHkc4f]  [nutsygi9a8wghc015n3wdxtcpf1xq8xjscfp5nvp]  [af36d7ea-98fc-4ca3-a396-30624352960a]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2025-12-09T09:23:37.982Z CLI info  [scotty_NHkc4f]  [nutsygi9a8wghc015n3wdxtcpf1xq8xjscfp5nvp]  [af36d7ea-98fc-4ca3-a396-30624352960a]  [PRODUCTION] Making POST request to https://eds.browserstack.com
+2025-12-09T09:24:10.973Z CLI info [main]     Server listening on port: 5400
+2025-12-09T09:24:11.388Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","buildName":"TestSampleCloud","projectName":"GPTT Automation","CUSTOM_TAG_1":"Test1","framework":"testng","testObservability":true,"browserstackAutomation":false}
+2025-12-09T09:24:11.432Z CLI info [testhub:module]  [scotty_NHkc4f]   [c7715f24-bf81-446a-b03e-2e21de45c4c4]  Starting testhub from 16044:0
+2025-12-09T09:24:11.433Z CLI info  [scotty_NHkc4f]   [c7715f24-bf81-446a-b03e-2e21de45c4c4]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2025-12-09T09:24:12.478Z CLI info [testhub:module]  [scotty_NHkc4f]   [c7715f24-bf81-446a-b03e-2e21de45c4c4]  startBuild: response=fxxcsclaomtnqziluswpsfkwab3qnqxc0wwjktnv
+2025-12-09T09:24:12.480Z CLI info  [scotty_NHkc4f]  [fxxcsclaomtnqziluswpsfkwab3qnqxc0wwjktnv]  [c7715f24-bf81-446a-b03e-2e21de45c4c4]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-12-09T09:24:14.313Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [fxxcsclaomtnqziluswpsfkwab3qnqxc0wwjktnv]  [c7715f24-bf81-446a-b03e-2e21de45c4c4]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_METHOD',
+    framework: 'TestNG',
+    uuid: 'd846ca1e-5452-458d-a619-3871750bdf18',
+    name: 'initializePage',
+    result: 'pending',
+    test_run_id: 'd257ed28-788c-4f86-b11a-f4a37c22cbb6',
+    body: { lang: 'java', code: null },
+    scope: 'Suite.testRuns.TestScenario',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Suite', 'testRuns.TestScenario' ],
+    file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    started_at: '2025-12-09T09:24:14.294Z'
+  },
+  logs: []
+} to 16044:0
+2025-12-09T09:24:14.336Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [fxxcsclaomtnqziluswpsfkwab3qnqxc0wwjktnv]  [c7715f24-bf81-446a-b03e-2e21de45c4c4]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.11.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-12-09T09:24:14.326Z',
+      uuid: 'd846ca1e-5452-458d-a619-3871750bdf18',
+      kind: 'TEST_LOG',
+      message: '"Capabilities: null"',
+      level: 'INFO',
+      test_run_uuid: 'd846ca1e-5452-458d-a619-3871750bdf18'
+    }
+  ]
+} to 16044:0
+2025-12-09T09:24:14.352Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [fxxcsclaomtnqziluswpsfkwab3qnqxc0wwjktnv]  [c7715f24-bf81-446a-b03e-2e21de45c4c4]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.11.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-12-09T09:24:14.349Z',
+      uuid: 'd846ca1e-5452-458d-a619-3871750bdf18',
+      kind: 'TEST_LOG',
+      message: '"BS USER = null"',
+      level: 'INFO',
+      test_run_uuid: 'd846ca1e-5452-458d-a619-3871750bdf18'
+    }
+  ]
+} to 16044:0
+2025-12-09T09:24:14.371Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [fxxcsclaomtnqziluswpsfkwab3qnqxc0wwjktnv]  [c7715f24-bf81-446a-b03e-2e21de45c4c4]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.11.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-12-09T09:24:14.368Z',
+      uuid: 'd846ca1e-5452-458d-a619-3871750bdf18',
+      kind: 'TEST_LOG',
+      message: '"BS KEY = null"',
+      level: 'INFO',
+      test_run_uuid: 'd846ca1e-5452-458d-a619-3871750bdf18'
+    }
+  ]
+} to 16044:0
+2025-12-09T09:24:14.422Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [fxxcsclaomtnqziluswpsfkwab3qnqxc0wwjktnv]  [c7715f24-bf81-446a-b03e-2e21de45c4c4]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.11.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-12-09T09:24:14.419Z',
+      uuid: 'd846ca1e-5452-458d-a619-3871750bdf18',
+      kind: 'TEST_LOG',
+      message: '"Capabilities: {platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=bs://b15c84f2805b4714db67643284c7861d2e73ed78, bstack:options={buildName=Build 1, osVersion=13.0, accessKey=[REDACTED], sessionName=Sample Test, userName=[REDACTED], projectName=GPTT App, deviceName=Samsung Galaxy S23}}"',
+      level: 'INFO',
+      test_run_uuid: 'd846ca1e-5452-458d-a619-3871750bdf18'
+    }
+  ]
+} to 16044:0
+2025-12-09T09:24:14.492Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [fxxcsclaomtnqziluswpsfkwab3qnqxc0wwjktnv]  [c7715f24-bf81-446a-b03e-2e21de45c4c4]  Processing batch event [
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_METHOD',
+      framework: 'TestNG',
+      uuid: 'd846ca1e-5452-458d-a619-3871750bdf18',
+      name: 'initializePage',
+      result: 'pending',
+      test_run_id: 'd257ed28-788c-4f86-b11a-f4a37c22cbb6',
+      body: [Object],
+      scope: 'Suite.testRuns.TestScenario',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      started_at: '2025-12-09T09:24:14.294Z'
+    },
+    logs: []
+  },
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object] ] }
+] to 16044:0
+2025-12-09T09:24:14.493Z CLI info  [scotty_NHkc4f]  [fxxcsclaomtnqziluswpsfkwab3qnqxc0wwjktnv]  [c7715f24-bf81-446a-b03e-2e21de45c4c4]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-12-09T09:24:14.636Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [fxxcsclaomtnqziluswpsfkwab3qnqxc0wwjktnv]  [c7715f24-bf81-446a-b03e-2e21de45c4c4]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_METHOD',
+    framework: 'TestNG',
+    uuid: 'd846ca1e-5452-458d-a619-3871750bdf18',
+    name: 'initializePage',
+    result: 'failed',
+    test_run_id: 'd257ed28-788c-4f86-b11a-f4a37c22cbb6',
+    body: { lang: 'java', code: null },
+    scope: 'Suite.testRuns.TestScenario',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Suite', 'testRuns.TestScenario' ],
+    file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    started_at: '2025-12-09T09:24:14.294Z',
+    finished_at: '2025-12-09T09:24:14.631Z'
+  },
+  logs: []
+} to 16044:0
+2025-12-09T09:24:14.763Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [fxxcsclaomtnqziluswpsfkwab3qnqxc0wwjktnv]  [c7715f24-bf81-446a-b03e-2e21de45c4c4]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: 'faa11cfd-ba27-414e-88c1-0f25177bef18',
+    name: 'TC1_PassedScenario',
+    body: {
+      lang: 'java',
+      code: 'public void testRuns.TestScenario.TC1_PassedScenario() throws java.lang.InterruptedException'
+    },
+    identifier: 'TC1_PassedScenario',
+    scope: 'Suite.testRuns.TestScenario',
+    scopes: [ 'Suite', 'testRuns.TestScenario' ],
+    file_name: 'src\\test\\java\\testRuns\\TestScenario.java',
+    vc_filepath: 'src\\test\\java\\testRuns\\TestScenario.java',
+    location: 'src\\test\\java\\testRuns\\TestScenario.java',
+    meta: {},
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-12-09T09:24:14.722Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [ 'Regression' ],
+    customRerunParam: { rerun_name: 'TestScenarioExamples' },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 16044:0
+2025-12-09T09:24:15.820Z CLI warn [TEST REPORTING AND ANALYTICS:java:testng]  [scotty_NHkc4f]  [fxxcsclaomtnqziluswpsfkwab3qnqxc0wwjktnv]  [c7715f24-bf81-446a-b03e-2e21de45c4c4]  TestRunFinished: event={"test_hook_last_started":"BEFORE_METHOD","test_failure_type":"UnhandledError","test_rerun_name":"TestScenarioExamples","test_result_at":"2025-12-09T17:24:14.778777800","test_scope":"Suite.testRuns.TestScenario","test_framework_name":"TestNG","test_tags":["Regression"],"test_started_at":"2025-12-09T17:24:14.722579500","platform_index":0,"test_failure":[{"backtrace":["org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. ","Host info: host: 'L2-SCOTT', ip: '172.168.1.66'","Build info: version: '4.39.0', revision: '126f156aee'","System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'","Driver info: io.appium.java_client.android.AndroidDriver","Command: [null, newSession {capabilities=[null]}]","Capabilities {}\r","\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)\r","\tat io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)\r","\tat org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:178)\r","\tat io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98)\r","\tat io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:109)\r","\tat io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:108)\r","\tat testComponents.BasePage.InitializeDriver(BasePage.java:96)\r","\tat testComponents.BasePage.initializePage(BasePage.java:113)\r","\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\r","\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\r","\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)\r","\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)\r","\tat org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)\r","\tat org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)\r","\tat org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)\r","\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)\r","\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)\r","\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)\r","\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)\r","\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)\r","\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)\r","\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)\r","\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)\r","\tat org.testng.TestRunner.privateRun(TestRunner.java:741)\r","\tat org.testng.TestRunner.run(TestRunner.java:616)\r","\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:421)\r","\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)\r","\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)\r","\tat org.testng.SuiteRunner.run(SuiteRunner.java:312)\r","\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r","\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\r","\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)\r","\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1208)\r","\tat org.testng.TestNG.runSuites(TestNG.java:1112)\r","\tat org.testng.TestNG.run(TestNG.java:1079)\r","\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)\r","\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)\r","\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)\r","\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)\r","\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\r","\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)\r","\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)\r","Caused by: java.lang.NullPointerException\r","\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\r","\tat java.base/java.util.Collections$2.tryAdvance(Collections.java:5073)\r","\tat java.base/java.util.Collections$2.forEachRemaining(Collections.java:5081)\r","\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)\r","\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\r","\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)\r","\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r","\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)\r","\tat org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:89)\r","\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:60)\r","\tat io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)\r","\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)\r","\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)\r","\t... 41 more\r"]}],"test_framework_version":"7.11.0","test_logs":[],"test_scopes":["Suite","testRuns.TestScenario"],"test_code":"public void testRuns.TestScenario.TC1_PassedScenario() throws java.lang.InterruptedException","test_id":"TestScenarioExamples@null","test_uuid":"faa11cfd-ba27-414e-88c1-0f25177bef18","test_ended_at":"2025-12-09T17:24:14.779786","automate_session_name":"TestScenarioExamplesnull","test_hook_last_finished":"BEFORE_METHOD","test_session_name":"testRuns.TestScenario-TC1_PassedScenario","accumulated_error_messages":[],"test_hook_state":"sdk:hook:2371dba9","custom_metadata":{},"test_failure_reason":"org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. \nHost info: host: 'L2-SCOTT', ip: '172.168.1.66'\nBuild info: version: '4.39.0', revision: '126f156aee'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'\nDriver info: io.appium.java_client.android.AndroidDriver\nCommand: [null, newSession {capabilities=[null]}]\nCapabilities {}","test_location":"src\\test\\java\\testRuns\\TestScenario.java","test_hooks_started":{"BEFORE_METHOD":[]},"test_file_path":"src\\test\\java\\testRuns\\TestScenario.java","test_result":"skipped","test_hooks_finished":{"BEFORE_METHOD":[{"hook_name":"initializePage","hook_result":"failed","test_file_path":"GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java","event_started_at":"2025-12-09T17:24:14.294335600","hook_id":"d846ca1e-5452-458d-a619-3871750bdf18","hook_logs":[],"logs":[],"key":"BEFORE_METHOD","custom_metadata":{},"event_ended_at":"2025-12-09T17:24:14.631047900","test_location":"GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java"}]},"hook_id":"d846ca1e-5452-458d-a619-3871750bdf18","test_meta":{},"isBrowserstackAutomationSession":false,"test_name":"TC1_PassedScenario","accumulated_session_status":null,"logs":[]}
+2025-12-09T09:24:15.822Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [fxxcsclaomtnqziluswpsfkwab3qnqxc0wwjktnv]  [c7715f24-bf81-446a-b03e-2e21de45c4c4]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: 'faa11cfd-ba27-414e-88c1-0f25177bef18',
+    name: 'TC1_PassedScenario',
+    body: {
+      lang: 'java',
+      code: 'public void testRuns.TestScenario.TC1_PassedScenario() throws java.lang.InterruptedException'
+    },
+    identifier: 'TC1_PassedScenario',
+    scope: 'Suite.testRuns.TestScenario',
+    scopes: [ 'Suite', 'testRuns.TestScenario' ],
+    file_name: 'src\\test\\java\\testRuns\\TestScenario.java',
+    vc_filepath: 'src\\test\\java\\testRuns\\TestScenario.java',
+    location: 'src\\test\\java\\testRuns\\TestScenario.java',
+    meta: {},
+    result: 'skipped',
+    duration_in_ms: 57,
+    started_at: '2025-12-09T09:24:14.722Z',
+    finished_at: '2025-12-09T09:24:14.779Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: 'org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. \n' +
+      "Host info: host: 'L2-SCOTT', ip: '172.168.1.66'\n" +
+      "Build info: version: '4.39.0', revision: '126f156aee'\n" +
+      "System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'\n" +
+      'Driver info: io.appium.java_client.android.AndroidDriver\n' +
+      'Command: [null, newSession {capabilities=[null]}]\n' +
+      'Capabilities {}',
+    retry_of: null,
+    custom_metadata: {},
+    tags: [ 'Regression' ],
+    customRerunParam: { rerun_name: 'TestScenarioExamples' },
+    hooks: [ 'd846ca1e-5452-458d-a619-3871750bdf18' ],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 16044:0
+2025-12-09T09:24:15.901Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [fxxcsclaomtnqziluswpsfkwab3qnqxc0wwjktnv]  [c7715f24-bf81-446a-b03e-2e21de45c4c4]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_METHOD',
+    framework: 'TestNG',
+    uuid: '276e5662-8566-4269-b469-3d1e89fd0daa',
+    name: 'quitApp',
+    result: 'pending',
+    test_run_id: 'faa11cfd-ba27-414e-88c1-0f25177bef18',
+    body: { lang: 'java', code: null },
+    scope: 'Suite.testRuns.TestScenario',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Suite', 'testRuns.TestScenario' ],
+    file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    started_at: '2025-12-09T09:24:15.897Z'
+  },
+  logs: []
+} to 16044:0
+2025-12-09T09:24:15.981Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [fxxcsclaomtnqziluswpsfkwab3qnqxc0wwjktnv]  [c7715f24-bf81-446a-b03e-2e21de45c4c4]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_METHOD',
+    framework: 'TestNG',
+    uuid: '276e5662-8566-4269-b469-3d1e89fd0daa',
+    name: 'quitApp',
+    result: 'passed',
+    test_run_id: 'faa11cfd-ba27-414e-88c1-0f25177bef18',
+    body: { lang: 'java', code: null },
+    scope: 'Suite.testRuns.TestScenario',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Suite', 'testRuns.TestScenario' ],
+    file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    started_at: '2025-12-09T09:24:15.897Z',
+    finished_at: '2025-12-09T09:24:15.974Z'
+  },
+  logs: []
+} to 16044:0
+2025-12-09T09:24:16.498Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [fxxcsclaomtnqziluswpsfkwab3qnqxc0wwjktnv]  [c7715f24-bf81-446a-b03e-2e21de45c4c4]  Processing batch event [
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_METHOD',
+      framework: 'TestNG',
+      uuid: 'd846ca1e-5452-458d-a619-3871750bdf18',
+      name: 'initializePage',
+      result: 'failed',
+      test_run_id: 'd257ed28-788c-4f86-b11a-f4a37c22cbb6',
+      body: [Object],
+      scope: 'Suite.testRuns.TestScenario',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      started_at: '2025-12-09T09:24:14.294Z',
+      finished_at: '2025-12-09T09:24:14.631Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: 'faa11cfd-ba27-414e-88c1-0f25177bef18',
+      name: 'TC1_PassedScenario',
+      body: [Object],
+      identifier: 'TC1_PassedScenario',
+      scope: 'Suite.testRuns.TestScenario',
+      scopes: [Array],
+      file_name: 'src\\test\\java\\testRuns\\TestScenario.java',
+      vc_filepath: 'src\\test\\java\\testRuns\\TestScenario.java',
+      location: 'src\\test\\java\\testRuns\\TestScenario.java',
+      meta: {},
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-12-09T09:24:14.722Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [Array],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: 'faa11cfd-ba27-414e-88c1-0f25177bef18',
+      name: 'TC1_PassedScenario',
+      body: [Object],
+      identifier: 'TC1_PassedScenario',
+      scope: 'Suite.testRuns.TestScenario',
+      scopes: [Array],
+      file_name: 'src\\test\\java\\testRuns\\TestScenario.java',
+      vc_filepath: 'src\\test\\java\\testRuns\\TestScenario.java',
+      location: 'src\\test\\java\\testRuns\\TestScenario.java',
+      meta: {},
+      result: 'skipped',
+      duration_in_ms: 57,
+      started_at: '2025-12-09T09:24:14.722Z',
+      finished_at: '2025-12-09T09:24:14.779Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: 'org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. \n' +
+        "Host info: host: 'L2-SCOTT', ip: '172.168.1.66'\n" +
+        "Build info: version: '4.39.0', revision: '126f156aee'\n" +
+        "System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'\n" +
+        'Driver info: io.appium.java_client.android.AndroidDriver\n' +
+        'Command: [null, newSession {capabilities=[null]}]\n' +
+        'Capabilities {}',
+      retry_of: null,
+      custom_metadata: {},
+      tags: [Array],
+      customRerunParam: [Object],
+      hooks: [Array],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_METHOD',
+      framework: 'TestNG',
+      uuid: '276e5662-8566-4269-b469-3d1e89fd0daa',
+      name: 'quitApp',
+      result: 'pending',
+      test_run_id: 'faa11cfd-ba27-414e-88c1-0f25177bef18',
+      body: [Object],
+      scope: 'Suite.testRuns.TestScenario',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      started_at: '2025-12-09T09:24:15.897Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_METHOD',
+      framework: 'TestNG',
+      uuid: '276e5662-8566-4269-b469-3d1e89fd0daa',
+      name: 'quitApp',
+      result: 'passed',
+      test_run_id: 'faa11cfd-ba27-414e-88c1-0f25177bef18',
+      body: [Object],
+      scope: 'Suite.testRuns.TestScenario',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      started_at: '2025-12-09T09:24:15.897Z',
+      finished_at: '2025-12-09T09:24:15.974Z'
+    },
+    logs: []
+  }
+] to 16044:0
+2025-12-09T09:24:16.500Z CLI info  [scotty_NHkc4f]  [fxxcsclaomtnqziluswpsfkwab3qnqxc0wwjktnv]  [c7715f24-bf81-446a-b03e-2e21de45c4c4]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-12-09T09:24:17.783Z CLI info  [scotty_NHkc4f]  [fxxcsclaomtnqziluswpsfkwab3qnqxc0wwjktnv]  [c7715f24-bf81-446a-b03e-2e21de45c4c4]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-12-09T09:24:18.658Z CLI info [testhub:module]  [scotty_NHkc4f]  [fxxcsclaomtnqziluswpsfkwab3qnqxc0wwjktnv]  [c7715f24-bf81-446a-b03e-2e21de45c4c4]  stopBuild: fxxcsclaomtnqziluswpsfkwab3qnqxc0wwjktnv request={"finished_at":"2025-12-09T09:24:16.811Z","finished_metadata":[],"custom_metadata":{}} response={"data":""}
+2025-12-09T09:24:18.660Z CLI info  [scotty_NHkc4f]  [fxxcsclaomtnqziluswpsfkwab3qnqxc0wwjktnv]  [c7715f24-bf81-446a-b03e-2e21de45c4c4]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-12-09T09:24:18.662Z CLI info [TEST REPORTING AND ANALYTICS:module]  [scotty_NHkc4f]  [fxxcsclaomtnqziluswpsfkwab3qnqxc0wwjktnv]  [c7715f24-bf81-446a-b03e-2e21de45c4c4]  Visit https://automation.browserstack.com/builds/fxxcsclaomtnqziluswpsfkwab3qnqxc0wwjktnv to view build report, insights, and many more debugging information all at one place!
+2025-12-09T09:24:19.154Z CLI info  [scotty_NHkc4f]  [fxxcsclaomtnqziluswpsfkwab3qnqxc0wwjktnv]  [c7715f24-bf81-446a-b03e-2e21de45c4c4]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2025-12-09T09:24:19.570Z CLI info  [scotty_NHkc4f]  [fxxcsclaomtnqziluswpsfkwab3qnqxc0wwjktnv]  [c7715f24-bf81-446a-b03e-2e21de45c4c4]  [PRODUCTION] Making POST request to https://eds.browserstack.com
+2025-12-09T09:24:57.151Z CLI info [main]     Server listening on port: 5401
+2025-12-09T09:24:57.585Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","buildName":"TestSampleCloud","projectName":"GPTT Automation","CUSTOM_TAG_1":"Test1","framework":"testng","testObservability":true,"browserstackAutomation":false}
+2025-12-09T09:24:57.632Z CLI info [testhub:module]  [scotty_NHkc4f]   [39e8fbb8-4266-454a-b2e7-c64488d4a7f8]  Starting testhub from 2536:0
+2025-12-09T09:24:57.633Z CLI info  [scotty_NHkc4f]   [39e8fbb8-4266-454a-b2e7-c64488d4a7f8]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2025-12-09T09:24:58.911Z CLI info [testhub:module]  [scotty_NHkc4f]   [39e8fbb8-4266-454a-b2e7-c64488d4a7f8]  startBuild: response=tpdxinqloyhzhvm87wwskbe4bltlvmvc37vl3fwt
+2025-12-09T09:24:58.912Z CLI info  [scotty_NHkc4f]  [tpdxinqloyhzhvm87wwskbe4bltlvmvc37vl3fwt]  [39e8fbb8-4266-454a-b2e7-c64488d4a7f8]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-12-09T09:25:00.559Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [tpdxinqloyhzhvm87wwskbe4bltlvmvc37vl3fwt]  [39e8fbb8-4266-454a-b2e7-c64488d4a7f8]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_METHOD',
+    framework: 'TestNG',
+    uuid: '4b235542-65d1-4c10-8372-3568847c81d8',
+    name: 'initializePage',
+    result: 'pending',
+    test_run_id: '58eb8d5b-cd9e-4985-9ff7-19a28f271dcd',
+    body: { lang: 'java', code: null },
+    scope: 'Suite.testRuns.TestScenario',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Suite', 'testRuns.TestScenario' ],
+    file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    started_at: '2025-12-09T09:25:00.545Z'
+  },
+  logs: []
+} to 2536:0
+2025-12-09T09:25:00.593Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [tpdxinqloyhzhvm87wwskbe4bltlvmvc37vl3fwt]  [39e8fbb8-4266-454a-b2e7-c64488d4a7f8]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.11.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-12-09T09:25:00.576Z',
+      uuid: '4b235542-65d1-4c10-8372-3568847c81d8',
+      kind: 'TEST_LOG',
+      message: '"Capabilities: null"',
+      level: 'INFO',
+      test_run_uuid: '4b235542-65d1-4c10-8372-3568847c81d8'
+    }
+  ]
+} to 2536:0
+2025-12-09T09:25:00.615Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [tpdxinqloyhzhvm87wwskbe4bltlvmvc37vl3fwt]  [39e8fbb8-4266-454a-b2e7-c64488d4a7f8]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.11.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-12-09T09:25:00.612Z',
+      uuid: '4b235542-65d1-4c10-8372-3568847c81d8',
+      kind: 'TEST_LOG',
+      message: '"BS USER = null"',
+      level: 'INFO',
+      test_run_uuid: '4b235542-65d1-4c10-8372-3568847c81d8'
+    }
+  ]
+} to 2536:0
+2025-12-09T09:25:00.631Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [tpdxinqloyhzhvm87wwskbe4bltlvmvc37vl3fwt]  [39e8fbb8-4266-454a-b2e7-c64488d4a7f8]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.11.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-12-09T09:25:00.628Z',
+      uuid: '4b235542-65d1-4c10-8372-3568847c81d8',
+      kind: 'TEST_LOG',
+      message: '"BS KEY = null"',
+      level: 'INFO',
+      test_run_uuid: '4b235542-65d1-4c10-8372-3568847c81d8'
+    }
+  ]
+} to 2536:0
+2025-12-09T09:25:00.670Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [tpdxinqloyhzhvm87wwskbe4bltlvmvc37vl3fwt]  [39e8fbb8-4266-454a-b2e7-c64488d4a7f8]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.11.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-12-09T09:25:00.667Z',
+      uuid: '4b235542-65d1-4c10-8372-3568847c81d8',
+      kind: 'TEST_LOG',
+      message: '"Capabilities: {platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=bs://b15c84f2805b4714db67643284c7861d2e73ed78, bstack:options={buildName=Build 1, osVersion=13.0, accessKey=[REDACTED], sessionName=Sample Test, userName=[REDACTED], projectName=GPTT App, deviceName=Samsung Galaxy S23}}"',
+      level: 'INFO',
+      test_run_uuid: '4b235542-65d1-4c10-8372-3568847c81d8'
+    }
+  ]
+} to 2536:0
+2025-12-09T09:25:00.891Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [tpdxinqloyhzhvm87wwskbe4bltlvmvc37vl3fwt]  [39e8fbb8-4266-454a-b2e7-c64488d4a7f8]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_METHOD',
+    framework: 'TestNG',
+    uuid: '4b235542-65d1-4c10-8372-3568847c81d8',
+    name: 'initializePage',
+    result: 'failed',
+    test_run_id: '58eb8d5b-cd9e-4985-9ff7-19a28f271dcd',
+    body: { lang: 'java', code: null },
+    scope: 'Suite.testRuns.TestScenario',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Suite', 'testRuns.TestScenario' ],
+    file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    started_at: '2025-12-09T09:25:00.545Z',
+    finished_at: '2025-12-09T09:25:00.887Z'
+  },
+  logs: []
+} to 2536:0
+2025-12-09T09:25:00.918Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [tpdxinqloyhzhvm87wwskbe4bltlvmvc37vl3fwt]  [39e8fbb8-4266-454a-b2e7-c64488d4a7f8]  Processing batch event [
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_METHOD',
+      framework: 'TestNG',
+      uuid: '4b235542-65d1-4c10-8372-3568847c81d8',
+      name: 'initializePage',
+      result: 'pending',
+      test_run_id: '58eb8d5b-cd9e-4985-9ff7-19a28f271dcd',
+      body: [Object],
+      scope: 'Suite.testRuns.TestScenario',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      started_at: '2025-12-09T09:25:00.545Z'
+    },
+    logs: []
+  },
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_METHOD',
+      framework: 'TestNG',
+      uuid: '4b235542-65d1-4c10-8372-3568847c81d8',
+      name: 'initializePage',
+      result: 'failed',
+      test_run_id: '58eb8d5b-cd9e-4985-9ff7-19a28f271dcd',
+      body: [Object],
+      scope: 'Suite.testRuns.TestScenario',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      started_at: '2025-12-09T09:25:00.545Z',
+      finished_at: '2025-12-09T09:25:00.887Z'
+    },
+    logs: []
+  }
+] to 2536:0
+2025-12-09T09:25:00.919Z CLI info  [scotty_NHkc4f]  [tpdxinqloyhzhvm87wwskbe4bltlvmvc37vl3fwt]  [39e8fbb8-4266-454a-b2e7-c64488d4a7f8]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-12-09T09:25:01.032Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [tpdxinqloyhzhvm87wwskbe4bltlvmvc37vl3fwt]  [39e8fbb8-4266-454a-b2e7-c64488d4a7f8]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: 'f58af493-ae20-4403-a075-2533bd5b0754',
+    name: 'TC1_PassedScenario',
+    body: {
+      lang: 'java',
+      code: 'public void testRuns.TestScenario.TC1_PassedScenario() throws java.lang.InterruptedException'
+    },
+    identifier: 'TC1_PassedScenario',
+    scope: 'Suite.testRuns.TestScenario',
+    scopes: [ 'Suite', 'testRuns.TestScenario' ],
+    file_name: 'src\\test\\java\\testRuns\\TestScenario.java',
+    vc_filepath: 'src\\test\\java\\testRuns\\TestScenario.java',
+    location: 'src\\test\\java\\testRuns\\TestScenario.java',
+    meta: {},
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-12-09T09:25:00.991Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [ 'Regression' ],
+    customRerunParam: { rerun_name: 'TestScenarioExamples' },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 2536:0
+2025-12-09T09:25:02.132Z CLI warn [TEST REPORTING AND ANALYTICS:java:testng]  [scotty_NHkc4f]  [tpdxinqloyhzhvm87wwskbe4bltlvmvc37vl3fwt]  [39e8fbb8-4266-454a-b2e7-c64488d4a7f8]  TestRunFinished: event={"test_hook_last_started":"BEFORE_METHOD","test_failure_type":"UnhandledError","test_rerun_name":"TestScenarioExamples","test_result_at":"2025-12-09T17:25:01.048539800","test_scope":"Suite.testRuns.TestScenario","test_framework_name":"TestNG","test_tags":["Regression"],"test_started_at":"2025-12-09T17:25:00.991498300","platform_index":0,"test_failure":[{"backtrace":["org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. ","Host info: host: 'L2-SCOTT', ip: '172.168.1.66'","Build info: version: '4.39.0', revision: '126f156aee'","System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'","Driver info: io.appium.java_client.android.AndroidDriver","Command: [null, newSession {capabilities=[null]}]","Capabilities {}\r","\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)\r","\tat io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)\r","\tat org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:178)\r","\tat io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98)\r","\tat io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:109)\r","\tat io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:108)\r","\tat testComponents.BasePage.InitializeDriver(BasePage.java:96)\r","\tat testComponents.BasePage.initializePage(BasePage.java:113)\r","\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\r","\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\r","\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)\r","\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)\r","\tat org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)\r","\tat org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)\r","\tat org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)\r","\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)\r","\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)\r","\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)\r","\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)\r","\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)\r","\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)\r","\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)\r","\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)\r","\tat org.testng.TestRunner.privateRun(TestRunner.java:741)\r","\tat org.testng.TestRunner.run(TestRunner.java:616)\r","\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:421)\r","\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)\r","\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)\r","\tat org.testng.SuiteRunner.run(SuiteRunner.java:312)\r","\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r","\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\r","\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)\r","\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1208)\r","\tat org.testng.TestNG.runSuites(TestNG.java:1112)\r","\tat org.testng.TestNG.run(TestNG.java:1079)\r","\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)\r","\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)\r","\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)\r","\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)\r","\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\r","\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)\r","\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)\r","Caused by: java.lang.NullPointerException\r","\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\r","\tat java.base/java.util.Collections$2.tryAdvance(Collections.java:5073)\r","\tat java.base/java.util.Collections$2.forEachRemaining(Collections.java:5081)\r","\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)\r","\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\r","\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)\r","\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r","\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)\r","\tat org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:89)\r","\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:60)\r","\tat io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)\r","\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)\r","\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)\r","\t... 41 more\r"]}],"test_framework_version":"7.11.0","test_logs":[],"test_scopes":["Suite","testRuns.TestScenario"],"test_code":"public void testRuns.TestScenario.TC1_PassedScenario() throws java.lang.InterruptedException","test_id":"TestScenarioExamples@null","test_uuid":"f58af493-ae20-4403-a075-2533bd5b0754","test_ended_at":"2025-12-09T17:25:01.050527400","automate_session_name":"TestScenarioExamplesnull","test_hook_last_finished":"BEFORE_METHOD","test_session_name":"testRuns.TestScenario-TC1_PassedScenario","accumulated_error_messages":[],"test_hook_state":"sdk:hook:e2bebece","custom_metadata":{},"test_failure_reason":"org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. \nHost info: host: 'L2-SCOTT', ip: '172.168.1.66'\nBuild info: version: '4.39.0', revision: '126f156aee'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'\nDriver info: io.appium.java_client.android.AndroidDriver\nCommand: [null, newSession {capabilities=[null]}]\nCapabilities {}","test_location":"src\\test\\java\\testRuns\\TestScenario.java","test_hooks_started":{"BEFORE_METHOD":[]},"test_file_path":"src\\test\\java\\testRuns\\TestScenario.java","test_result":"skipped","test_hooks_finished":{"BEFORE_METHOD":[{"hook_name":"initializePage","hook_result":"failed","test_file_path":"GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java","event_started_at":"2025-12-09T17:25:00.545220400","hook_id":"4b235542-65d1-4c10-8372-3568847c81d8","hook_logs":[],"logs":[],"key":"BEFORE_METHOD","custom_metadata":{},"event_ended_at":"2025-12-09T17:25:00.887177200","test_location":"GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java"}]},"hook_id":"4b235542-65d1-4c10-8372-3568847c81d8","test_meta":{},"isBrowserstackAutomationSession":false,"test_name":"TC1_PassedScenario","accumulated_session_status":null,"logs":[]}
+2025-12-09T09:25:02.133Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [tpdxinqloyhzhvm87wwskbe4bltlvmvc37vl3fwt]  [39e8fbb8-4266-454a-b2e7-c64488d4a7f8]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: 'f58af493-ae20-4403-a075-2533bd5b0754',
+    name: 'TC1_PassedScenario',
+    body: {
+      lang: 'java',
+      code: 'public void testRuns.TestScenario.TC1_PassedScenario() throws java.lang.InterruptedException'
+    },
+    identifier: 'TC1_PassedScenario',
+    scope: 'Suite.testRuns.TestScenario',
+    scopes: [ 'Suite', 'testRuns.TestScenario' ],
+    file_name: 'src\\test\\java\\testRuns\\TestScenario.java',
+    vc_filepath: 'src\\test\\java\\testRuns\\TestScenario.java',
+    location: 'src\\test\\java\\testRuns\\TestScenario.java',
+    meta: {},
+    result: 'skipped',
+    duration_in_ms: 59,
+    started_at: '2025-12-09T09:25:00.991Z',
+    finished_at: '2025-12-09T09:25:01.050Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: 'org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. \n' +
+      "Host info: host: 'L2-SCOTT', ip: '172.168.1.66'\n" +
+      "Build info: version: '4.39.0', revision: '126f156aee'\n" +
+      "System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'\n" +
+      'Driver info: io.appium.java_client.android.AndroidDriver\n' +
+      'Command: [null, newSession {capabilities=[null]}]\n' +
+      'Capabilities {}',
+    retry_of: null,
+    custom_metadata: {},
+    tags: [ 'Regression' ],
+    customRerunParam: { rerun_name: 'TestScenarioExamples' },
+    hooks: [ '4b235542-65d1-4c10-8372-3568847c81d8' ],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 2536:0
+2025-12-09T09:25:02.210Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [tpdxinqloyhzhvm87wwskbe4bltlvmvc37vl3fwt]  [39e8fbb8-4266-454a-b2e7-c64488d4a7f8]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_METHOD',
+    framework: 'TestNG',
+    uuid: '60bb3f9e-3e06-4022-b698-59a9f5d70d56',
+    name: 'quitApp',
+    result: 'pending',
+    test_run_id: 'f58af493-ae20-4403-a075-2533bd5b0754',
+    body: { lang: 'java', code: null },
+    scope: 'Suite.testRuns.TestScenario',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Suite', 'testRuns.TestScenario' ],
+    file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    started_at: '2025-12-09T09:25:02.206Z'
+  },
+  logs: []
+} to 2536:0
+2025-12-09T09:25:02.290Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [tpdxinqloyhzhvm87wwskbe4bltlvmvc37vl3fwt]  [39e8fbb8-4266-454a-b2e7-c64488d4a7f8]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_METHOD',
+    framework: 'TestNG',
+    uuid: '60bb3f9e-3e06-4022-b698-59a9f5d70d56',
+    name: 'quitApp',
+    result: 'passed',
+    test_run_id: 'f58af493-ae20-4403-a075-2533bd5b0754',
+    body: { lang: 'java', code: null },
+    scope: 'Suite.testRuns.TestScenario',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Suite', 'testRuns.TestScenario' ],
+    file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    started_at: '2025-12-09T09:25:02.206Z',
+    finished_at: '2025-12-09T09:25:02.284Z'
+  },
+  logs: []
+} to 2536:0
+2025-12-09T09:25:02.933Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [tpdxinqloyhzhvm87wwskbe4bltlvmvc37vl3fwt]  [39e8fbb8-4266-454a-b2e7-c64488d4a7f8]  Processing batch event [
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: 'f58af493-ae20-4403-a075-2533bd5b0754',
+      name: 'TC1_PassedScenario',
+      body: [Object],
+      identifier: 'TC1_PassedScenario',
+      scope: 'Suite.testRuns.TestScenario',
+      scopes: [Array],
+      file_name: 'src\\test\\java\\testRuns\\TestScenario.java',
+      vc_filepath: 'src\\test\\java\\testRuns\\TestScenario.java',
+      location: 'src\\test\\java\\testRuns\\TestScenario.java',
+      meta: {},
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-12-09T09:25:00.991Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [Array],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: 'f58af493-ae20-4403-a075-2533bd5b0754',
+      name: 'TC1_PassedScenario',
+      body: [Object],
+      identifier: 'TC1_PassedScenario',
+      scope: 'Suite.testRuns.TestScenario',
+      scopes: [Array],
+      file_name: 'src\\test\\java\\testRuns\\TestScenario.java',
+      vc_filepath: 'src\\test\\java\\testRuns\\TestScenario.java',
+      location: 'src\\test\\java\\testRuns\\TestScenario.java',
+      meta: {},
+      result: 'skipped',
+      duration_in_ms: 59,
+      started_at: '2025-12-09T09:25:00.991Z',
+      finished_at: '2025-12-09T09:25:01.050Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: 'org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. \n' +
+        "Host info: host: 'L2-SCOTT', ip: '172.168.1.66'\n" +
+        "Build info: version: '4.39.0', revision: '126f156aee'\n" +
+        "System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'\n" +
+        'Driver info: io.appium.java_client.android.AndroidDriver\n' +
+        'Command: [null, newSession {capabilities=[null]}]\n' +
+        'Capabilities {}',
+      retry_of: null,
+      custom_metadata: {},
+      tags: [Array],
+      customRerunParam: [Object],
+      hooks: [Array],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_METHOD',
+      framework: 'TestNG',
+      uuid: '60bb3f9e-3e06-4022-b698-59a9f5d70d56',
+      name: 'quitApp',
+      result: 'pending',
+      test_run_id: 'f58af493-ae20-4403-a075-2533bd5b0754',
+      body: [Object],
+      scope: 'Suite.testRuns.TestScenario',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      started_at: '2025-12-09T09:25:02.206Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_METHOD',
+      framework: 'TestNG',
+      uuid: '60bb3f9e-3e06-4022-b698-59a9f5d70d56',
+      name: 'quitApp',
+      result: 'passed',
+      test_run_id: 'f58af493-ae20-4403-a075-2533bd5b0754',
+      body: [Object],
+      scope: 'Suite.testRuns.TestScenario',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      started_at: '2025-12-09T09:25:02.206Z',
+      finished_at: '2025-12-09T09:25:02.284Z'
+    },
+    logs: []
+  }
+] to 2536:0
+2025-12-09T09:25:02.934Z CLI info  [scotty_NHkc4f]  [tpdxinqloyhzhvm87wwskbe4bltlvmvc37vl3fwt]  [39e8fbb8-4266-454a-b2e7-c64488d4a7f8]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-12-09T09:25:04.225Z CLI info  [scotty_NHkc4f]  [tpdxinqloyhzhvm87wwskbe4bltlvmvc37vl3fwt]  [39e8fbb8-4266-454a-b2e7-c64488d4a7f8]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-12-09T09:25:05.080Z CLI info [testhub:module]  [scotty_NHkc4f]  [tpdxinqloyhzhvm87wwskbe4bltlvmvc37vl3fwt]  [39e8fbb8-4266-454a-b2e7-c64488d4a7f8]  stopBuild: tpdxinqloyhzhvm87wwskbe4bltlvmvc37vl3fwt request={"finished_at":"2025-12-09T09:25:03.140Z","finished_metadata":[],"custom_metadata":{}} response={"data":""}
+2025-12-09T09:25:05.082Z CLI info  [scotty_NHkc4f]  [tpdxinqloyhzhvm87wwskbe4bltlvmvc37vl3fwt]  [39e8fbb8-4266-454a-b2e7-c64488d4a7f8]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-12-09T09:25:05.083Z CLI info [TEST REPORTING AND ANALYTICS:module]  [scotty_NHkc4f]  [tpdxinqloyhzhvm87wwskbe4bltlvmvc37vl3fwt]  [39e8fbb8-4266-454a-b2e7-c64488d4a7f8]  Visit https://automation.browserstack.com/builds/tpdxinqloyhzhvm87wwskbe4bltlvmvc37vl3fwt to view build report, insights, and many more debugging information all at one place!
+2025-12-09T09:25:05.480Z CLI info  [scotty_NHkc4f]  [tpdxinqloyhzhvm87wwskbe4bltlvmvc37vl3fwt]  [39e8fbb8-4266-454a-b2e7-c64488d4a7f8]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2025-12-09T09:25:05.891Z CLI info  [scotty_NHkc4f]  [tpdxinqloyhzhvm87wwskbe4bltlvmvc37vl3fwt]  [39e8fbb8-4266-454a-b2e7-c64488d4a7f8]  [PRODUCTION] Making POST request to https://eds.browserstack.com
+2025-12-09T09:27:35.967Z CLI info [main]     Server listening on port: 5401
+2025-12-09T09:27:36.395Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","buildName":"TestSampleCloud","projectName":"GPTT Automation","CUSTOM_TAG_1":"Test1","framework":"testng","testObservability":true,"browserstackAutomation":false}
+2025-12-09T09:27:36.432Z CLI info [testhub:module]  [scotty_NHkc4f]   [2847b62b-6c9e-46e9-8725-27fef39cec18]  Starting testhub from 20600:0
+2025-12-09T09:27:36.433Z CLI info  [scotty_NHkc4f]   [2847b62b-6c9e-46e9-8725-27fef39cec18]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2025-12-09T09:27:38.233Z CLI info [testhub:module]  [scotty_NHkc4f]   [2847b62b-6c9e-46e9-8725-27fef39cec18]  startBuild: response=rnnmpft82mkle71osqlpvnxucqjeudjrjxzztlxd
+2025-12-09T09:27:38.234Z CLI info  [scotty_NHkc4f]  [rnnmpft82mkle71osqlpvnxucqjeudjrjxzztlxd]  [2847b62b-6c9e-46e9-8725-27fef39cec18]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-12-09T09:27:39.931Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [rnnmpft82mkle71osqlpvnxucqjeudjrjxzztlxd]  [2847b62b-6c9e-46e9-8725-27fef39cec18]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_METHOD',
+    framework: 'TestNG',
+    uuid: 'a15b2b4f-9e6b-421a-9dd8-01b131391a80',
+    name: 'initializePage',
+    result: 'pending',
+    test_run_id: '0244b06d-f0e4-48d7-9079-ec7e29734407',
+    body: { lang: 'java', code: null },
+    scope: 'Suite.testRuns.TestScenario',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Suite', 'testRuns.TestScenario' ],
+    file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    started_at: '2025-12-09T09:27:39.915Z'
+  },
+  logs: []
+} to 20600:0
+2025-12-09T09:27:39.956Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [rnnmpft82mkle71osqlpvnxucqjeudjrjxzztlxd]  [2847b62b-6c9e-46e9-8725-27fef39cec18]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.11.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-12-09T09:27:39.945Z',
+      uuid: 'a15b2b4f-9e6b-421a-9dd8-01b131391a80',
+      kind: 'TEST_LOG',
+      message: '"Capabilities: null"',
+      level: 'INFO',
+      test_run_uuid: 'a15b2b4f-9e6b-421a-9dd8-01b131391a80'
+    }
+  ]
+} to 20600:0
+2025-12-09T09:27:39.969Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [rnnmpft82mkle71osqlpvnxucqjeudjrjxzztlxd]  [2847b62b-6c9e-46e9-8725-27fef39cec18]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.11.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-12-09T09:27:39.966Z',
+      uuid: 'a15b2b4f-9e6b-421a-9dd8-01b131391a80',
+      kind: 'TEST_LOG',
+      message: '"BS USER = null"',
+      level: 'INFO',
+      test_run_uuid: 'a15b2b4f-9e6b-421a-9dd8-01b131391a80'
+    }
+  ]
+} to 20600:0
+2025-12-09T09:27:39.980Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [rnnmpft82mkle71osqlpvnxucqjeudjrjxzztlxd]  [2847b62b-6c9e-46e9-8725-27fef39cec18]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.11.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-12-09T09:27:39.978Z',
+      uuid: 'a15b2b4f-9e6b-421a-9dd8-01b131391a80',
+      kind: 'TEST_LOG',
+      message: '"BS KEY = null"',
+      level: 'INFO',
+      test_run_uuid: 'a15b2b4f-9e6b-421a-9dd8-01b131391a80'
+    }
+  ]
+} to 20600:0
+2025-12-09T09:27:40.020Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [rnnmpft82mkle71osqlpvnxucqjeudjrjxzztlxd]  [2847b62b-6c9e-46e9-8725-27fef39cec18]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.11.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-12-09T09:27:40.017Z',
+      uuid: 'a15b2b4f-9e6b-421a-9dd8-01b131391a80',
+      kind: 'TEST_LOG',
+      message: '"Capabilities: {platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=bs://b15c84f2805b4714db67643284c7861d2e73ed78, bstack:options={buildName=Build 1, accessKey=[REDACTED], sessionName=Sample Test, platformVersion=13, userName=[REDACTED], projectName=GPTT App, platformName=Android, deviceName=Samsung Galaxy S23}}"',
+      level: 'INFO',
+      test_run_uuid: 'a15b2b4f-9e6b-421a-9dd8-01b131391a80'
+    }
+  ]
+} to 20600:0
+2025-12-09T09:27:40.249Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [rnnmpft82mkle71osqlpvnxucqjeudjrjxzztlxd]  [2847b62b-6c9e-46e9-8725-27fef39cec18]  Processing batch event [
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_METHOD',
+      framework: 'TestNG',
+      uuid: 'a15b2b4f-9e6b-421a-9dd8-01b131391a80',
+      name: 'initializePage',
+      result: 'pending',
+      test_run_id: '0244b06d-f0e4-48d7-9079-ec7e29734407',
+      body: [Object],
+      scope: 'Suite.testRuns.TestScenario',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      started_at: '2025-12-09T09:27:39.915Z'
+    },
+    logs: []
+  },
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object] ] }
+] to 20600:0
+2025-12-09T09:27:40.250Z CLI info  [scotty_NHkc4f]  [rnnmpft82mkle71osqlpvnxucqjeudjrjxzztlxd]  [2847b62b-6c9e-46e9-8725-27fef39cec18]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-12-09T09:27:40.254Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [rnnmpft82mkle71osqlpvnxucqjeudjrjxzztlxd]  [2847b62b-6c9e-46e9-8725-27fef39cec18]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_METHOD',
+    framework: 'TestNG',
+    uuid: 'a15b2b4f-9e6b-421a-9dd8-01b131391a80',
+    name: 'initializePage',
+    result: 'failed',
+    test_run_id: '0244b06d-f0e4-48d7-9079-ec7e29734407',
+    body: { lang: 'java', code: null },
+    scope: 'Suite.testRuns.TestScenario',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Suite', 'testRuns.TestScenario' ],
+    file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    started_at: '2025-12-09T09:27:39.915Z',
+    finished_at: '2025-12-09T09:27:40.247Z'
+  },
+  logs: []
+} to 20600:0
+2025-12-09T09:27:40.386Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [rnnmpft82mkle71osqlpvnxucqjeudjrjxzztlxd]  [2847b62b-6c9e-46e9-8725-27fef39cec18]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: '24cebec0-5a24-43d0-85fe-9edca6a751a6',
+    name: 'TC1_PassedScenario',
+    body: {
+      lang: 'java',
+      code: 'public void testRuns.TestScenario.TC1_PassedScenario() throws java.lang.InterruptedException'
+    },
+    identifier: 'TC1_PassedScenario',
+    scope: 'Suite.testRuns.TestScenario',
+    scopes: [ 'Suite', 'testRuns.TestScenario' ],
+    file_name: 'src\\test\\java\\testRuns\\TestScenario.java',
+    vc_filepath: 'src\\test\\java\\testRuns\\TestScenario.java',
+    location: 'src\\test\\java\\testRuns\\TestScenario.java',
+    meta: {},
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-12-09T09:27:40.344Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [ 'Regression' ],
+    customRerunParam: { rerun_name: 'TestScenarioExamples' },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 20600:0
+2025-12-09T09:27:42.219Z CLI warn [TEST REPORTING AND ANALYTICS:java:testng]  [scotty_NHkc4f]  [rnnmpft82mkle71osqlpvnxucqjeudjrjxzztlxd]  [2847b62b-6c9e-46e9-8725-27fef39cec18]  TestRunFinished: event={"test_hook_last_started":"BEFORE_METHOD","test_failure_type":"UnhandledError","test_rerun_name":"TestScenarioExamples","test_result_at":"2025-12-09T17:27:40.404452400","test_scope":"Suite.testRuns.TestScenario","test_framework_name":"TestNG","test_tags":["Regression"],"test_started_at":"2025-12-09T17:27:40.344380800","platform_index":0,"test_failure":[{"backtrace":["org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. ","Host info: host: 'L2-SCOTT', ip: '172.168.1.66'","Build info: version: '4.39.0', revision: '126f156aee'","System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'","Driver info: io.appium.java_client.android.AndroidDriver","Command: [null, newSession {capabilities=[null]}]","Capabilities {}\r","\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)\r","\tat io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)\r","\tat org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:178)\r","\tat io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98)\r","\tat io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:109)\r","\tat io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:108)\r","\tat testComponents.BasePage.InitializeDriver(BasePage.java:96)\r","\tat testComponents.BasePage.initializePage(BasePage.java:113)\r","\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\r","\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\r","\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)\r","\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)\r","\tat org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)\r","\tat org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)\r","\tat org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)\r","\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)\r","\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)\r","\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)\r","\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)\r","\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)\r","\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)\r","\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)\r","\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)\r","\tat org.testng.TestRunner.privateRun(TestRunner.java:741)\r","\tat org.testng.TestRunner.run(TestRunner.java:616)\r","\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:421)\r","\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)\r","\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)\r","\tat org.testng.SuiteRunner.run(SuiteRunner.java:312)\r","\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r","\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\r","\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)\r","\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1208)\r","\tat org.testng.TestNG.runSuites(TestNG.java:1112)\r","\tat org.testng.TestNG.run(TestNG.java:1079)\r","\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)\r","\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)\r","\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)\r","\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)\r","\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\r","\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)\r","\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)\r","Caused by: java.lang.NullPointerException\r","\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\r","\tat java.base/java.util.Collections$2.tryAdvance(Collections.java:5073)\r","\tat java.base/java.util.Collections$2.forEachRemaining(Collections.java:5081)\r","\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)\r","\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\r","\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)\r","\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r","\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)\r","\tat org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:89)\r","\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:60)\r","\tat io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)\r","\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)\r","\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)\r","\t... 41 more\r"]}],"test_framework_version":"7.11.0","test_logs":[],"test_scopes":["Suite","testRuns.TestScenario"],"test_code":"public void testRuns.TestScenario.TC1_PassedScenario() throws java.lang.InterruptedException","test_id":"TestScenarioExamples@null","test_uuid":"24cebec0-5a24-43d0-85fe-9edca6a751a6","test_ended_at":"2025-12-09T17:27:40.405452400","automate_session_name":"TestScenarioExamplesnull","test_hook_last_finished":"BEFORE_METHOD","test_session_name":"testRuns.TestScenario-TC1_PassedScenario","accumulated_error_messages":[],"test_hook_state":"sdk:hook:e14d9dbb","custom_metadata":{},"test_failure_reason":"org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. \nHost info: host: 'L2-SCOTT', ip: '172.168.1.66'\nBuild info: version: '4.39.0', revision: '126f156aee'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'\nDriver info: io.appium.java_client.android.AndroidDriver\nCommand: [null, newSession {capabilities=[null]}]\nCapabilities {}","test_location":"src\\test\\java\\testRuns\\TestScenario.java","test_hooks_started":{"BEFORE_METHOD":[]},"test_file_path":"src\\test\\java\\testRuns\\TestScenario.java","test_result":"skipped","test_hooks_finished":{"BEFORE_METHOD":[{"hook_name":"initializePage","hook_result":"failed","test_file_path":"GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java","event_started_at":"2025-12-09T17:27:39.915039200","hook_id":"a15b2b4f-9e6b-421a-9dd8-01b131391a80","hook_logs":[],"logs":[],"key":"BEFORE_METHOD","custom_metadata":{},"event_ended_at":"2025-12-09T17:27:40.247456400","test_location":"GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java"}]},"hook_id":"a15b2b4f-9e6b-421a-9dd8-01b131391a80","test_meta":{},"isBrowserstackAutomationSession":false,"test_name":"TC1_PassedScenario","accumulated_session_status":null,"logs":[]}
+2025-12-09T09:27:42.220Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [rnnmpft82mkle71osqlpvnxucqjeudjrjxzztlxd]  [2847b62b-6c9e-46e9-8725-27fef39cec18]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: '24cebec0-5a24-43d0-85fe-9edca6a751a6',
+    name: 'TC1_PassedScenario',
+    body: {
+      lang: 'java',
+      code: 'public void testRuns.TestScenario.TC1_PassedScenario() throws java.lang.InterruptedException'
+    },
+    identifier: 'TC1_PassedScenario',
+    scope: 'Suite.testRuns.TestScenario',
+    scopes: [ 'Suite', 'testRuns.TestScenario' ],
+    file_name: 'src\\test\\java\\testRuns\\TestScenario.java',
+    vc_filepath: 'src\\test\\java\\testRuns\\TestScenario.java',
+    location: 'src\\test\\java\\testRuns\\TestScenario.java',
+    meta: {},
+    result: 'skipped',
+    duration_in_ms: 61,
+    started_at: '2025-12-09T09:27:40.344Z',
+    finished_at: '2025-12-09T09:27:40.405Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: 'org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. \n' +
+      "Host info: host: 'L2-SCOTT', ip: '172.168.1.66'\n" +
+      "Build info: version: '4.39.0', revision: '126f156aee'\n" +
+      "System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'\n" +
+      'Driver info: io.appium.java_client.android.AndroidDriver\n' +
+      'Command: [null, newSession {capabilities=[null]}]\n' +
+      'Capabilities {}',
+    retry_of: null,
+    custom_metadata: {},
+    tags: [ 'Regression' ],
+    customRerunParam: { rerun_name: 'TestScenarioExamples' },
+    hooks: [ 'a15b2b4f-9e6b-421a-9dd8-01b131391a80' ],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 20600:0
+2025-12-09T09:27:42.250Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [rnnmpft82mkle71osqlpvnxucqjeudjrjxzztlxd]  [2847b62b-6c9e-46e9-8725-27fef39cec18]  Processing batch event [
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_METHOD',
+      framework: 'TestNG',
+      uuid: 'a15b2b4f-9e6b-421a-9dd8-01b131391a80',
+      name: 'initializePage',
+      result: 'failed',
+      test_run_id: '0244b06d-f0e4-48d7-9079-ec7e29734407',
+      body: [Object],
+      scope: 'Suite.testRuns.TestScenario',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      started_at: '2025-12-09T09:27:39.915Z',
+      finished_at: '2025-12-09T09:27:40.247Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: '24cebec0-5a24-43d0-85fe-9edca6a751a6',
+      name: 'TC1_PassedScenario',
+      body: [Object],
+      identifier: 'TC1_PassedScenario',
+      scope: 'Suite.testRuns.TestScenario',
+      scopes: [Array],
+      file_name: 'src\\test\\java\\testRuns\\TestScenario.java',
+      vc_filepath: 'src\\test\\java\\testRuns\\TestScenario.java',
+      location: 'src\\test\\java\\testRuns\\TestScenario.java',
+      meta: {},
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-12-09T09:27:40.344Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [Array],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: '24cebec0-5a24-43d0-85fe-9edca6a751a6',
+      name: 'TC1_PassedScenario',
+      body: [Object],
+      identifier: 'TC1_PassedScenario',
+      scope: 'Suite.testRuns.TestScenario',
+      scopes: [Array],
+      file_name: 'src\\test\\java\\testRuns\\TestScenario.java',
+      vc_filepath: 'src\\test\\java\\testRuns\\TestScenario.java',
+      location: 'src\\test\\java\\testRuns\\TestScenario.java',
+      meta: {},
+      result: 'skipped',
+      duration_in_ms: 61,
+      started_at: '2025-12-09T09:27:40.344Z',
+      finished_at: '2025-12-09T09:27:40.405Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: 'org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. \n' +
+        "Host info: host: 'L2-SCOTT', ip: '172.168.1.66'\n" +
+        "Build info: version: '4.39.0', revision: '126f156aee'\n" +
+        "System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'\n" +
+        'Driver info: io.appium.java_client.android.AndroidDriver\n' +
+        'Command: [null, newSession {capabilities=[null]}]\n' +
+        'Capabilities {}',
+      retry_of: null,
+      custom_metadata: {},
+      tags: [Array],
+      customRerunParam: [Object],
+      hooks: [Array],
+      product_map: [Object]
+    },
+    logs: []
+  }
+] to 20600:0
+2025-12-09T09:27:42.250Z CLI info  [scotty_NHkc4f]  [rnnmpft82mkle71osqlpvnxucqjeudjrjxzztlxd]  [2847b62b-6c9e-46e9-8725-27fef39cec18]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-12-09T09:27:42.312Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [rnnmpft82mkle71osqlpvnxucqjeudjrjxzztlxd]  [2847b62b-6c9e-46e9-8725-27fef39cec18]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_METHOD',
+    framework: 'TestNG',
+    uuid: '01138a07-d209-4bba-98d0-1a212d350f36',
+    name: 'quitApp',
+    result: 'pending',
+    test_run_id: '24cebec0-5a24-43d0-85fe-9edca6a751a6',
+    body: { lang: 'java', code: null },
+    scope: 'Suite.testRuns.TestScenario',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Suite', 'testRuns.TestScenario' ],
+    file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    started_at: '2025-12-09T09:27:42.308Z'
+  },
+  logs: []
+} to 20600:0
+2025-12-09T09:27:42.384Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [rnnmpft82mkle71osqlpvnxucqjeudjrjxzztlxd]  [2847b62b-6c9e-46e9-8725-27fef39cec18]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_METHOD',
+    framework: 'TestNG',
+    uuid: '01138a07-d209-4bba-98d0-1a212d350f36',
+    name: 'quitApp',
+    result: 'passed',
+    test_run_id: '24cebec0-5a24-43d0-85fe-9edca6a751a6',
+    body: { lang: 'java', code: null },
+    scope: 'Suite.testRuns.TestScenario',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Suite', 'testRuns.TestScenario' ],
+    file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+    started_at: '2025-12-09T09:27:42.308Z',
+    finished_at: '2025-12-09T09:27:42.380Z'
+  },
+  logs: []
+} to 20600:0
+2025-12-09T09:27:44.257Z CLI info [testhub:request-queue-handler]  [scotty_NHkc4f]  [rnnmpft82mkle71osqlpvnxucqjeudjrjxzztlxd]  [2847b62b-6c9e-46e9-8725-27fef39cec18]  Processing batch event [
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_METHOD',
+      framework: 'TestNG',
+      uuid: '01138a07-d209-4bba-98d0-1a212d350f36',
+      name: 'quitApp',
+      result: 'pending',
+      test_run_id: '24cebec0-5a24-43d0-85fe-9edca6a751a6',
+      body: [Object],
+      scope: 'Suite.testRuns.TestScenario',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      started_at: '2025-12-09T09:27:42.308Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_METHOD',
+      framework: 'TestNG',
+      uuid: '01138a07-d209-4bba-98d0-1a212d350f36',
+      name: 'quitApp',
+      result: 'passed',
+      test_run_id: '24cebec0-5a24-43d0-85fe-9edca6a751a6',
+      body: [Object],
+      scope: 'Suite.testRuns.TestScenario',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      vc_filepath: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      location: 'GPTT_AutomationDemo\\src\\test\\java\\testRuns\\TestScenario.java',
+      started_at: '2025-12-09T09:27:42.308Z',
+      finished_at: '2025-12-09T09:27:42.380Z'
+    },
+    logs: []
+  }
+] to 20600:0
+2025-12-09T09:27:44.257Z CLI info  [scotty_NHkc4f]  [rnnmpft82mkle71osqlpvnxucqjeudjrjxzztlxd]  [2847b62b-6c9e-46e9-8725-27fef39cec18]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-12-09T09:27:45.203Z CLI info  [scotty_NHkc4f]  [rnnmpft82mkle71osqlpvnxucqjeudjrjxzztlxd]  [2847b62b-6c9e-46e9-8725-27fef39cec18]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-12-09T09:27:46.138Z CLI info [testhub:module]  [scotty_NHkc4f]  [rnnmpft82mkle71osqlpvnxucqjeudjrjxzztlxd]  [2847b62b-6c9e-46e9-8725-27fef39cec18]  stopBuild: rnnmpft82mkle71osqlpvnxucqjeudjrjxzztlxd request={"finished_at":"2025-12-09T09:27:43.250Z","finished_metadata":[],"custom_metadata":{}} response={"data":""}
+2025-12-09T09:27:46.140Z CLI info  [scotty_NHkc4f]  [rnnmpft82mkle71osqlpvnxucqjeudjrjxzztlxd]  [2847b62b-6c9e-46e9-8725-27fef39cec18]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-12-09T09:27:46.142Z CLI info [TEST REPORTING AND ANALYTICS:module]  [scotty_NHkc4f]  [rnnmpft82mkle71osqlpvnxucqjeudjrjxzztlxd]  [2847b62b-6c9e-46e9-8725-27fef39cec18]  Visit https://automation.browserstack.com/builds/rnnmpft82mkle71osqlpvnxucqjeudjrjxzztlxd to view build report, insights, and many more debugging information all at one place!
+2025-12-09T09:27:46.541Z CLI info  [scotty_NHkc4f]  [rnnmpft82mkle71osqlpvnxucqjeudjrjxzztlxd]  [2847b62b-6c9e-46e9-8725-27fef39cec18]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2025-12-09T09:27:47.704Z CLI info  [scotty_NHkc4f]  [rnnmpft82mkle71osqlpvnxucqjeudjrjxzztlxd]  [2847b62b-6c9e-46e9-8725-27fef39cec18]  [PRODUCTION] Making POST request to https://eds.browserstack.com
