@@ -6,3 +6,5 @@
 16:43:39.297 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
 16:43:39.298 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
 16:43:39.299 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/GPTT_AutomationDemo
+09:38:26.498 [main] INFO  c.b.launchers.LaunchMavenCommand - Executing maven archetype command - browserstack-sdk-archetype-integrate
+09:38:26.509 [main] INFO  c.b.launchers.LaunchMavenCommand - The maven properties for launcher are [archetypeVersion=1.5, archetypeGroupId=com.browserstack, archetypeArtifactId=browserstack-sdk-archetype-integrate, BROWSERSTACK_ACCESS_KEY=4Wi3SsuT47jJty5569Nh, groupId=com.browserstack, artifactId=java-archetype-integrate, BROWSERSTACK_USERNAME=scotty_NHkc4f, BROWSERSTACK_FRAMEWORK=java, BUILD_NAME=browserstack build, version=1.0, PROJECT_NAME=BrowserStack Sample, BROWSERSTACK_SOURCE=java:eclipse:v1.0.10]

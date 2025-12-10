@@ -1,8 +1,14 @@
 userName: scotty_NHkc4f
 accessKey: 4Wi3SsuT47jJty5569Nh
-buildName: TestSampleCloud
-projectName: GPTT Automation
-CUSTOM_TAG_1: Test1
+buildName: Build
+projectName: BrowserStack Sample
+CUSTOM_TAG_1: Test
 # Use CUSTOM_TAG_<N> and set more build tags as you need.
+# Test Observability is an intelligent test reporting & debugging product. It collects data using the SDK. Read more about what data is collected at https://www.browserstack.com/docs/test-observability/references/terms-and-conditions
+# Visit observability.browserstack.com to see your test reports and insights. To disable test observability, specify `testObservability: false` in the key below.
+# Test Observability is an intelligent test reporting & debugging product. It collects data using the SDK. Read more about what data is collected at https://www.browserstack.com/docs/test-observability/references/terms-and-conditions
+# Visit observability.browserstack.com to see your test reports and insights. To disable test observability, specify `testObservability: false` in the key below.
 testObservability: true
-browserstackAutomation: false # Set to true for tests on BrowserStack products.
+browserstackAutomation: true
+
+source: java:eclipse:v1.0.10
