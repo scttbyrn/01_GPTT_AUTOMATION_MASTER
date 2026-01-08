@@ -1,4 +1,4 @@
-package testComponents;
+package TestComponents;
 
 import java.io.IOException;
 
@@ -13,7 +13,7 @@ import com.aventstack.extentreports.Status;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
-import resources.ExtentReportsNG;
+import Resources.ExtentReportsNG;
 
 
 
