@@ -1,6 +1,6 @@
-package testRuns;
+package TestRuns;
 
-import pageObjects.DashBoardPage;
+import PageObjects.DashBoardPage;
 
 public class Debugging {
 

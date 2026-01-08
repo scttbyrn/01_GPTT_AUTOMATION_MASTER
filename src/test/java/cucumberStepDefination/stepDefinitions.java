@@ -5,8 +5,8 @@ import java.net.URISyntaxException;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
-import pageObjects.LandingPage;
-import testComponents.BasePage;
+import PageObjects.LandingPage;
+import TestComponents.BasePage;
 
 public class stepDefinitions extends BasePage {
 

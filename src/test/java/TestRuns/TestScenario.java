@@ -1,4 +1,4 @@
-package testRuns;
+package TestRuns;
 
 import java.net.MalformedURLException;
 import java.net.URI;
@@ -20,9 +20,9 @@ import io.appium.java_client.android.Activity;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
-import pageObjects.LandingPage;
-import testComponents.BasePage;
-import testComponents.TestAPI;
+import PageObjects.LandingPage;
+import TestComponents.BasePage;
+import TestComponents.TestAPI;
 
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;

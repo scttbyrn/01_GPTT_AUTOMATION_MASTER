@@ -1,4 +1,4 @@
-package testRuns;
+package TestRuns;
 
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
