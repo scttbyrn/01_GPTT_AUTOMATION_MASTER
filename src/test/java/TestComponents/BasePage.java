@@ -54,7 +54,7 @@ public class BasePage {
 			
 	}
 	
-	@BeforeMethod(alwaysRun=true)
+//	@BeforeMethod(alwaysRun=true)
 	public LandingPage launchingPage() throws MalformedURLException, URISyntaxException {
 		
 		driver = InitializeDriver();
@@ -64,7 +64,7 @@ public class BasePage {
 		
 	}
 	
-	@AfterMethod(alwaysRun=true)
+//	@AfterMethod(alwaysRun=true)
 	public void tearDown() {
 		
 		driver.quit();

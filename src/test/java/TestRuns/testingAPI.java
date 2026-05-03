@@ -10,7 +10,7 @@ public class testingAPI {
 
 	TestAPI apitest = new TestAPI();
 	
-//	@Test
+	@Test
 	public void apitestscenario() {
 		
 //		String loginAPI = "/usr/v1/customer/verify-otp";

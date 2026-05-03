@@ -8,6 +8,8 @@ import org.json.JSONObject;
 import org.testng.annotations.Test;
 
 import io.restassured.http.ContentType;
+import io.restassured.http.Header;
+import io.restassured.http.Headers;
 
 import static io.restassured.matcher.RestAssuredMatchers.*;
 import static  org.hamcrest.Matchers.*;
@@ -96,6 +98,29 @@ public class TestAPI {
 		System.out.println("Sending API to startpoint to endpoint by ID: " +lastId);
 		given().get("/User").then().body("["+ (size - 1) +"].id", equalTo(lastId));
 
+	}
+	
+	public void unifiedAPI() {
+		
+		
+//		String loginAPI = "/usr/v1/customer/verify-otp";
+		baseURI = "https://unifiedapi.ecashpay.com";
+		
+	
+		Headers headers = new Headers(
+			    new Header("auth_token", "$2y$10$QcgQcvNpgHfGkq3DoQWRdef611po/H5SFcGY4ONSz0fNfFdkw8efO"),
+			    new Header("authentication", "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJPMHI0TDV2S0RyaWxONlJ6dXFUbm1yNURhUHFxblJhZSJ9.De_DTaOqZkjxVC5Km9j7c-kJ_a4KUhBMlKPDPAQixT4"),
+			    new Header("platform", "android"),
+			    new Header("X-Consumer-Custom-ID", "CUS001750677417"),
+			    new Header("Company_ID", "2")
+			);
+		
+		
+		given().headers(headers).when().get("/usr/v1/customer/verify-otp").then().statusCode(200).log().body();
+		
+		
+		System.out.println("TestAPI");
+		
 	}
 
 
