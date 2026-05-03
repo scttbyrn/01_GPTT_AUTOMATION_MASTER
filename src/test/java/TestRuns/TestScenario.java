@@ -30,6 +30,7 @@ import static org.hamcrest.Matchers.*;
 
 public class TestScenario extends BasePage {
 	
+	//SCOTTT
 	//DEVELOPMENT AREAs:
 	
 	LandingPage landingpage;
